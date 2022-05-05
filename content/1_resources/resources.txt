@@ -1,0 +1,14 @@
+Title: Resources
+
+----
+
+Resources:
+
+- 
+  title: 'Critical Code Cookbook Website '
+  url: >
+    https://parsonsdt.github.io/critical-coding-cookbook/
+
+----
+
+Text: 

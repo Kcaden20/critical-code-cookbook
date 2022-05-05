@@ -1,0 +1,98 @@
+title: Contribution
+tabs: 
+  content: 
+    label: Content 
+    icon: document 
+    columns:
+      - width: 1 
+        fields: 
+          overviewHeadline: 
+            label: Overview
+            type: headline
+      - width: 1/3
+        fields: 
+          author: 
+            label: Author
+            type: text
+          keywords:
+            label: Keywords
+            type: tags
+      - width: 2/3
+        fields: 
+          gallery:
+            type: files
+            label: Images
+            query: page.images.template('image')
+            uploads:
+              template: image
+      - width: 1 
+        fields: 
+          contextHeadline: 
+            label: Context
+            type: headline
+      - width: 1/3
+        fields: 
+          context-one: fields/context
+      - width: 1/3
+        fields: 
+          context-two: 
+            extends: fields/context
+            label: Which community are you offering the recipe to?
+      - width: 1/3 
+        fields: 
+          context-three: 
+            extends: fields/context 
+            label: How does your submission relate to intersectional feminism?
+      - width: 1 
+        fields: 
+          shortDescText: 
+            label: Short Description
+            type: textarea
+            size: mid
+          bodyHeadline:
+            label: Body 
+            type: headline
+          bodyCont:
+            label: Body of Content
+            type: textarea
+            size: large
+            when:
+              layoutTog: off 
+          bodyLayout:
+            label: Layout Content
+            type: layout
+            layouts:
+              - "1/1"
+              - "1/2, 1/2"
+              - "1/4, 1/4, 1/4, 1/4"
+              - "1/1, 1/3, 2/3"
+              - "1/1, 2/3, 1/3"
+              - "1/2, 1/2, 1/3, 1/3, 1/3"
+            when: 
+              layoutTog: on
+      
+
+  layoutOptions:
+    label: Settings 
+    columns: 
+      - width: 1/2
+        fields:
+          pageSettings:
+            label: Default Settings
+            type: headline
+          context: fields/toggleOps
+          shortDesc:
+            extends: fields/toggleOps
+            label: Short Descriptions?
+          bodyContent:
+            extends: fields/toggleOps
+            label: Body Content?
+      - width: 1/2
+        fields: 
+          overrideSettings:
+            label: Override Settings 
+            type: headline 
+          layoutTog:
+            extends: fields/toggleOps
+            label: Add Layout Block? 
+          

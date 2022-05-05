@@ -1,0 +1,47 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Contributions
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: 🍳
+
+options:
+  changeSlug: false
+
+# Here we extend two sections which are defined in `/site/blueprints/sections/albums.yml`
+# They differ in their page status and the headline.
+columns: 
+  - width: 1
+    sections:
+      categories:
+        type: fields
+        fields:
+          workInfo:
+            label: About
+            type: info
+            theme: none
+            text: |
+              An overview of all the contributions. Add, edit or delete any projects, as well as decide what categories are available to tag each contribution with!
+          catOptions:
+            label: Project Category Options
+            type: structure 
+            min: 1
+            help: This allows you to customize what category options you have! Add or remove as needed!
+            fields:
+              category: 
+                label: Category Name
+                type: text
+                required: true
+  - width: 1/4
+    sections:
+      drafts:
+        extends: sections/contribution
+        headline: Drafts
+        status: draft
+        layout: list
+        size: tiny
+  - width: 3/4
+    sections:
+      listed:
+        extends: sections/contribution
+        headline: Published Contributions
+        status: listed

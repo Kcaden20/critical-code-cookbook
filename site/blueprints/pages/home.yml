@@ -1,0 +1,18 @@
+title: Home
+icon: 🏠
+sections:
+  content:
+    type: fields
+    fields:
+      introInfo:
+        label: Information
+        type: info
+        theme: none
+        text: |
+          Edit this page to change the information on your homepage. Although most of it will be pulled from other pages, there is a few options like the introduction text that can be set. 
+      introText:
+        label: About
+        type: textarea
+        size: medium
+        width: 1
+        help: Add information about CCC here to go underneath the splash! 

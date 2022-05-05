@@ -1,0 +1,6 @@
+type: pages 
+headline: Contributions 
+parent: kirby.page("Contributions")
+size: tiny 
+template: contribution
+empty: No Contributions yet!

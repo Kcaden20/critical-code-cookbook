@@ -1,0 +1,28 @@
+title: Resources
+icon: 📚
+
+options:
+  delete: false 
+  changeStatus: false
+
+fields: 
+  resourcesInfo:
+    label: About
+    type: info
+    theme: none
+    text: |
+      Add your resource links below! The table will sort them by date and the front end will add them into buckets based on year!
+  resources:
+    label: Resource Links
+    type: structure
+    sortBy: year desc
+    min: 1
+    fields: 
+      title:
+        label: Link Title
+        type: text
+        required: true
+      url:
+        label: Link URL 
+        type: url
+        required: true  

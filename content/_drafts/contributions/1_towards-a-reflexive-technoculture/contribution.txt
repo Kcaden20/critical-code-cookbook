@@ -1,0 +1,57 @@
+Title: Towards a Reflexive Technoculture
+
+----
+
+Author: 
+
+----
+
+Keywords: 
+
+----
+
+Gallery: 
+
+----
+
+Context-one: This recipe stems from a realization that as much as we, as individual technologists, want to make our systems better and more just, the reality is that we build on top of practices that sometimes prevent us from moving in that direction. Often, the things we do by “default” keep us from implementing changes and making work that truly upends the status quo. In order to understand where avenues for agency and change exist, we need to work together to orient ourselves in relation to entities that control our relationships with technology—and to align our values in service of the outcomes that we want for the future.
+
+----
+
+Context-two: This recipe is for anyone who makes with technology—whether you call yourself a programmer, a coder, a new media artist, a creative technologist, a hacker, an engineer, or a developer; who strongly believes in moving toward a more just and equitable technological ecosystem; and who is committed to closely and critically re-evaluating their own daily practices in service of making them align with their personal values, and with the values of their colleagues and peers.
+
+----
+
+Context-three: This activity draws heavily from feminist standpoint theory, particularly in its focus on subject position and self-reflexivity. Through an active insistence that participants center their own relationships with technology—and the ways in which they might be unintentionally reinforcing or upholding the status quo despite better intentions—the workshop asks them to orient themselves within dominant power structures and systems in an effort to surface their influences on unconscious, default decisions. By understanding the ways in which we are guided by power, we can better begin to understand how to consciously change our behavior toward more liberatory ends.
+
+----
+
+Shortdesctext: 
+
+----
+
+Bodycont: 
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Text: 
