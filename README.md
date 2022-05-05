@@ -1,34 +1,17 @@
-<img src="http://getkirby.com/assets/images/github/plainkit.jpg" width="300">
+# Critical Coding Cookbook
 
+***
 
-**Kirby: the CMS that adapts to any project, loved by developers and editors alike.**  
-The Plainkit is a minimal Kirby setup with the basics you need to start a project from scratch. It is the ideal choice if you are already familiar with Kirby and want to start step-by-step.
+## Introduction 
+In the context of modern computer programming, the origin tale of code often begins with the Difference Engine and the Analytical Engine invented by Charles Babbage in 19th century Europe. This beginning, buoyed by the industrial revolution and militarization, fostered an embedded set of values into computation aligned with an ideology of standardization, optimization, and flawlessness. “Good” code is efficient code that operates on a scarcity mindset, limited by hardware and energy resources.
 
-You can learn more about Kirby at [getkirby.com](https://getkirby.com).
+And yet, there are histories to math, engineering, and computing that are less prominently recognized because they do not neatly fit into the narratives of capitalist production. Ada Lovelace and her contribution to the development of modern computing has only recently been more broadly recognized. Textile production, which led to the invention of the Jacquard Loom, was a great inspiration to Charles Babbage’s research. Gendered and racialized preconceptions greatly impact what is validated as technical and creative work. We believe that it is time to confront how computational history has been retrofitted to tell a single narrative by recentering marginalized ways of knowing. For example, one may trace back to [poe divination](https://en.wikipedia.org/wiki/Jiaobei) to gain a new perspective on the boolean variables. [Quipu](https://en.wikipedia.org/wiki/Quipu) may be seen as one of the oldest examples of data storage. Fractals, which are often reduced to mathematical formulas in computer science classrooms can be traced back to multiple beginnings throughout ancient history such as [traditional African architecture](https://monoskop.org/images/f/fc/Eglash_Ron_African_Fractals_Modern_Computing_and_Indigenous_Design.pdf).
 
-### Try Kirby for free  
-You can try Kirby and the Plainkit on your local machine or on a test server as long as you need to make sure it is the right tool for your next project. … and when you’re convinced, [buy your license](https://getkirby.com/buy).
+The Critical Coding Cookbook perceives history as a messy entanglement rather than a linear graph. There is a growing awareness towards reclaiming ancestral knowledge and a movement to decolonize computation. Through centering marginalized bodies and identities, we aim to build a collection of alternative histories, narratives, and approaches to computation. This volume of material can serve as an open-source educational resource across a spectrum of learning communities.
 
-### Get going
-Read our guide on [how to get started with Kirby](https://getkirby.com/docs/guide/quickstart).
+[Learn more at the CCC Website](https://parsonsdt.github.io/critical-coding-cookbook/)
 
-You can [download the latest version](https://github.com/getkirby/plainkit/archive/main.zip) of the Plainkit.  
-If you are familiar with Git, you can clone Kirby's Plainkit repository from Github.
+***
 
-    git clone https://github.com/getkirby/plainkit.git
-
-## What's Kirby?
-- **[getkirby.com](https://getkirby.com)** – Get to know the CMS.
-- **[Try it](https://getkirby.com/try)** – Take a test ride with our online demo. Or download one of our kits to get started.
-- **[Documentation](https://getkirby.com/docs/guide)** – Read the official guide, reference and cookbook recipes.
-- **[Issues](https://github.com/getkirby/kirby/issues)** – Report bugs and other problems.
-- **[Feedback](https://feedback.getkirby.com)** – You have an idea for Kirby? Share it.
-- **[Forum](https://forum.getkirby.com)** – Whenever you get stuck, don't hesitate to reach out for questions and support.
-- **[Discord](https://chat.getkirby.com)** – Hang out and meet the community.
-- **[Twitter](https://twitter.com/getkirby)** – Spread the word.
-- **[Instagram](https://www.instagram.com/getkirby/)** – Share your creations: #madewithkirby.
-
----
-
-© 2009-2022 Bastian Allgeier  
-[getkirby.com](https://getkirby.com) · [License agreement](https://getkirby.com/license)
+## About The Repo 
+This is the official repository the upcoming website for the *Critical Coding Cookbook*. A project spearheaded by [Xin Xin](https://xin-xin.info) and [Katherine Moriwaki](https://www.newschool.edu/parsons/faculty/Katherine-Moriwaki/). This Github repo is maintained and the website is currently in development by [Kevin Cadena](http://kevincadena.com). It is built using [Kirby CMS](https://getkirby.com)
