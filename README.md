@@ -14,4 +14,4 @@ The Critical Coding Cookbook perceives history as a messy entanglement rather th
 ***
 
 ## About The Repo 
-This is the official repository the upcoming website for the *Critical Coding Cookbook*. A project spearheaded by [Xin Xin](https://xin-xin.info) and [Katherine Moriwaki](https://www.newschool.edu/parsons/faculty/Katherine-Moriwaki/). This Github repo is maintained and the website is currently in development by [Kevin Cadena](http://kevincadena.com). It is built using [Kirby CMS](https://getkirby.com)
+This is the official repository the upcoming website for the *Critical Coding Cookbook*. A project spearheaded by [Xin Xin](https://xin-xin.info) and [Katherine Moriwaki](https://www.newschool.edu/parsons/faculty/Katherine-Moriwaki/). This Github repo is maintained and the website is currently in development by [Kevin Cadena](http://kevincadena.com). It is built using [Kirby CMS](https://getkirby.com). 
