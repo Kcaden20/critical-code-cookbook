@@ -1,0 +1,36 @@
+title: Contribution Subpage
+columns:
+  - width: 1 
+    fields:
+      cspHeadline: 
+        type: headline
+        label: Contribution Subpage
+        numbered: false 
+      layoutTog: 
+        extends: fields/toggleOps
+        label: Toggle to Layout? 
+        default: off
+  - width: 1/2 
+    fields: 
+      text:
+        label: Page Copy
+        type: textarea
+        size: large
+        when: 
+          layoutTog: off 
+  - width: 1/2 
+    fields: 
+      images: 
+        label: Images
+        type: files
+        query: page.images.template('image')
+        uploads:
+          template: image
+        when:
+          layoutTog: off
+  - width: 1 
+    fields: 
+      layout:
+        extends: fields/layout 
+        when: 
+          layoutTog: on

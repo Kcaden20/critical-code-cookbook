@@ -22,7 +22,22 @@ fields:
         label: Link Title
         type: text
         required: true
+        width: 1/2
       url:
         label: Link URL 
         type: url
-        required: true  
+        required: true
+        width: 1/2  
+      image: 
+        type: files 
+        extends: fields/image
+        label: Thumbnail
+        max: 1
+        width: 1
+        uploads: 
+          template: image
+      description: 
+        type: text 
+        width: 1
+        maxlength: 140
+        

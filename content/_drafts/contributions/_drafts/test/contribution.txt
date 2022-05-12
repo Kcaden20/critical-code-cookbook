@@ -1,0 +1,57 @@
+Title: test
+
+----
+
+Author: 
+
+----
+
+Keywords: 
+
+----
+
+Category: 
+
+----
+
+Gallery: 
+
+----
+
+Context-one: 
+
+----
+
+Context-two: 
+
+----
+
+Context-three: 
+
+----
+
+Shortdesctext: 
+
+----
+
+Bodycont: 
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false

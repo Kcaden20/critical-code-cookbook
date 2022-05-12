@@ -12,19 +12,14 @@ tabs:
     icon: text
     label: About 
     fields:
-      layoutInfo:
-        label: Information
-        type: info
-        theme: none
-        text: |
-          The structure below is called a **Block**. Blocks are a feature included in Kirby that allow panel users to easily structure their content without needing to account for it by the developer in the design. You'll be able to do one - three columns and add in any kind of content you see fit like images, text, headlines and more! 
       layout:
+        extends: fields/layout
         label: About Content
-        type: layout
-        layouts:
-          - "1/1"
-          - "1/2, 1/2"
-          - "1/4, 1/4, 1/4, 1/4"
-          - "1/1, 1/3, 2/3"
-          - "1/1, 2/3, 1/3"
-          - "1/2, 1/2, 1/3, 1/3, 1/3"
+        fieldsets:
+          - heading
+          - text
+          - list
+          - line
+          - image 
+          - gallery
+          - markdown 

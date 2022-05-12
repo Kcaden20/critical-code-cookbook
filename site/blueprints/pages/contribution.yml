@@ -17,14 +17,32 @@ tabs:
           keywords:
             label: Keywords
             type: tags
-      - width: 2/3
-        fields: 
-          gallery:
-            type: files
-            label: Images
-            query: page.images.template('image')
-            uploads:
-              template: image
+          category: 
+            label: Project Category
+            type: select
+            options: query
+            query: 
+              fetch: page.parent.catOptions.toStructure
+              text: "{{ structureItem.category }}"
+              value: "{{ structureItem.category.slug }}"
+            help: The options for this category are selected from the **Works** page.
+      - width: 2/3 
+        sections: 
+          subpages:
+            type: pages
+            headline: Subpages
+            size: tiny
+            template: contribution-subpage
+            empty: No Subpages Yet!
+          images: 
+            type: fields
+            fields:             
+              gallery:
+                type: files
+                label: Images
+                query: page.images.template('image')
+                uploads:
+                  template: image
       - width: 1 
         fields: 
           contextHeadline: 
@@ -59,21 +77,15 @@ tabs:
             when:
               layoutTog: off 
           bodyLayout:
+            extends: fields/layout
             label: Layout Content
-            type: layout
-            layouts:
-              - "1/1"
-              - "1/2, 1/2"
-              - "1/4, 1/4, 1/4, 1/4"
-              - "1/1, 1/3, 2/3"
-              - "1/1, 2/3, 1/3"
-              - "1/2, 1/2, 1/3, 1/3, 1/3"
             when: 
               layoutTog: on
       
 
   layoutOptions:
     label: Settings 
+    icon: bars
     columns: 
       - width: 1/2
         fields:
