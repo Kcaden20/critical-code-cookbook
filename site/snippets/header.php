@@ -16,6 +16,14 @@
     <body>
         <header>
             <nav>
+            <?php if(!$page->isHomePage()): ?> 
+                <a href="<?= $site->url() ?>"> Home </a> 
+            <?php endif ?>
+            <?php 
+            $pages = $site->children()->listed();
+            foreach($pages as $page): ?>
+            <a href="<?= $page->url() ?>"> <?= $page->title() ?> </a>
+            <?php endforeach ?>
         <!-- TODO: Add in Nav Pages  -->
         <!-- TODO: If not homepage, add home button  -->
         <!-- TODO: Add Toggle Mode Buttons -->

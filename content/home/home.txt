@@ -1,1 +1,25 @@
 Title: Home
+
+----
+
+Introtitle: About Our Work
+
+----
+
+Introtext: Writing About The Project
+
+----
+
+Contributiontext: Contributions Copy
+
+----
+
+Contributionlink: See The Full Selection of Projects
+
+----
+
+Resourcestext: Resources Copy
+
+----
+
+Resourceslink: View Our Curated Selection of Resources

@@ -10,9 +10,40 @@ sections:
         theme: none
         text: |
           Edit this page to change the information on your homepage. Although most of it will be pulled from other pages, there is a few options like the introduction text that can be set. 
-      introText:
+      introHD:
+        type: headline
         label: About
+      introTitle: 
+        label: Introduction Title
+        type: text
+        width: 1
+      introText:
+        label: Introduction Copy
         type: textarea
         size: medium
         width: 1
-        help: Add information about CCC here to go underneath the splash! 
+        help: Addinformation about CCC here to go underneath the splash!
+      contributionHD:
+        type: headline
+        label: Contributions
+      contributionText: 
+        label: Contributions Copy
+        type: textarea
+        size: medium
+        width: 1 
+      contributionLink:
+        label: Contribution Link Text
+        type: text
+        width: 1
+      resourcesHD: 
+        type: headline
+        label: Resources 
+      resourcesText: 
+        label: Resources Copy 
+        type: textarea
+        size: medium
+        width: 1 
+      resourcesLink:
+        type: text
+        label: Resources Link Text
+        width: 1
