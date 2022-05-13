@@ -1,1 +1,16 @@
 Title: Critical Coding Cookbook
+
+----
+
+Socialplatforms:
+
+- 
+  socialplatform: Instagram
+
+----
+
+Socialmedia: 
+
+----
+
+Creditsstruct: 
