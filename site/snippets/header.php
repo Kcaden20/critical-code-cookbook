@@ -24,10 +24,20 @@
             foreach($pages as $page): ?>
             <a href="<?= $page->url() ?>"> <?= $page->title() ?> </a>
             <?php endforeach ?>
-        <!-- TODO: Add in Nav Pages  -->
-        <!-- TODO: If not homepage, add home button  -->
         <!-- TODO: Add Toggle Mode Buttons -->
             </nav>
+
+            <label class="switch" aria-label="Toggle Gradient">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+                <p>Toggle Gradient</p>
+            </label>
+
+            <label class="switch" aria-label="Toggle Theme">
+                <input type="checkbox" checked>
+                <span class="slider round"></span>
+                <p>Light</p>
+            </label>
         </header>
 
         <!-- TODO: Add in a way to change color based on categories on contributions page -->

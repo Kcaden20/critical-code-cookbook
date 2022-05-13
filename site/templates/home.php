@@ -1,11 +1,12 @@
 <?php snippet('header') ?>
-            Test
+
+            <!-- TITLESPLASH -->
             <!-- TODO: Build Splashpage -->
             <section>
                 <h1><?= $site->title() ?></h1>
             </section>
             
-            <!-- TODO: Build About Section -->
+            <!-- ABOUT -->
             <section>
                 <!-- Introduction Title Conditional -->
                 <?php 
@@ -21,16 +22,24 @@
                     <?= $introText->kt() ?>
                 <?php endif ?>
             </section>
+            
+            <!-- CONTRIBUTIONS  -->
+            <section>
                     <?php $contributions = page('contributions')?>
                     <h2><?= $contributions->title() ?></h2>
+
+                    <!-- Contributions Text Conditional -->
                     <?php if($page->contributionText()):?>
                         <?= $page->contributionText()->kt() ?>
                     <?php endif ?>
 
+                    <!-- Contributions Link Conditional -->
                     <?php if($page->contributionLink()):?>
                         <a href="<?= $contributions->url() ?>"><?= $page->contributionLink() ?></a>
-                    <?php endif ?>
-            <!-- TODO: Build Contributions Section -->
+                    <?php endif ?>    
+            </section>
+
+            <!-- RESOURCES -->
             <section>
                     <?php $resources = page('resources'); ?>
                     <h2><?= $resources->title()?></h2>
@@ -41,10 +50,5 @@
                         <a href="<?= $resources->url()?>"><?= $page->resourcesLink()->kt() ?></a>
                     <?php endif ?>    
             </section> 
-
-            <!-- TODO: Build Resources Section -->
-            <section>
-            </section> 
-
 <?php snippet('footer') ?>
 
