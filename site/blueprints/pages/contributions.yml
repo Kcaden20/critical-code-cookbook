@@ -12,7 +12,7 @@ options:
 columns: 
   - width: 1
     sections:
-      categories:
+      overview:
         type: fields
         fields:
           workInfo:
@@ -21,21 +21,42 @@ columns:
             theme: none
             text: |
               An overview of all the contributions. Add, edit or delete any projects, as well as decide what categories are available to tag each contribution with!
+  - width: 1/2 
+    sections: 
+      contributions:
+        type: fields
+        fields: 
           catOptions:
-            label: Project Category Options
+            label: Contribution Categories
             type: structure 
             min: 1
-            help: This allows you to customize what category options you have! Add or remove as needed!
+            help: This allows you to customize what contribution options you have! Add or remove as needed!
             fields:
               category: 
-                label: Category Name
+                label: Contribution Name
                 type: text
                 required: true
+  - width: 1/2
+    sections:
+      languages:
+        type: fields
+        fields: 
+          langOptions:
+            label: Coding Languages
+            type: structure
+            min: 1
+            help: To assign a Code language filer to any of the fields here. 
+            fields: 
+              category:
+                label: Language
+                type: text
+                required: true 
+
   - width: 1/4
     sections:
       drafts:
         extends: sections/contribution
-        headline: Drafts
+        headline: In Development
         status: draft
         layout: list
         size: tiny
@@ -43,5 +64,5 @@ columns:
     sections:
       listed:
         extends: sections/contribution
-        headline: Published Contributions
+        headline: Published 
         status: listed

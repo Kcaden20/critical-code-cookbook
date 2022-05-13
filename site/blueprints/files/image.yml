@@ -13,6 +13,10 @@ columns:
             label: Caption
             type: textarea
             size: medium
+          toggleCreds:
+            extends: fields/ToggleOps
+            label: Add Credits to Website? 
+            default: off
   - width: 1/2
     sections:
       meta:
@@ -20,8 +24,18 @@ columns:
         fields:
           alt:
             label: Alternative Text
-            type: text
-          photographer:
-            label: Photogapher
-            type: text
-            width: 2/3
+            type: textarea
+            size: medium
+          credits:
+            label: Credits
+            type: structure
+            fields: 
+              occupation:
+                label: Occupation
+                type: text
+                width: 1/2
+              name:
+                label: Name
+                type: text
+                width: 1/2
+

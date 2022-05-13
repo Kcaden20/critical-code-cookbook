@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: This is the PAC-MOM title screen. PAC-MOM is a feminist parody of PAC-MAN. This is the screen that the player sees when the game first loads. Against a black background, the PAC-MOM logo in yellow against a red background rests centered at the top of the screen. Underneath the logo there is a subtitle in blue text that reads “A game about gender, work, and food insecurity by Annina Rüst. Beneath that to the left,  there are two characters that visually resemble PAC-MAN, but are intended to indicate a mother and child nested into each other. To the right, there is a “PLAY” button in yellow text on blue background. The player can choose to play the game or click on blue text below the PLAY button in order to explore sources and credits. By Annina Rüst. Share however you want.
+
+----
+
+Photographer: 
+
+----
+
+Template: image

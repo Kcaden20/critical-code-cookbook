@@ -8,6 +8,7 @@
             
             <!-- ABOUT -->
             <section>
+                <!-- TODO: Add Icon -->
                 <!-- Introduction Title Conditional -->
                 <?php 
                 $introTitle = $page->introTitle(); 
@@ -24,6 +25,7 @@
             </section>
             
             <!-- CONTRIBUTIONS  -->
+            <!-- TODO: Add Icon -->
             <section>
                     <?php $contributions = page('contributions')?>
                     <h2><?= $contributions->title() ?></h2>
@@ -40,6 +42,7 @@
             </section>
 
             <!-- RESOURCES -->
+            <!-- TODO: Add Icon -->
             <section>
                     <?php $resources = page('resources'); ?>
                     <h2><?= $resources->title()?></h2>

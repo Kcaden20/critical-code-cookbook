@@ -1,0 +1,86 @@
+Title: PAC-MOM: A Practical Rethinking of the “Classics”
+
+----
+
+Author: Annina Rüst
+
+----
+
+Keywords: game redesign, mom, food insecurity
+
+----
+
+Category: project
+
+----
+
+Language: any
+
+----
+
+Gallery: 
+
+----
+
+Contextone: This recipe is inspired by my game PAC-MOM, a parody of the popular 1980s arcade game PAC-MAN.  I wanted to create a game that addresses  social inequities and intersectional identities. PAC-MAN is classified as an “eating game” by game scholars. I therefore created a parody, PAC-MOM, to communicate my ideas about motherhood and food insecurity. I also realized that “classic” games lend themselves to re-interpretation. I therefore decided to create this recipe because I think that this mode of game re-creation is transferable to other games and might help other creators generate ideas.
+
+----
+
+Contexttwo: I am offering this recipe to the game development community. Game developers often have a good sense of the history of our field. I am offering an example that re-examines this history.  By re-designing a historic game, I am imagining a feminist future that could have been. I want game developers to see our field’s history with different eyes, where every game is up to critical, speculative, and possibly utopian re-interpretation.
+
+----
+
+Contextthree: My recipe is about designing alternative views of “classic” or “historic” video games. The example that I am giving is PAC-MOM, a reinterpretation of PAC-MAN.  PAC-MOM is a game about gender, work, and food insecurity. Food insecurity is a complex intersectional issue. It affects single mothers most. It also affects women of color disproportionately due to the gender wage gap and related intersectional factors. As part of the game, I created a screen where the player can customize their own PAC-MOM. This does not just include customization of the game character herself but also of her enemies. These include classism, ageism, homophobia, transphobia and many more to illustrate that an individual’s experience can be determined by multiple intersecting aspects.
+
+----
+
+Shortdesctext: In this recipe, I am proposing using game re-design to create an alternative view of “classic” video  games from a feminist perspective. To illustrate this technique, I am describing PAC-MOM, a  digital game that I created to counter and expand the popular 1980s game PAC-MAN. I am  offering this practical rethinking of a “classic” game as a recipe to challenge and rethink a canon of games that are uncritically revered by game enthusiasts and often recreated with minor modification by individuals and organizations.
+
+----
+
+Bodycont:
+
+In this recipe, I proposing using game re-design to create an alternative view of “classic” video  games from a feminist perspective. To illustrate this technique, I am describing PAC-MOM [^1], a  digital game that I created to counter and expand the popular 1980s game PAC-MAN [^2]. I am  offering this practical rethinking of a “classic” game as a recipe to challenge and rethink a canon  of games that are uncritically revered by game enthusiasts and often recreated with minor  modification by individuals and organizations [^3].  
+
+In her book *Coin-operated Americans* Carly A. Kocurek describes how video game arcades  became a space claimed by boys and young men in the US in the 1980s [^4]. A game common to  1980s video game arcades was PAC-MAN. PAC-MAN is classified by game scholars as an eating  game [^5]. I created the game PAC-MOM as a parody of PAC-MAN. It is a game about gender and  food insecurity. PAC-MOM takes place in a situation where accessing food requires PAC-MOM  to work a disproportionate amount more than PAC-MAN. In addition to having to work more  for the same pellets, PAC-MOM has to avoid a set of powerful ghost-enemies including  patriarchy, misogyny, racism, ableism, and many more.  
+
+Every discipline has its canon of “important” works. The longer a canon exists, the more  immutable it becomes. Instead of a calcified collection of works, I am proposing a continuous  refiguring of works in a canon to encourage continued questioning of a discipline’s history.  Instead of worshipping on the altar of the “classics”, we should be creating alternative views of works seen as “historic”.
+
+### References
+[1] Annina Rüst. 2021. PAC-MOM, http://anninaruest.com/pac_mom 
+[2] Bandai Namco Entertainment Inc. 1980. PAC-MAN, https://www.pacman.com/en/ 
+[3] Google, PAC-MAN Doodle, https://www.google.com/logos/2010/pacman10-i.html 
+[4] Carly A Kocurek. 2015. Coin-operated Americans, University of Minnesota Press 
+[5] Frans Mäyrä, 2008, An Introduction to Game Studies, Sage Publications. P. 70.
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Context-one: 
+
+----
+
+Context-two: 
+
+----
+
+Context-three: 

@@ -6,3 +6,18 @@ Catoptions:
 
 - 
   category: Activity
+- 
+  category: Project
+- 
+  category: Case Study
+
+----
+
+Langoptions:
+
+- 
+  category: Any
+- 
+  category: P5.js
+- 
+  category: Python

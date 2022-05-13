@@ -9,7 +9,7 @@ tabs:
           overviewHeadline: 
             label: Overview
             type: headline
-      - width: 1/3
+      - width: 1/2
         fields: 
           author: 
             label: Author
@@ -17,8 +17,10 @@ tabs:
           keywords:
             label: Keywords
             type: tags
+      - width: 1/2 
+        fields: 
           category: 
-            label: Project Category
+            label: Contribution Category
             type: select
             options: query
             query: 
@@ -26,7 +28,15 @@ tabs:
               text: "{{ structureItem.category }}"
               value: "{{ structureItem.category.slug }}"
             help: The options for this category are selected from the **Works** page.
-      - width: 2/3 
+          language: 
+            label: Coding Language
+            type: select
+            options: query
+            query:
+              fetch: page.parent.langOptions.toStructure 
+              text: "{{ structureItem.category }}"
+              value: "{{ structureItem.category.slug }}"
+      - width: 1
         sections: 
           subpages:
             type: pages
@@ -34,6 +44,7 @@ tabs:
             size: tiny
             template: contribution-subpage
             empty: No Subpages Yet!
+            num: zero
           images: 
             type: fields
             fields:             
@@ -50,15 +61,15 @@ tabs:
             type: headline
       - width: 1/3
         fields: 
-          context-one: fields/context
+          contextOne: fields/context
       - width: 1/3
         fields: 
-          context-two: 
+          contextTwo: 
             extends: fields/context
             label: Which community are you offering the recipe to?
       - width: 1/3 
         fields: 
-          context-three: 
+          contextThree: 
             extends: fields/context 
             label: How does your submission relate to intersectional feminism?
       - width: 1 
@@ -81,8 +92,6 @@ tabs:
             label: Layout Content
             when: 
               layoutTog: on
-      
-
   layoutOptions:
     label: Settings 
     icon: bars
@@ -107,4 +116,5 @@ tabs:
           layoutTog:
             extends: fields/toggleOps
             label: Add Layout Block? 
+            default: off
           
