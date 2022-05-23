@@ -40,20 +40,18 @@ Shortdesctext: In this recipe, I am proposing using game re-design to create an 
 
 Bodycont:
 
-In this recipe, I proposing using game re-design to create an alternative view of “classic” video  games from a feminist perspective. To illustrate this technique, I am describing PAC-MOM[^1], a  digital game that I created to counter and expand the popular 1980s game PAC-MAN[^2]. I am  offering this practical rethinking of a “classic” game as a recipe to challenge and rethink a canon  of games that are uncritically revered by game enthusiasts and often recreated with minor  modification by individuals and organizations[^3].  
+In this recipe, I proposing using game re-design to create an alternative view of “classic” video  games from a feminist perspective. To illustrate this technique, I am describing PAC-MOM [^1], a  digital game that I created to counter and expand the popular 1980s game PAC-MAN. [^2] I am  offering this practical rethinking of a “classic” game as a recipe to challenge and rethink a canon  of games that are uncritically revered by game enthusiasts and often recreated with minor  modification by individuals and organizations.[^3] 
 
-In her book *Coin-operated Americans* Carly A. Kocurek describes how video game arcades  became a space claimed by boys and young men in the US in the 1980s [^4]. A game common to  1980s video game arcades was PAC-MAN. PAC-MAN is classified by game scholars as an eating  game[^5]. I created the game PAC-MOM as a parody of PAC-MAN. It is a game about gender and  food insecurity. PAC-MOM takes place in a situation where accessing food requires PAC-MOM  to work a disproportionate amount more than PAC-MAN. In addition to having to work more for the same pellets, PAC-MOM has to avoid a set of powerful ghost-enemies including patriarchy, misogyny, racism, ableism, and many more.  
+In her book *Coin-operated Americans* Carly A. Kocurek describes how video game arcades  became a space claimed by boys and young men in the US in the 1980s. [^4] A game common to  1980s video game arcades was PAC-MAN. PAC-MAN is classified by game scholars as an eating  game. [^5] I created the game PAC-MOM as a parody of PAC-MAN. It is a game about gender and  food insecurity. PAC-MOM takes place in a situation where accessing food requires PAC-MOM  to work a disproportionate amount more than PAC-MAN. In addition to having to work more for the same pellets, PAC-MOM has to avoid a set of powerful ghost-enemies including patriarchy, misogyny, racism, ableism, and many more.  
 
 Every discipline has its canon of “important” works. The longer a canon exists, the more  immutable it becomes. Instead of a calcified collection of works, I am proposing a continuous  refiguring of works in a canon to encourage continued questioning of a discipline’s history.  Instead of worshipping on the altar of the “classics”, we should be creating alternative views of works seen as “historic”.
 
-*** 
 
-### References
-[1] Annina Rüst. 2021. PAC-MOM, http://anninaruest.com/pac_mom 
-[2] Bandai Namco Entertainment Inc. 1980. PAC-MAN, https://www.pacman.com/en/ 
-[3] Google, PAC-MAN Doodle, https://www.google.com/logos/2010/pacman10-i.html 
-[4] Carly A Kocurek. 2015. Coin-operated Americans, University of Minnesota Press 
-[5] Frans Mäyrä, 2008, An Introduction to Game Studies, Sage Publications. P. 70.
+[^1]: Annina Rüst. 2021. PAC-MOM, http://anninaruest.com/pac_mom 
+[^2]: Bandai Namco Entertainment Inc. 1980. PAC-MAN, https://www.pacman.com/en/ 
+[^3]: Google, PAC-MAN Doodle, https://www.google.com/logos/2010/pacman10-i.html 
+[^4]: Carly A Kocurek. 2015. Coin-operated Americans, University of Minnesota Press 
+[^5]: Frans Mäyrä, 2008, An Introduction to Game Studies, Sage Publications. P. 70.
 
 ----
 

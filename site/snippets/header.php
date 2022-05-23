@@ -38,12 +38,26 @@
                 <span class="slider round"></span>
                 <p>Light</p>
             </label>
-            <?php if($page->template() == 'contribution'):?>
+            <?php if(($page->hasChildren() && $page->template() == 'contribution') || $page->template() == 'contribution-subpage'):?>
                 <nav>
-                        <a href="<?= $page->url() ?>"> Overview </a>
-                    <?php foreach($page->children() as $contsp): ?>
-                        <a href="<?= $contsp->url()?>"> <?= $contsp->title() ?></a>
+                    <p>Contribution Content</p>
+                    <a href="<?php if($page->template() == 'contribution') { echo $page->url(); } else { echo $page->parent()->url(); }?>"> Overview </a>
+                    <?php 
+                    if($page->template() == 'contribution') {
+                        $contributions = $page->children();
+                    } else {
+                        $contributions = $page->parent()->children();
+                    }
+                    
+                    foreach($contributions as $contribution): ?>
+                        <a href="<?= $contribution->url()?>"> <?= $contribution->title() ?></a>
                     <?php endforeach ?>
+                </nav>
+            <?php elseif($page->template() == 'contribution-subpage'): ?>
+                <nav>
+                    <p> Contribution Content </p>
+                    <a href="<?= $page->parent()->url() ?>"> Overview</a>
+
                 </nav>
             <?php endif ?>
         </header>

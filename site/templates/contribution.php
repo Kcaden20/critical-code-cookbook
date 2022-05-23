@@ -13,7 +13,6 @@
 
 <hr>
 <h2>Overview</h2>
-
 <!-- Contribution Context -->
 <?php if($page->context() == 'true'):?>
 <section>
@@ -33,6 +32,7 @@
 </section>
 <?php endif ?> 
 
+<!-- Contribution Abstract  -->
 <?php if($page->shortDesc() == 'true'):?>
     <hr>
 <section>
@@ -46,22 +46,7 @@
 <!-- Contribution Body -->
 <section>
     <h3>Body</h3>
-    <?php if($page->layoutTog() == 'true'): ?>
-        <!-- TODO: Need to Style In CSS -->
-        <?php foreach ($page->bodylayout()->toLayouts() as $layout): ?>
-            <article class="grid" id="<?= $layout->id() ?>">
-            <?php foreach ($layout->columns() as $column): ?>
-            <div class="column" style="--span:<?= $column->span() ?>">
-                <div class="blocks">
-                <?= $column->blocks() ?>
-                </div>
-            </div>
-            <?php endforeach ?>
-            </article>
-            <?php endforeach ?>
-    <?php else: ?>
-        <?= $page->bodyCont()->kt() ?>
-    <?php endif ?>
+    <?php snippet('bodyCont') ?>
 </section>
 <?php snippet('prevnext') ?>
 <?php snippet('footer') ?>

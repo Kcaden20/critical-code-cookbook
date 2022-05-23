@@ -1,0 +1,17 @@
+Caption: 
+
+----
+
+Togglecreds: false
+
+----
+
+Alt: 
+
+----
+
+Credits: 
+
+----
+
+Template: image

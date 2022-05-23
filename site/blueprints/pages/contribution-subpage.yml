@@ -12,7 +12,7 @@ columns:
         default: off
   - width: 1/2 
     fields: 
-      text:
+      bodyCont:
         label: Page Copy
         type: textarea
         size: large
