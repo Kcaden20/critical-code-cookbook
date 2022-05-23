@@ -23,7 +23,7 @@
     <?php 
     foreach($projects as $contribution): ?>
     <article id="<?= $contribution->title()->slug() ?>">
-        <h5><?= $contribution->title() ?></h5>
+        <h5><a href="<?= $contribution->url() ?>"><?= $contribution->title() ?></a></h5>
         <?= kt($contribution->author()) ?>
         <?= kt($contribution->category()) ?>
         <?= kt($contribution->language()) ?>
