@@ -15,18 +15,18 @@
     </head>
     <body>
         <header>
-
-        <?= $page->url() ?>
             <nav>
             <?php if(!$page->isHomePage()): ?> 
                 <a href="<?= $site->url() ?>"> Home </a> 
             <?php endif ?>
-            <?php $pages = $site->children()->listed();
-            foreach($pages as $page): ?>
-            <a href="<?= $page->url() ?>"> <?php echo $page->title() ?> </a>
+            <?php 
+            $pages = $site->children()->listed();
+            foreach($pages as $pa): ?>
+            <a href="<?= $pa->url() ?>"> <?= $pa->title() ?> </a>
             <?php endforeach ?>
-            </nav>     
-            <?= $page->url() ?>
+        <!-- TODO: Add Toggle Mode Buttons -->
+            </nav>
+
             <label class="switch" aria-label="Toggle Gradient">
                 <input type="checkbox" checked>
                 <span class="slider round"></span>
@@ -38,6 +38,14 @@
                 <span class="slider round"></span>
                 <p>Light</p>
             </label>
+            <?php if($page->template() == 'contribution'):?>
+                <nav>
+                        <a href="<?= $page->url() ?>"> Overview </a>
+                    <?php foreach($page->children() as $contsp): ?>
+                        <a href="<?= $contsp->url()?>"> <?= $contsp->title() ?></a>
+                    <?php endforeach ?>
+                </nav>
+            <?php endif ?>
         </header>
 
         <!-- TODO: Add in a way to change color based on categories on contributions page -->
