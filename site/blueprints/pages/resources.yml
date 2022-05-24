@@ -15,7 +15,6 @@ fields:
   resources:
     label: Resource Links
     type: structure
-    sortBy: year desc
     min: 1
     fields: 
       title:
@@ -32,7 +31,7 @@ fields:
         type: files 
         extends: fields/image
         label: Thumbnail
-        max: 1
+        multiple: false
         width: 1
         uploads: 
           template: image

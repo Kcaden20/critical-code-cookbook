@@ -22,12 +22,12 @@ tabs:
           pages:
             headline: Other Pages
             type: pages
-            create: default
             templates:
               - about
               - home
               - default
               - resources
+              - downloads
   site:
     label: Site Information
     icon: globe
