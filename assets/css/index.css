@@ -1,4 +1,20 @@
 /* Variables should be added in the var.css page */
 body {
-    background-color: yellow;
+    background-color: var(--bgColor);
 }
+
+/* Gradients */
+footer .gradient {
+    position: fixed;
+    left: 0px !important;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+
+    /* Gradient Compatability */
+    background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0.68) 62.39%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0.68) 62.39%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0.68) 62.39%, rgba(255,255,255,0) 100%);
+    background: linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0.68) 62.39%, rgba(255,255,255,0) 100%);
+    
+    }

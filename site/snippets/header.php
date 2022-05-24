@@ -27,13 +27,13 @@
         <!-- TODO: Add Toggle Mode Buttons -->
             </nav>
 
-            <label class="switch" aria-label="Toggle Gradient">
+            <label id="gradients" class="switch" aria-label="Toggle Gradient">
                 <input type="checkbox" checked>
                 <span class="slider round"></span>
-                <p>Toggle Gradient</p>
+                <p>Gradient On</p>
             </label>
 
-            <label class="switch" aria-label="Toggle Theme">
+            <label id="theme" class="switch" aria-label="Toggle Theme">
                 <input type="checkbox" checked>
                 <span class="slider round"></span>
                 <p>Light</p>

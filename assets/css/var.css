@@ -5,3 +5,18 @@
     Theme-link
     Spacing (Size in em if the property scales according to its font-size / Size everything else in rem.)
     Font Sizes */
+body {
+    --bgColor: #F485EC;
+    color: black;
+}
+
+body.dark-theme {
+    --bgColor: #000000;
+    color: white; 
+}
+
+@supports (color: color(display-p3 1 1 1)) {
+    body {
+        --bgColor: color(display-p3 0.99 0.53 1) ;
+    }
+}
