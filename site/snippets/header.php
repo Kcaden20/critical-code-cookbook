@@ -6,6 +6,7 @@
         <title><?= $site->title() ?> | <?= $page->title() ?></title>
 
         <?= css([
+            'assets/css/fonts.css', 
             'assets/css/var.css',
             'assets/css/index.css',
             '@auto'

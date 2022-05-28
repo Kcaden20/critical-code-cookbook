@@ -1,9 +1,19 @@
 /* Variables should be added in the var.css page */
+
+/* 1.0 HTML ELEMENTS */
+/* 1.1 Sections */
 body {
     background-color: var(--bgColor);
+    font-family:'Tiresias PC Font';
 }
 
-/* Gradients */
+/* 1.2 Fonts */
+h1, h2, h3, h4, h5 {
+    font-family: var(--fHeading);
+}
+
+/* 2.0 CLASSES */
+/* 2.1 Gradients */
 footer .gradient {
     position: fixed;
     left: 0px !important;
