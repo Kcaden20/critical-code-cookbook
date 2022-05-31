@@ -18,12 +18,12 @@
 
 @font-face {
     font-family: 'Avara Bold Italic';
-    src:    url('../fonts/Avara/BoldItalic/Avara-Bold_Italic.eot');
-    src:    url('../fonts/Avara/BoldItalic/Avara-Bold_Italic.eot?#iefix') format('embedded-opentype'),
-            url('../fonts/Avara/BoldItalic/Avara-Bold_Italic.woff') format('woff'),
-            url('../fonts/Avara/BoldItalic/Avara-Bold_Italic.woff2') format('woff2'),
-            url('../fonts/Avara/BoldItalic/Avara-Bold_Italic.ttf') format('truetype'),
-            url('../fonts/Avara/BoldItalic/Avara-Bold_Italic.svg#svgFontName') format('svg');
+    src:    url('../fonts/Avara/BoldItalic/Avara-BoldItalic.eot');
+    src:    url('../fonts/Avara/BoldItalic/Avara-BoldItalic.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Avara/BoldItalic/Avara-BoldItalic.woff') format('woff'),
+            url('../fonts/Avara/BoldItalic/Avara-BoldItalic.woff2') format('woff2'),
+            url('../fonts/Avara/BoldItalic/Avara-BoldItalic.ttf') format('truetype'),
+            url('../fonts/Avara/BoldItalic/Avara-BoldItalic.svg#svgFontName') format('svg');
 }
 
 /* 2.0 TIRESIAS PC */

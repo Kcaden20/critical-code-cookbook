@@ -7,7 +7,7 @@
             </section>
             
             <!-- ABOUT -->
-            <section>
+            <section id="about">
                 <!-- TODO: Add Icon -->
                 <!-- Introduction Title Conditional -->
                 <?php 
@@ -26,7 +26,7 @@
             
             <!-- CONTRIBUTIONS  -->
             <!-- TODO: Add Icon -->
-            <section>
+            <section id="contributions">
                     <?php $contributions = page('contributions')?>
                     <h2><?= $contributions->title() ?></h2>
 
@@ -37,20 +37,20 @@
 
                     <!-- Contributions Link Conditional -->
                     <?php if($page->contributionLink()):?>
-                        <a href="<?= $contributions->url() ?>"><?= $page->contributionLink() ?></a>
+                        <a class="button" href="<?= $contributions->url() ?>"><?= $page->contributionLink() ?></a>
                     <?php endif ?>    
             </section>
 
             <!-- RESOURCES -->
             <!-- TODO: Add Icon -->
-            <section>
+            <section id="resources">
                     <?php $resources = page('resources'); ?>
                     <h2><?= $resources->title()?></h2>
                     <?php if($page->resourcesText()):?>
                         <?= $page->resourcesText()->kt() ?>
                     <?php endif ?>
                     <?php if($page->resourcesLink()):?>
-                        <a href="<?= $resources->url()?>"><?= $page->resourcesLink()->kt() ?></a>
+                        <a class="button" href="<?= $resources->url()?>"><?= $page->resourcesLink() ?></a>
                     <?php endif ?>    
             </section> 
 <?php snippet('footer') ?>

@@ -2,6 +2,7 @@
 let toggleButtons, bodyElement, bottomGrad, splashGrad; 
 
 // 0.1 TARGETING
+toggleElements = document.getElementsByClassName('toggle');
 toggleButtons = document.getElementsByClassName('switch');
 bodyElement = document.querySelector('body'); 
 bottomGrad = document.querySelector('#bottom');
@@ -10,10 +11,12 @@ bottomGrad = document.querySelector('#bottom');
 // 1.1 Gradient Check 
 if(localStorage.getItem('gradient') == 'false') {
     toggleButtons[0].querySelector('input').checked = false;
-    toggleFunction(bottomGrad, 'gradient', 0, 'Gradient Off', 0); 
+    toggleFunction(bottomGrad, 'gradient', 0, 'Gradient Off', 0);
+    document.querySelector('header').classList.remove('box-shadow'); 
 } else {
     toggleButtons[0].querySelector('input').checked = true;
     toggleFunction(bottomGrad, 'gradient', 0, 'Gradient On', 1);
+    document.querySelector('header').classList.add('box-shadow');
 }
 
 // 1.2 Theme Check 
@@ -31,9 +34,11 @@ if(localStorage.getItem('theme') == 'false') {
 toggleButtons[0].querySelector('input').addEventListener('click', function(){
     // TODO: Add Splash Gradient Targeting
     if(!this.checked) {
+        document.querySelector('header').classList.remove('box-shadow');
         toggleFunction(bottomGrad, 'gradient', 0, 'Gradient Off', 0);
         localStorage.setItem('gradient', this.checked);
     } else {
+        document.querySelector('header').classList.add('box-shadow');
         toggleFunction(bottomGrad, 'gradient', 0, 'Gradient On', 1);
         localStorage.setItem('gradient', this.checked);
     }
@@ -57,6 +62,6 @@ function toggleFunction(a, b, c, d, e) {
     } else {
         a.classList.remove(b);
     }
-    toggleButtons[c].querySelector('p').innerHTML = d; 
+    toggleElements[c].querySelector('p').innerHTML = d; 
 
 }

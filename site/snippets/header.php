@@ -15,7 +15,7 @@
         <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
     </head>
     <body>
-        <header>
+        <header class="box-shadow">
             <nav>
             <?php if(!$page->isHomePage()): ?> 
                 <a href="<?= $site->url() ?>"> Home </a> 
@@ -27,18 +27,23 @@
             <?php endforeach ?>
         <!-- TODO: Add Toggle Mode Buttons -->
             </nav>
+            <section>
 
-            <label id="gradients" class="switch" aria-label="Toggle Gradient">
-                <input type="checkbox" checked>
-                <span class="slider round"></span>
+            <article class="toggle" aria-label="Toggle Gradient">
+                <label id="gradients" class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
                 <p>Gradient On</p>
-            </label>
-
-            <label id="theme" class="switch" aria-label="Toggle Theme">
-                <input type="checkbox" checked>
-                <span class="slider round"></span>
+            </article>
+            <article class="toggle" aria-label="Toggle Theme">
+                <label id="theme" class="switch">
+                    <input type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
                 <p>Light</p>
-            </label>
+            </article>
+            </section>
             <?php if(($page->hasChildren() && $page->template() == 'contribution') || $page->template() == 'contribution-subpage'):?>
                 <nav>
                     <p>Contribution Content</p>

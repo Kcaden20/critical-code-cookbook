@@ -1,0 +1,19 @@
+main section {
+    padding: var(--scaOne);
+}
+
+main section p:last-of-type {
+    margin-bottom: var(--scaOne);
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+#about {
+    background-color: var(--colorYell);
+}
+
+#resources {
+    background-color: var(--colorPurp);
+}
