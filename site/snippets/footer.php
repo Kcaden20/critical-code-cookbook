@@ -6,6 +6,7 @@
         <section id='bottom' class="gradient"></section>
         <p> License Information or Social Media or Something Else </p>
         </footer>
+
         <?= js([
         'assets/js/index.js',
         '@auto'

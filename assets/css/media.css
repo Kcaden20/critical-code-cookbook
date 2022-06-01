@@ -1,0 +1,12 @@
+@media screen and (max-width: 960px) {
+    html {
+        font-size: .85rem;
+    }
+  }
+
+  @media screen and (max-width: 767px) {
+    html {
+        font-size: .7rem;
+    }
+  }
+

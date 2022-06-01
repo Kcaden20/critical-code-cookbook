@@ -2,14 +2,18 @@
 
             <!-- TITLESPLASH -->
             <!-- TODO: Build Splashpage -->
-            <section>
+            <section id="splash" class="gradient">
                 <h1><?= $site->title() ?></h1>
+                <?= $page->byLine()->kt() ?>
             </section>
             
             <!-- ABOUT -->
             <section id="about">
                 <!-- TODO: Add Icon -->
                 <!-- Introduction Title Conditional -->
+                <svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="45" cy="45" r="43.5" stroke="black" stroke-width="3"/>
+                </svg>
                 <?php 
                 $introTitle = $page->introTitle(); 
                 if($introTitle->isNotEmpty()): ?>
@@ -25,8 +29,11 @@
             </section>
             
             <!-- CONTRIBUTIONS  -->
-            <!-- TODO: Add Icon -->
             <section id="contributions">
+                <!-- TODO: Add Final Icon -->
+            <svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="45" cy="45" r="43.5" stroke="black" stroke-width="3"/>
+                </svg>
                     <?php $contributions = page('contributions')?>
                     <h2><?= $contributions->title() ?></h2>
 
@@ -34,6 +41,23 @@
                     <?php if($page->contributionText()):?>
                         <?= $page->contributionText()->kt() ?>
                     <?php endif ?>
+                    
+
+                    <!-- Access Categories from Home Page -->
+                    <article class="filter">
+                            <?php foreach($filters as $filter):?>
+                                <?php if($filter == ''): ?>
+                                <?php else: ?>
+                                <?php 
+                                    $url = $contributions->url();
+                                    $key = strval($filter); 
+                                    $cleanFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", $filter); ?>
+                                <article>
+                                    <a <?php e((strpos($url, $key) !== false), 'aria-current') ?> href="<?= $contributions->url() ?>?filter=<?= $filter ?>"><?= $cleanFilter ?></a>
+                                </article>
+                                <?php endif ?>
+                            <?php endforeach ?>
+                    </article>
 
                     <!-- Contributions Link Conditional -->
                     <?php if($page->contributionLink()):?>
@@ -44,6 +68,9 @@
             <!-- RESOURCES -->
             <!-- TODO: Add Icon -->
             <section id="resources">
+            <svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="45" cy="45" r="43.5" stroke="black" stroke-width="3"/>
+                </svg>
                     <?php $resources = page('resources'); ?>
                     <h2><?= $resources->title()?></h2>
                     <?php if($page->resourcesText()):?>

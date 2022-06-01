@@ -3,6 +3,7 @@
 /* 1.0 HTML ELEMENTS */
 /* 1.1 Containers */
 /* 1.1.1 Body */
+
 body {
     background-color: var(--bgColor);
     font-family:'Tiresias PC Font';
@@ -74,6 +75,7 @@ header section article p {
     display: inline-block;
     width: 60px;
     height: 34px;
+    flex-shrink: 0;
   }
 
   .switch p {
@@ -147,6 +149,9 @@ h3 {font-size: var(--fixThree);}
 h4, header nav a {font-size: var(--fixFour);}
 h5 {font-size: var(--fixFive);}
 
+svg {
+    display: block;
+}
 
 /* 2.0 CLASSES */
 /* 2.1 Gradients */
@@ -176,9 +181,7 @@ footer .gradient {
     border: var(--borderStroke);
     padding: var(--scaFive) var(--scaThree);
     border-radius: 50px;
-    margin: var(--scaFive) 0;
     position: relative;
-    margin: 0 auto;
 }
 
 .button:hover {

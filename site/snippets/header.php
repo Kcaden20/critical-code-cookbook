@@ -9,6 +9,7 @@
             'assets/css/fonts.css', 
             'assets/css/var.css',
             'assets/css/index.css',
+            'assets/css/media.css',
             '@auto'
         ]) ?>
 

@@ -21,6 +21,9 @@ body {
 
     /* 0.0.2 Sizes */
     --mainSize: 960px; 
+    --tabletMax: 767px;
+    --tabletMin: 680px;
+    --mobileSize: 500px;
 
     /* 0.0.3 Elements */
     --borderStroke: 3px solid black;
@@ -79,6 +82,7 @@ body.dark-theme {
 /* 3.0 Display-P3 COLOR SUPPORT  */
 @supports (color: color(display-p3 1 1 1)) {
     body {
-        --colorPink: color(display-p3 0.99 0.53 1) ;
+        --colorPink: color(display-p3 0.99 0.53 1);
     }
 }
+
