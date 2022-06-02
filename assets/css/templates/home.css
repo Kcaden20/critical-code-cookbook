@@ -45,26 +45,6 @@ h1, h2, h3 {
     display: table;
 }
 
-.filter {
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-    grid-gap: var(--scaFour);
-    margin-bottom: var(--scaThree);
-}
-
-.filter a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: var(--borderStroke);
-    text-align: center;
-    font-family: var(--fHeading);
-    padding: var(--scaThree);
-    border-radius: 50px;
-    text-decoration: none;
-    color: var(--colorBlack);
-}
-
 .filter a p {
     text-transform: capitalize;
     font-size: var(--fixThree);

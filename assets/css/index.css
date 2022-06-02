@@ -6,6 +6,7 @@
 
 body {
     background-color: var(--bgColor);
+    color: var(--fontColor);
     font-family: var(--fBody);
     margin: 0;
     padding-bottom: 80px;
@@ -26,6 +27,7 @@ main section article {
   padding: var(--scaFour);
 }
 
+a {text-decoration: none; color: var(--colorBlack)}
 /* 1.1.2 Header & Navigation */
 header {
     background-color: var(--navColor);
@@ -33,10 +35,11 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     position: fixed;
-    width: calc(100% - calc(var(--pxFive) * 2));
+    width: calc(100% - calc(var(--fixFive) * 2));
     z-index: 1000;
     
 }
+
 /* // Navigation Items */
 header nav {
     display: flex;
@@ -46,14 +49,13 @@ header nav {
 }
 
 header nav a {
-    text-decoration: none;
     color: black;
-    margin-right: var(--scaFive);
+    margin-right: var(--fixFive);
 }
+
 
 header nav a:hover {
     font-family: var(--fhItalic);
-    text-decoration: underline;
 }
 
 footer {
@@ -226,9 +228,9 @@ footer .gradient {
     
 }
 
+
+/* 2.1 Link Buttons */
 .button {
-    color: black;
-    text-decoration: none;
     border: var(--borderStroke);
     padding: var(--scaFive) var(--scaThree);
     border-radius: 50px;
@@ -239,6 +241,27 @@ footer .gradient {
     font-family: var(--fbItalic);
     background-color: black; 
     color: white;
+}
+
+/* 2.2 Grids */
+.filter, .resources-grid {
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-gap: var(--scaFour);
+  margin-bottom: var(--scaThree);
+}
+
+.filter a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.filter a, .resources-grid a {
+  border: var(--borderStroke);
+  font-family: var(--fHeading);
+  padding: var(--scaThree);
+  border-radius: 50px;
 }
 
 

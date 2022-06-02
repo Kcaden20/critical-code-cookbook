@@ -70,4 +70,4 @@
         </header>
 
         <!-- TODO: Add in a way to change color based on categories on contributions page -->
-        <main class="template_<?= $page->template() ?>">
+        <main class="<?= $page->template() ?>">

@@ -1,8 +1,37 @@
 body {
+    --bgColor: var(--colorPurp);
+    --fontColor: var(--colorBlack);
+}
+
+body.dark-theme {
+    --bgColor: var(--colorBlack);
+    --fontColor: var(--colorPurple)
+}
+
+body {
     background-color: var(--colorPurp);
 }
 
 body.dark-theme {
     background-color: var(--colorBlack);
+    color: var(--colorPurp) ;
+}
+
+body.dark-theme .resources-grid a {
     color: var(--colorPurp);
 }
+
+body.dark-theme .resources-grid a {
+    border-color: var(--colorPurp);
+}
+
+.resources-grid a:hover {
+    background-color: var(--colorBlack);
+    color: var(--colorPurp);
+}
+
+body.dark-theme .resources-grid a:hover {
+    background-color: var(--colorPurp);
+    color: var(--colorBlack);
+}
+
