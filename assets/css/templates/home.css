@@ -1,16 +1,10 @@
-
-@keyframes fade {
-    to {opacity: 1;}
-  }
-
-
 /* 1.0 HTML ELEMENTS */
-main section {
-    padding: var(--scaOne);
-}
 
+main {
+    max-width: 100%;
+}
 main #splash {
-    height: calc(100vh - 120px);
+    min-height: calc(100vh - 12.5rem);
     display: flex;
     flex-direction: column; 
     justify-content: center;
@@ -30,13 +24,9 @@ main #splash p {
 
 /* 1.1 Containers */
 main section > * {
-    max-width: calc(var(--mainSize) + var(--scaThree));
+    max-width: calc(var(--monitorSize));
     margin-left: auto;
     margin-right: auto;
-}
-
-main section p:last-of-type {
-    margin-bottom: var(--scaOne);
 }
 
 section svg {
@@ -57,27 +47,28 @@ h1, h2, h3 {
 
 .filter {
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: var(--scaThree);
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    grid-gap: var(--scaFour);
     margin-bottom: var(--scaThree);
 }
 
-.filter article {
+.filter a {
     display: flex;
     justify-content: center;
     align-items: center;
     border: var(--borderStroke);
     text-align: center;
-    font-family: 'Avara Bold';
+    font-family: var(--fHeading);
     padding: var(--scaThree);
     border-radius: 50px;
+    text-decoration: none;
+    color: var(--colorBlack);
 }
 
-.filter article a {
+.filter a p {
     text-transform: capitalize;
-    text-decoration: none;
     font-size: var(--fixThree);
-    color: var(--colorBlack);
+    margin: 0;
 }
 
 /* ***************************************** */
@@ -91,8 +82,12 @@ h1, h2, h3 {
     color: var(--colorYell);
 }
 
-#contributions .button:hover{ 
+#contributions .button:hover, #contributions .filter a:hover{ 
     color: var(--colorPink);
+}
+
+#contributions .filter a:hover {
+    background-color: var(--colorBlack);
 }
 
 #resources {
@@ -121,15 +116,15 @@ body.dark-theme #about svg {
 }
 
 /* 4.2 Contributions */
-body.dark-theme #contributions, body.dark-theme #contributions .button, body.dark-theme #contributions .filter article a {
+body.dark-theme #contributions, body.dark-theme #contributions .button, body.dark-theme #contributions .filter a  {
     color: var(--colorPink);
 }
 
-body.dark-theme #contributions .button, body.dark-theme #contributions .filter article {
+body.dark-theme #contributions .button, body.dark-theme #contributions .filter a {
     border-color: var(--colorPink);
 }
 
-body.dark-theme #contributions .button:hover {
+body.dark-theme #contributions .button:hover, body.dark-theme #contributions .filter a:hover {
     color: var(--colorBlack);
     background-color: var(--colorPink);
 }

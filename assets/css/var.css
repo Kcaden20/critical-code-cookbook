@@ -20,13 +20,15 @@ body {
     --colorBlack: black; 
 
     /* 0.0.2 Sizes */
-    --mainSize: 960px; 
-    --tabletMax: 767px;
-    --tabletMin: 680px;
-    --mobileSize: 500px;
+    --monitorSize: 90rem;
+    --deskSize: 75rem;
+    --mainSize: 60rem; 
+    --tabletMax: 48rem;
+    --tabletMin: 42rem;
+    --mobileSize: 32rem;
 
     /* 0.0.3 Elements */
-    --borderStroke: 3px solid black;
+    --borderStroke: .25rem solid black;
 /* ________________________________________ */
 
     /* 1.0 LIGHT THEME */
@@ -39,22 +41,24 @@ body {
     /* 1.2.0 FONT VARIABLES */
     /* 1.2.1 Fonts */
     --fHeading: 'Avara Bold';
+    --fhItalic: 'Avara Bold Italic';
     --fBody: 'Tiresias PC Font'; 
+    --fbItalic: 'Tiresias PC Font Italic';
 
     --pxFactor: 8px; 
     --pxOne: calc(var(--pxFactor) * 6);
     --pxTwo: calc(var(--pxFactor) * 5);
     --pxThree: calc(var(--pxFactor) * 4);
-    --pxFour: calc(var(--pxFactor) * 3);
-    --pxFive: calc(var(--pxFactor) * 2);
+    --pxFour: calc(var(--pxFactor) * 3.5);
+    --pxFive: calc(var(--pxFactor) * 3);
 
     /* 1.2.2 Font Sizes */
     --fixFactor: .5rem; 
     --fixOne: calc(var(--fixFactor) * 6);
     --fixTwo: calc(var(--fixFactor) * 5);
     --fixThree: calc(var(--fixFactor) * 4);
-    --fixFour: calc(var(--fixFactor) * 3);
-    --fixFive: calc(var(--fixFactor) * 2);
+    --fixFour: calc(var(--fixFactor) * 3.5);
+    --fixFive: calc(var(--fixFactor) * 3);
 
 /* ________________________________________ */
 
@@ -64,8 +68,8 @@ body {
     --scaOne: calc(var(--scaFactor) * 6);
     --scaTwo: calc(var(--scaFactor) * 5);
     --scaThree: calc(var(--scaFactor) * 4);
-    --scaFour: calc(var(--scaFactor) * 3);
-    --scaFive: calc(var(--scaFactor) * 2);   
+    --scaFour: calc(var(--scaFactor) * 3.5);
+    --scaFive: calc(var(--scaFactor) * 3);   
 }
 
 /* ***************************************** */
@@ -74,7 +78,7 @@ body {
 body.dark-theme {
     /* 2.1.0 Dark Theme Variables */
     --bgColor: var(--colorBlack);
-    color: var(--colorWhite);
+    color: var(--colorPink);
 }
 
 /* ***************************************** */

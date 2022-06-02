@@ -24,7 +24,7 @@
                 <?php 
                 $introText = $page->introText();
                 if($introText->isNotEmpty()): ?>
-                    <?= $introText->kt() ?>
+                    <article><?= $introText->kt() ?></article>
                 <?php endif ?>
             </section>
             
@@ -39,7 +39,7 @@
 
                     <!-- Contributions Text Conditional -->
                     <?php if($page->contributionText()):?>
-                        <?= $page->contributionText()->kt() ?>
+                        <article><?= $page->contributionText()->kt() ?></article>
                     <?php endif ?>
                     
 
@@ -52,9 +52,9 @@
                                     $url = $contributions->url();
                                     $key = strval($filter); 
                                     $cleanFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", $filter); ?>
-                                <article>
-                                    <a <?php e((strpos($url, $key) !== false), 'aria-current') ?> href="<?= $contributions->url() ?>?filter=<?= $filter ?>"><?= $cleanFilter ?></a>
-                                </article>
+                                    <a <?php e((strpos($url, $key) !== false), 'aria-current') ?> href="<?= $contributions->url() ?>?filter=<?= $filter ?>">
+                                    <p><?= $cleanFilter ?></p>
+                                    </a>
                                 <?php endif ?>
                             <?php endforeach ?>
                     </article>
@@ -74,7 +74,7 @@
                     <?php $resources = page('resources'); ?>
                     <h2><?= $resources->title()?></h2>
                     <?php if($page->resourcesText()):?>
-                        <?= $page->resourcesText()->kt() ?>
+                        <article><?= $page->resourcesText()->kt() ?></article>
                     <?php endif ?>
                     <?php if($page->resourcesLink()):?>
                         <a class="button" href="<?= $resources->url()?>"><?= $page->resourcesLink() ?></a>
