@@ -20,7 +20,11 @@ main {
 }
 
 main section {
-  padding: var(--scaOne);
+  padding: var(--scaThree);
+}
+
+section + section {
+  padding-top: 0;
 }
 
 main section article {
@@ -206,6 +210,10 @@ img {width: 100%;}
   padding-top: .75rem;
   line-height: 1.5em;
 }
+
+img + figcaption {
+  margin-top: var(--scaFactor);
+}
 /* 2.0 CLASSES */
 /* 2.1 Gradients */
 
@@ -240,15 +248,42 @@ footer .gradient {
 .button:hover {
     font-family: var(--fbItalic);
     background-color: black; 
-    color: white;
+    color: var(--colorPink);
+}
+
+.button:hover, .filter a:hover{ 
+  color: var(--colorPink);
+}
+
+.filter a:hover {
+  background-color: var(--colorBlack);
+}
+
+
+body.dark-theme #contributions, body.dark-theme .button, body.dark-theme .filter a  {
+  color: var(--colorPink);
+}
+
+body.dark-theme .button, body.dark-theme .filter a {
+  border-color: var(--colorPink);
+}
+
+body.dark-theme .button:hover, body.dark-theme .filter a:hover {
+  color: var(--colorBlack);
+  background-color: var(--colorPink);
+}
+
+body.dark-theme #contributions svg {
+  fill: var(--colorPink);
 }
 
 /* 2.2 Grids */
 .filter, .resources-grid {
   display:grid;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   grid-gap: var(--scaFour);
   margin-bottom: var(--scaThree);
+  justify-content: center;
 }
 
 .filter a {
@@ -263,6 +298,15 @@ footer .gradient {
   padding: var(--scaThree);
   border-radius: 50px;
 }
+
+.resources-grid a figure {
+  margin: 0;
+}
+
+.resources-grid a figure img {
+  object-fit: contain;
+}
+
 
 
 /* 3.0 KIRBY */

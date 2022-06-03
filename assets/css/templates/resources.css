@@ -1,14 +1,4 @@
 body {
-    --bgColor: var(--colorPurp);
-    --fontColor: var(--colorBlack);
-}
-
-body.dark-theme {
-    --bgColor: var(--colorBlack);
-    --fontColor: var(--colorPurple)
-}
-
-body {
     background-color: var(--colorPurp);
 }
 

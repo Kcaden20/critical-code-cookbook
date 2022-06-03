@@ -6,6 +6,10 @@ options:
   changeStatus: false
 
 fields: 
+  downloadText:
+    label: Download Text
+    type: textarea
+    size: medium
   download:
     label: Downloads
     type: structure 

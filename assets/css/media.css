@@ -1,8 +1,3 @@
-@media screen and (max-width: 960px) {
-    html {
-        font-size: .85rem;
-    }
-  }
 
 @media screen and (min-width: 960px) {  
   .grid {
@@ -12,9 +7,27 @@
     grid-column: span var(--columns);
   }
 }
-  
-  @media screen and (max-width: 767px) {
+
+@media screen and (min-width: 1200px) {   
+  .filter, .resources-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  }
+  }
+
+@media screen and (min-width: 1500px) {   
+  .filter, .resources-grid {
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  }
+  }
+
+@media screen and (max-width: 960px) {
     html {
-        font-size: .7rem;
+        font-size: .85rem;
     }
   }
+  
+@media screen and (max-width: 767px) {
+  html {
+      font-size: .7rem;
+  }
+}

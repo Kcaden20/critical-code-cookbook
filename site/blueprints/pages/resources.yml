@@ -12,6 +12,10 @@ fields:
     theme: none
     text: |
       Add your resource links below! The table will sort them by date and the front end will add them into buckets based on year!
+  resourcesText: 
+    label: Resources Text 
+    type: textarea
+    size: medium
   resources:
     label: Resource Links
     type: structure

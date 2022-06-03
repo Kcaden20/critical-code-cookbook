@@ -29,6 +29,10 @@ main section > * {
     margin-right: auto;
 }
 
+main section {
+    padding-top: var(--scaThree);
+  }
+
 section svg {
     height: 60px;
     width: 60px;
@@ -62,14 +66,6 @@ h1, h2, h3 {
     color: var(--colorYell);
 }
 
-#contributions .button:hover, #contributions .filter a:hover{ 
-    color: var(--colorPink);
-}
-
-#contributions .filter a:hover {
-    background-color: var(--colorBlack);
-}
-
 #resources {
     background-color: var(--colorPurp);
 }
@@ -96,22 +92,6 @@ body.dark-theme #about svg {
 }
 
 /* 4.2 Contributions */
-body.dark-theme #contributions, body.dark-theme #contributions .button, body.dark-theme #contributions .filter a  {
-    color: var(--colorPink);
-}
-
-body.dark-theme #contributions .button, body.dark-theme #contributions .filter a {
-    border-color: var(--colorPink);
-}
-
-body.dark-theme #contributions .button:hover, body.dark-theme #contributions .filter a:hover {
-    color: var(--colorBlack);
-    background-color: var(--colorPink);
-}
-
-body.dark-theme #contributions svg {
-    fill: var(--colorPink);
-}
 
 /* 4.3 Resources */
 body.dark-theme #resources, body.dark-theme #resources .button {

@@ -2,6 +2,10 @@ Title: Downloads
 
 ----
 
+Downloadtext: Test
+
+----
+
 Download:
 
 - 
