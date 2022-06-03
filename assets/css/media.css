@@ -9,13 +9,13 @@
 }
 
 @media screen and (min-width: 1200px) {   
-  .filter, .resources-grid {
+  .filter, .project-grid {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
   }
 
 @media screen and (min-width: 1500px) {   
-  .filter, .resources-grid {
+  .filter, .project-grid {
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   }
   }

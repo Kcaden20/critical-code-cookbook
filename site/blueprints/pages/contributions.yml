@@ -21,6 +21,10 @@ columns:
             theme: none
             text: |
               An overview of all the contributions. Add, edit or delete any projects, as well as decide what categories are available to tag each contribution with!
+          contributionText:
+            label: Contributions Text
+            type: textarea
+            size: small
   - width: 1/2 
     sections: 
       contributions:

@@ -27,10 +27,6 @@ section + section {
   padding-top: 0;
 }
 
-main section article {
-  padding: var(--scaFour);
-}
-
 a {text-decoration: none; color: var(--colorBlack)}
 /* 1.1.2 Header & Navigation */
 header {
@@ -174,8 +170,10 @@ h1 {font-size: var(--fixOne);}
 h2 {font-size: var(--fixTwo);}
 h3 {font-size: var(--fixThree);}
 h4 {font-size: var(--fixFour);}
-h5, p, header nav a {font-size: var(--fixFive);}
+h5, header nav a {font-size: var(--fixFive);}
+p {font-size: 1.25rem;}
 header article p {font-size: 1rem}
+
 
 
 /* Visual Elements */
@@ -251,24 +249,24 @@ footer .gradient {
     color: var(--colorPink);
 }
 
-.button:hover, .filter a:hover{ 
+.button:hover, .filter a:hover, .project-grid a:hover { 
   color: var(--colorPink);
 }
 
-.filter a:hover {
+.filter a:hover, .project-grid a:hover {
   background-color: var(--colorBlack);
 }
 
 
-body.dark-theme #contributions, body.dark-theme .button, body.dark-theme .filter a  {
+body.dark-theme #contributions, body.dark-theme .button, body.dark-theme .filter a, body.dark-theme .project-grid a  {
   color: var(--colorPink);
 }
 
-body.dark-theme .button, body.dark-theme .filter a {
+body.dark-theme .button, body.dark-theme .filter a, body.dark-theme .project-grid a {
   border-color: var(--colorPink);
 }
 
-body.dark-theme .button:hover, body.dark-theme .filter a:hover {
+body.dark-theme .button:hover, body.dark-theme .filter a:hover, body.dark-theme .project-grid a:hover {
   color: var(--colorBlack);
   background-color: var(--colorPink);
 }
@@ -278,12 +276,25 @@ body.dark-theme #contributions svg {
 }
 
 /* 2.2 Grids */
-.filter, .resources-grid {
+.filter, .project-grid {
   display:grid;
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   grid-gap: var(--scaFour);
   margin-bottom: var(--scaThree);
   justify-content: center;
+  text-transform: capitalize;
+}
+
+.project-grid h5 {
+  margin-bottom: 0;
+}
+
+.project-grid .details p {
+  font-size: 1.25rem;
+}
+
+.project-grid .description {
+  font-family: var(--fBody);
 }
 
 .filter a {
@@ -292,18 +303,18 @@ body.dark-theme #contributions svg {
   align-items: center;
   text-align: center;
 }
-.filter a, .resources-grid a {
+.filter a, .project-grid a {
   border: var(--borderStroke);
   font-family: var(--fHeading);
   padding: var(--scaThree);
   border-radius: 50px;
 }
 
-.resources-grid a figure {
+.project-grid a figure {
   margin: 0;
 }
 
-.resources-grid a figure img {
+.project-grid a figure img {
   object-fit: contain;
 }
 
