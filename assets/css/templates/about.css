@@ -1,8 +1,2 @@
-body {
-    background-color: var(--colorYell);
-}
-
-body.dark-theme {
-    background-color: var(--colorBlack);
-    color: var(--colorYell);
-}
+body {--bgColor: var(--colorYell);}
+body.dark-theme {--fontColor: var(--colorYell);}

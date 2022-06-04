@@ -1,27 +1,5 @@
-body {
-    background-color: var(--colorPurp);
-}
 
-body.dark-theme {
-    background-color: var(--colorBlack);
-    color: var(--colorPurp) ;
-}
 
-body.dark-theme .project-grid a {
-    color: var(--colorPurp);
-}
-
-body.dark-theme .project-grid a {
-    border-color: var(--colorPurp);
-}
-
-.project-grid a:hover {
-    background-color: var(--colorBlack);
-    color: var(--colorPurp);
-}
-
-body.dark-theme .project-grid a:hover {
-    background-color: var(--colorPurp);
-    color: var(--colorBlack);
-}
+body {--bgColor: var(--colorPurp);}
+body.dark-theme {--fontColor: var(--colorPurp);}
 

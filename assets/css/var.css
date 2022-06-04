@@ -28,12 +28,14 @@ body {
     --mobileSize: 32rem;
 
     /* 0.0.3 Elements */
-    --borderStroke: .25rem solid black;
+    --borderStroke: .25rem solid var(--fontColor);
 /* ________________________________________ */
 
     /* 1.0 LIGHT THEME */
     /* 1.1.0 LIGHT THEME VARIABLES */
     --bgColor: var(--colorPink);
+    --fontColor: var(--colorBlack);
+
     --navColor: var(--colorWhite); 
     color: var(--colorBlack);
 /* ________________________________________ */
@@ -78,7 +80,7 @@ body {
 body.dark-theme {
     /* 2.1.0 Dark Theme Variables */
     --bgColor: var(--colorBlack);
-    color: var(--colorPink);
+    --fontColor: var(--colorPink);
 }
 
 /* ***************************************** */
@@ -86,7 +88,10 @@ body.dark-theme {
 /* 3.0 Display-P3 COLOR SUPPORT  */
 @supports (color: color(display-p3 1 1 1)) {
     body {
-        --colorPink: color(display-p3 0.99 0.53 1);
+        --colorPink: color(display-p3 0.992 0.57 1);
+        --colorPurp: color(display-p3 0.752 0.393 0.995);
+        --colorYell: color(display-p3 1 0.968 0.595);
+
     }
 }
 

@@ -1,3 +1,4 @@
+/* 1.0 HEADER  */
 header {
     padding-left: 0;
     padding-right: 0;
@@ -5,19 +6,14 @@ header {
     width: 100%;
 }
 
-header nav {
-    padding-left: var(--pxFive);
-    padding-bottom: var(--pxFactor);
-}
+header nav, header section, .subnav {padding-bottom: var(--pxFactor);}
+header nav {padding-left: var(--pxFive);}
+header section {padding-right: var(--pxFive);}
 
-header section {
-    padding-right: var(--pxFive);
-    padding-bottom: var(--pxFactor);
-}
 
+/* 2.0 SUBNAV */
 .subnav {
     background-color: black;
-    padding-bottom: var(--pxFactor);
     padding-top: 12px;
     width: 100vw;
 }
@@ -27,28 +23,22 @@ header section {
     font-size: 1rem;
 }
 
-.dark-theme .subnav {
-    border-bottom: 1px solid var(--colorPink);
-}
+.dark-theme .subnav {border-bottom: 1px solid var(--fontColor);}
 
-
-
+/* ELEMENTS */
 h1 + p, .keywords p {
     font-size: var(--fixFive);
     font-family: var(--fHeading);
     text-align: center;
 }
 
-h1 + p {
-    font-size: var(--fixFour);
-}
-
-.context article h4, .context article:last-child p {
-    margin-bottom: 0;
-}
-
+h1 + p {font-size: var(--fixFour);}
 
 .context article h4 + p {
     margin-top: .5em;
     margin-bottom: 3em;
 }
+
+.context article h4, .context article:last-child p { margin-bottom: 0;}
+
+

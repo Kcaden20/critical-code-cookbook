@@ -1,12 +1,7 @@
+.filter a:hover {font-family: var(--fhItalic);}
+.details p {margin: var(--scaFactor) 0;}
 section h4 {
     margin-bottom: 0;
     text-align: center;
 }
 
-.filter a:hover {
-    font-family: var(--fhItalic);
-}
-
-.details p {
-    margin: var(--scaFactor) 0;
-}

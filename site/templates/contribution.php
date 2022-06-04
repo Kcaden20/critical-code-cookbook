@@ -13,8 +13,8 @@
 
 <!-- Contribution Context -->
 <?php if($page->context() == 'true'):?>
-<section id="context">
     <hr>
+<section id="context">
     <h3>Context</h3>
     <article>
         <h4>What is the context or background that inspired your recipe?</h4>

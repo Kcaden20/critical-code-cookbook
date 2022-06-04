@@ -38,7 +38,7 @@ ol, ul {
 }
 
 
-a {text-decoration: none; color: var(--colorBlack)}
+a {text-decoration: none; color: var(--fontColor);}
 /* 1.1.2 Header & Navigation */
 header {
     background-color: var(--navColor);
@@ -48,8 +48,6 @@ header {
     position: fixed;
     width: calc(100% - calc(var(--fixFive) * 2));
     z-index: 1000;
-
-    
 }
 
 /* // Navigation Items */
@@ -76,16 +74,13 @@ footer {
 
 hr {
   height: 3px;
-  background: black;
+  background: var(--fontColor);
   border: none;
   outline: none;
   margin: 3em 2em;
   position: relative;
 }
 
-.dark-theme hr {
-  background: var(--colorPink);
-}
 
 hr::before, hr::after {
   content: '◆';
@@ -289,8 +284,6 @@ footer .gradient {
     background: linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
     
 }
-
-
 /* 2.1 Link Buttons */
 .button {
     border: var(--borderStroke);
@@ -301,18 +294,12 @@ footer .gradient {
 
 .button:hover {
     font-family: var(--fbItalic);
-    background-color: black; 
-    color: var(--colorPink);
 }
 
-.button:hover, .filter a:hover, .project-grid a:hover { 
-  color: var(--colorPink);
+.button:hover , .filter a:hover, .project-grid a:hover { 
+  background-color: var(--fontColor); 
+  color: var(--bgColor);
 }
-
-.filter a:hover, .project-grid a:hover {
-  background-color: var(--colorBlack);
-}
-
 
 .prevnext {
   display: flex;
@@ -321,22 +308,8 @@ footer .gradient {
 }
 
 /* DARK THEME */
-
-body.dark-theme #contributions, body.dark-theme .button, body.dark-theme .filter a, body.dark-theme .project-grid a  {
-  color: var(--colorPink);
-}
-
-body.dark-theme .button, body.dark-theme .filter a, body.dark-theme .project-grid a {
-  border-color: var(--colorPink);
-}
-
-body.dark-theme .button:hover, body.dark-theme .filter a:hover, body.dark-theme .project-grid a:hover {
-  color: var(--colorBlack);
-  background-color: var(--colorPink);
-}
-
-body.dark-theme #contributions svg {
-  fill: var(--colorPink);
+body.dark-theme svg {
+  fill: var(--fontColor);
 }
 
 /* 2.2 Grids */
@@ -389,7 +362,7 @@ body.dark-theme #contributions svg {
 }
 
 .filter a {
-  flex: 0 0 20%;
+  flex: 0 0 7%;
 }
 
 .filter a, .project-grid a {
