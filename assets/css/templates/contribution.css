@@ -10,7 +10,6 @@ header nav, header section, .subnav {padding-bottom: var(--pxFactor);}
 header nav {padding-left: var(--pxFive);}
 header section {padding-right: var(--pxFive);}
 
-
 /* 2.0 SUBNAV */
 .subnav {
     background-color: black;
