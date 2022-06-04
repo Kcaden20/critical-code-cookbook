@@ -31,8 +31,15 @@
         <h5><?= $contribution->title() ?></h5>
         <article class="details">
             <?= kt($contribution->author()) ?>
-            <?= kt(preg_replace("/[^a-zA-Z0-9]+/", " ", $contribution->category())) ?>
-            <?= kt(preg_replace("/[^a-zA-Z0-9]+/", " ", $contribution->language())) ?>
+            <article>
+                <?= kt(preg_replace("/[^a-zA-Z0-9]+/", " ", $contribution->category())) ?>
+                <?= kt(preg_replace("/[^a-zA-Z0-9]+/", " ", $contribution->language())) ?>
+            </article>
+        </article>
+        <article class="keywords">
+            <?php foreach ($contribution->keywords()->split() as $category): ?>
+            <p><?= $category ?></p>
+            <?php endforeach ?>
         </article>
         <article class="description">
             <?= kt($contribution->shortDescText()->excerpt(140)) ?>

@@ -1,0 +1,44 @@
+header {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+header nav {
+    padding-left: var(--pxFive);
+    padding-bottom: var(--pxFactor);
+}
+
+header section {
+    padding-right: var(--pxFive);
+    padding-bottom: var(--pxFactor);
+}
+
+.subnav {
+    background-color: black;
+    padding-bottom: var(--pxFactor);
+    padding-top: 12px;
+    width: 100vw;
+}
+
+.subnav a {
+    color: white; 
+    font-size: 1rem;
+}
+
+.dark-theme .subnav {
+    border-bottom: 1px solid var(--colorPink);
+}
+
+
+
+h1 + p, .keywords p {
+    font-size: var(--fixFive);
+    font-family: var(--fHeading);
+    text-align: center;
+}
+
+h1 + p {
+    font-size: var(--fixFour);
+}

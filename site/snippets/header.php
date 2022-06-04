@@ -46,8 +46,7 @@
             </article>
             </section>
             <?php if(($page->hasChildren() && $page->template() == 'contribution') || $page->template() == 'contribution-subpage'):?>
-                <nav>
-                    <p>Contribution Content</p>
+                <nav class="subnav">
                     <a href="<?php if($page->template() == 'contribution') { echo $page->url(); } else { echo $page->parent()->url(); }?>"> Overview </a>
                     <?php 
                     if($page->template() == 'contribution') {

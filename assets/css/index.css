@@ -27,16 +27,22 @@ section + section {
   padding-top: 0;
 }
 
+main section *:not(hr, a, p):first-child {
+  padding-top: 0;
+  margin-top: 0;
+}
+
 a {text-decoration: none; color: var(--colorBlack)}
 /* 1.1.2 Header & Navigation */
 header {
     background-color: var(--navColor);
-    padding: var(--pxFive) var(--pxFive);
+    padding: var(--pxFive);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     position: fixed;
     width: calc(100% - calc(var(--fixFive) * 2));
     z-index: 1000;
+
     
 }
 
@@ -61,6 +67,39 @@ header nav a:hover {
 footer {
   text-align: center;
 }
+
+hr {
+  height: 3px;
+  background: black;
+  border: none;
+  outline: none;
+  margin: 3em 2em;
+  position: relative;
+}
+
+.dark-theme hr {
+  background: var(--colorPink);
+}
+
+hr::before, hr::after {
+  content: '◆';
+  font-size: 24px;
+  position: absolute;
+  top: -16px;
+}
+
+hr::before {
+  left: -10px;
+}
+
+hr::after {
+  right: -10px;
+}
+
+section hr {
+  margin: 3em 0em;
+}
+
 
 /* 1.1.3 Toggles */
 /* Wrapper */
@@ -258,6 +297,14 @@ footer .gradient {
 }
 
 
+.prevnext {
+  display: flex;
+  justify-content: space-between;
+  padding-top:  var(--scaThree)
+}
+
+/* DARK THEME */
+
 body.dark-theme #contributions, body.dark-theme .button, body.dark-theme .filter a, body.dark-theme .project-grid a  {
   color: var(--colorPink);
 }
@@ -288,20 +335,46 @@ body.dark-theme #contributions svg {
   margin-bottom: 0;
 }
 
-.project-grid .details p {
+.project-grid h5, .project-grid .details p:first-child {
+  text-align: center;
+}
+.details p {
   font-size: 1.25rem;
 }
 
-.project-grid .description {
+.details article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  text-align: center;
+}
+
+.description {
   font-family: var(--fBody);
 }
 
-.filter a {
+.keywords {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
+
+.keywords p {
+  margin-right: var(--scaFactor);
+  font-size: 1rem;
+}
+
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.filter a {
+  flex: 0 0 20%;
+}
+
 .filter a, .project-grid a {
   border: var(--borderStroke);
   font-family: var(--fHeading);

@@ -3,16 +3,6 @@ section h4 {
     text-align: center;
 }
 
-.filter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.filter a {
-    flex: 0 0 7%;
-}
-
 .filter a:hover {
     font-family: var(--fhItalic);
 }

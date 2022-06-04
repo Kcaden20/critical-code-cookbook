@@ -1,13 +1,13 @@
 <?php snippet('header') ?>
 <!-- Contribution Title & Author -->
-<h1><?= $page->title() ?></h1>
+<h1 id="title"><?= $page->title() ?></h1>
 <?= kt($page->author()) ?>
 <?php if($page->keywords()): ?>
-    <ul>
+    <article class="keywords">
         <?php foreach($page->keywords()->split() as $keyword): ?>
-            <li>#<?= $keyword ?></li>
+            <p>#<?= $keyword ?></p>
         <?php endforeach ?>
-    </ul>
+        </article>
 <?php endif ?>
 </section>
 
