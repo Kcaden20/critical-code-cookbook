@@ -15,7 +15,7 @@
 <h2>Overview</h2>
 <!-- Contribution Context -->
 <?php if($page->context() == 'true'):?>
-<section>
+<section class="context">
     <h3>Context</h3>
     <article>
         <h4>What is the context or background that inspired your recipe?</h4>

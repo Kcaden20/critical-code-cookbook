@@ -42,3 +42,13 @@ h1 + p, .keywords p {
 h1 + p {
     font-size: var(--fixFour);
 }
+
+.context article h4, .context article:last-child p {
+    margin-bottom: 0;
+}
+
+
+.context article h4 + p {
+    margin-top: .5em;
+    margin-bottom: 3em;
+}

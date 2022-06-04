@@ -97,7 +97,8 @@ hr::after {
 }
 
 section hr {
-  margin: 3em 0em;
+  width: 50%;
+  margin: 3em auto;
 }
 
 
