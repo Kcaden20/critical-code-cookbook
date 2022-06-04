@@ -56,7 +56,7 @@
                     }
                     
                     foreach($contributions as $contribution): ?>
-                        <a href="<?= $contribution->url()?>"> <?= $contribution->title() ?></a>
+                        <a href="#<?= $contribution->uid()?>"> <?= $contribution->title() ?></a>
                     <?php endforeach ?>
                 </nav>
             <?php elseif($page->template() == 'contribution-subpage'): ?>

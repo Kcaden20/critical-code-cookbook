@@ -1,8 +1,16 @@
-Caption: 
+Caption: Caption For This!
+
+----
+
+Togglecreds: false
 
 ----
 
 Alt: The PAC-MOM character customization screen. Here, the player can customize their own PAC-MOM. At the top of the screen the title is set in yellow text against a red rectangle. The text says “PAC-MOM character customization.” Below the title is  more text in yellow that says “How much longer does this PAC-MOM have to work for the same amount of food as PAC-MAN?” In smaller script to the right of this text there is extra text that reads in parentheses “drag the cherry to adjust the percentage) Beneath the text there is a scale between 0 percent on the left and 100 percent on the right. The player can select a percentage represented by a Cherry icon.  This does not just include customization of the game character herself and how much more she will have to work but also of her enemies. This These includes classism, ageism, homophobia, transphobia and many more to illustrate that an individual’s experience can be determined by multiple intersecting aspects.By Annina Rüst. Share however you want.
+
+----
+
+Credits: 
 
 ----
 

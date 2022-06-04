@@ -32,6 +32,12 @@ main section *:not(hr, a, p):first-child {
   margin-top: 0;
 }
 
+ol, ul {
+  padding-left: var(--scaFive);
+  padding-bottom: var(--scaFive);
+}
+
+
 a {text-decoration: none; color: var(--colorBlack)}
 /* 1.1.2 Header & Navigation */
 header {
@@ -211,14 +217,24 @@ h2 {font-size: var(--fixTwo);}
 h3 {font-size: var(--fixThree);}
 h4 {font-size: var(--fixFour);}
 h5, header nav a {font-size: var(--fixFive);}
-p {font-size: 1.25rem;}
+p, li {font-size: 1.25rem;}
 header article p {font-size: 1rem}
 
 
 
 /* Visual Elements */
+figure + figure {
+  margin: var(--scaThree);
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
+}
 svg {display: block;}
-img {width: 100%;}
+img {width: 100%; max-width: var(--tabletMax); display: block; margin: 0 auto}
+
+
 .video,
 .img {
   position: relative;
