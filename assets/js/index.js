@@ -55,7 +55,44 @@ toggleButtons[1].querySelector('input').addEventListener('click', function(){
     }
 });
 
+
+// 3.0 LIGHTBOX
+// Lightbox
+Array.from(document.querySelectorAll("[data-lightbox]")).forEach(element => {
+    element.onclick = (e) => {
+      e.preventDefault();
+      basicLightbox.create(`<img src="${element.href}">`).show();
+    };
+  });
+  
+
+//   4.0 MOBILE MENU
+let details, main, header; 
+details = document.querySelector(".mobile details");
+main = document.querySelector("main");
+
+
+details.addEventListener("toggle", function() {
+    updateHeader();
+    if(details.open) {
+        main.onclick = function (e) { details.removeAttribute("open");}
+    } 
+})
+
+// 5.0 HEADER MARGIN
+header = document.querySelector("header");
+console.log(header.offsetHeight);
+updateHeader();
+
+
+
+
+
 // Helper Functions
+
+function updateHeader(){
+    main.setAttribute("style", "padding-top: " + header.offsetHeight + "px");
+}
 function toggleFunction(a, b, c, d, e) {
     if(e == 1) {
         a.classList.add(b);

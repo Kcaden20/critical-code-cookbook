@@ -422,8 +422,9 @@ body.dark-theme svg {
   object-fit: contain;
 }
 
-
-
+section.blocks {
+  padding: 0;
+}
 /* 3.0 KIRBY */
 .grid {
   --columns: 12;

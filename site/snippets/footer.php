@@ -9,6 +9,7 @@
 
         <?= js([
         'assets/js/index.js',
+        'assets/js/lightbox.js',
         '@auto'
         ]) ?>
     </body>

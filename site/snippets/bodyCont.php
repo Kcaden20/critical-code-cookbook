@@ -3,11 +3,11 @@
         <?php foreach ($page->bodylayout()->toLayouts() as $layout): ?>
             <article class="grid" id="<?= $layout->id() ?>">
             <?php foreach ($layout->columns() as $column): ?>
-            <div class="column" style="--span:<?= $column->span() ?>">
-                <div class="blocks">
+            <section class="column" style="--columns:<?= $column->span() ?>">
+                <section class="blocks">
                 <?= $column->blocks() ?>
-                </div>
-            </div>
+                </section>
+            </section>
             <?php endforeach ?>
             </article>
             <?php endforeach ?>

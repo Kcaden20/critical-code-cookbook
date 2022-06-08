@@ -10,6 +10,7 @@
             'assets/css/var.css',
             'assets/css/index.css',
             'assets/css/media.css',
+            'assets/css/lightbox.css',
             '@auto'
         ]) ?>
 
