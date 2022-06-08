@@ -6,9 +6,10 @@ header {
     width: 100%;
 }
 
-header nav, header section, .subnav {padding-bottom: var(--pxFactor);}
-header nav {padding-left: var(--pxFive);}
-header section {padding-right: var(--pxFive);}
+.subnav {padding-bottom: var(--pxFactor);}
+
+header nav {padding-left: var(--pxFive); padding-bottom: var(--pxFive);}
+header section {padding-right: var(--pxFive); padding-bottom: var(--pxFive);}
 
 /* 2.0 SUBNAV */
 .subnav {
@@ -33,11 +34,23 @@ h1 + p, .keywords p {
 
 h1 + p {font-size: var(--fixFour);}
 
-.context article h4 + p {
+#context article h4 {
+    margin-bottom: 0 !important;
+}
+#context article h4 + p {
     margin-top: .5em;
     margin-bottom: 3em;
 }
 
 .context article h4, .context article:last-child p { margin-bottom: 0;}
+
+@media screen and (max-width: 500px) { 
+    main {
+        padding-top: 12em;
+    }
+
+    header nav {padding-left: var(--pxFactor); padding-bottom:var(--pxFactor); }
+    header section {padding-right: var(--pxFactor); padding-bottom:var(--pxFactor); }
+}
 
 

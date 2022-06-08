@@ -17,19 +17,16 @@
     </head>
     <body>
         <header class="box-shadow">
-            <nav>
-            <?php if(!$page->isHomePage()): ?> 
-                <a href="<?= $site->url() ?>"> Home </a> 
-            <?php endif ?>
-            <?php 
-            $pages = $site->children()->listed();
-            foreach($pages as $pa): ?>
-            <a href="<?= $pa->url() ?>"> <?= $pa->title() ?> </a>
-            <?php endforeach ?>
-        <!-- TODO: Add Toggle Mode Buttons -->
+             <nav class="mobile">
+                <details>
+                    <summary> Menu </summary>
+                    <?php snippet('nav') ?>
+                </details>
+            </nav> 
+            <nav class="desktop">
+                <?php snippet('nav') ?>
             </nav>
-            <section>
-
+        <section>
             <article class="toggle" aria-label="Toggle Gradient">
                 <label id="gradients" class="switch">
                     <input type="checkbox" checked>
@@ -70,3 +67,6 @@
 
         <!-- TODO: Add in a way to change color based on categories on contributions page -->
         <main class="<?= $page->template() ?>">
+        <?php if(!$page->isHomePage()): ?>
+            <h1><?= $page->title() ?></h1>
+        <?php endif ?>

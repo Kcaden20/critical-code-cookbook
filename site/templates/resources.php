@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<h1><?= $page->title() ?></h1>
+
 <?php if($page->resourcesText()->isNotEmpty()): ?>
 <section id="resources-text">
     <?= $page->resourcesText()->kt() ?>

@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<h1><?= $page->title() ?></h1>
+
 <section id="contributions-introduction">
     <?php if($page->contributionText()->isNotEmpty()):?>
         <?= $page->contributionText()->kt() ?> 

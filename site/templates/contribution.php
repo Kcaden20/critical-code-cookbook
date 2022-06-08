@@ -1,6 +1,5 @@
 <?php snippet('header') ?>
 <!-- Contribution Title & Author -->
-<h1 id="title"><?= $page->title() ?></h1>
 <?= kt($page->author()) ?>
 <?php if($page->keywords()): ?>
     <article class="keywords">

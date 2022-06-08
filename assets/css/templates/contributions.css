@@ -1,4 +1,6 @@
-.filter a:hover {font-family: var(--fhItalic);}
+.filter a:hover {
+    text-decoration: line-through;
+}
 .details p {margin: var(--scaFactor) 0;}
 section h4 {
     margin-bottom: 0;

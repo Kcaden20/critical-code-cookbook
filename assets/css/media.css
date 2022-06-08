@@ -34,4 +34,43 @@
   html {
       font-size: .7rem;
   }
+
+  nav.desktop {
+    display: none; 
+  }
+
+  nav.mobile {
+    display: flex; 
+  }
+
+  header section {
+    flex-wrap: nowrap;
+    align-items: flex-start;
+  }
+
+  .subnav a {
+    font-size: var(--fixFive) !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+ 
+  html {
+    font-size: .5rem;
+  }
+  
+  header {
+    padding: var(--pxFactor);
+    width: calc(100% - calc(var(--pxFactor) * 2));
+  }
+
+  header section article {
+    display: block;
+    text-align: center;
+  }
+
+  header section article p {
+    margin-top: calc(var(--pxFactor) / 2); 
+  }
+
 }

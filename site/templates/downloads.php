@@ -1,5 +1,4 @@
 <?php snippet('header') ?>
-<h1> <?= $page->title() ?></h1> 
 <?php if($page->downloadText()->isNotEmpty()): ?>
     <section id="download-text">
         <?= $page->downloadText()->kt() ?>

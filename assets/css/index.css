@@ -38,7 +38,7 @@ ol, ul {
 }
 
 
-a {text-decoration: none; color: var(--fontColor);}
+a {color: var(--fontColor);}
 /* 1.1.2 Header & Navigation */
 header {
     background-color: var(--navColor);
@@ -46,7 +46,7 @@ header {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     position: fixed;
-    width: calc(100% - calc(var(--fixFive) * 2));
+    width: calc(100% - calc(var(--pxFive) * 2));
     z-index: 1000;
 }
 
@@ -58,14 +58,26 @@ header nav {
 
 }
 
+nav.mobile {
+  display: none;
+}
 header nav a {
     color: black;
     margin-right: var(--fixFive);
+    text-decoration: none;
 }
 
 
 header nav a:hover {
-    font-family: var(--fhItalic);
+    cursor: pointer;
+    text-decoration: line-through;
+    color: var(--bgColor);
+
+
+}
+
+body.dark-theme header nav a:hover{
+  color: var(--fontColor);
 }
 
 footer {
@@ -135,7 +147,7 @@ header section article p {
     position: relative;
     display: inline-block;
     width: 60px;
-    height: 34px;
+    height: calc(var(--pxFactor) * 4);
     flex-shrink: 0;
   }
 
@@ -165,9 +177,9 @@ header section article p {
   .slider:before {
     position: absolute;
     content: "";
-    height: 26px;
-    width: 26px;
-    left: 2px;
+    height: calc(var(--pxFactor) * 3);
+    width: calc(var(--pxFactor) * 3);
+    left: calc(var(--pxFactor) /2);
     bottom: 2px;
     background-color: var(--colorPink);
     border: 1px solid black; 
@@ -198,8 +210,8 @@ header section article p {
     border-radius: 50%;
   }
 
-/* 1.2 Fonts */
-h1, h2, h3, h4, h5, header nav a  {
+/* 1.2 Text */
+h1, h2, h3, h4, h5, header nav a, header nav p, header details summary {
     font-family: var(--fHeading);
 }
 
@@ -211,11 +223,34 @@ h1 {font-size: var(--fixOne);}
 h2 {font-size: var(--fixTwo);}
 h3 {font-size: var(--fixThree);}
 h4 {font-size: var(--fixFour);}
-h5, header nav a {font-size: var(--fixFive);}
+h5, header nav a, header details summary{font-size: var(--fixFive);}
 p, li {font-size: 1.25rem;}
 header article p {font-size: 1rem}
 
+details summary {
+  color: black;
+  cursor: pointer;
+  text-decoration: underline;
+}
 
+details summary:focus {
+  outline: 3px solid var(--bgColor);
+}
+
+body.dark-theme details summary:focus {
+  outline-color: var(--fontColor);
+}
+
+details[open] summary{
+  margin-bottom: var(--pxFactor);
+  width: 100%;
+}
+
+details[open] a {
+  display: block;
+  margin-bottom: calc(var(--scaFactor) / 2);
+  text-decoration: none;
+}
 
 /* Visual Elements */
 figure + figure {
@@ -276,6 +311,7 @@ footer .gradient {
     bottom: 0px;
     width: 100%;
     height: 80px;
+    pointer-events: none;
 
     /* Gradient Compatability */
     background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
@@ -292,13 +328,19 @@ footer .gradient {
     position: relative;
 }
 
-.button:hover {
-    font-family: var(--fbItalic);
+.button, .filter a, .project-grid a {
+  text-decoration: none;
 }
+
 
 .button:hover , .filter a:hover, .project-grid a:hover { 
   background-color: var(--fontColor); 
   color: var(--bgColor);
+  text-decoration: line-through;
+}
+
+.project-grid a:hover {
+  text-decoration: none;
 }
 
 .prevnext {
