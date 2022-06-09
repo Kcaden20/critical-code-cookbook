@@ -73,7 +73,7 @@ main = document.querySelector("main");
 
 
 details.addEventListener("toggle", function() {
-    updateHeader();
+    // updateHeader();
     if(details.open) {
         main.onclick = function (e) { details.removeAttribute("open");}
     } 
@@ -81,14 +81,15 @@ details.addEventListener("toggle", function() {
 
 // 5.0 HEADER MARGIN
 header = document.querySelector("header");
-console.log(header.offsetHeight);
-updateHeader();
-
+// updateHeader();
 
 // Helper Functions
-function updateHeader(){
-    main.setAttribute("style", "padding-top: " + header.offsetHeight + "px");
-}
+// function updateHeader(){
+//     main.setAttribute("style", "padding-top: " + header.offsetHeight + "px");
+// }
+
+window.onresize = console.log(window.innerWidth);
+
 function toggleFunction(a, b, c, d, e) {
     if(e == 1) {
         a.classList.add(b);

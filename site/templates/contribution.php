@@ -49,9 +49,9 @@
 
 <?php if($page->hasChildren()):?> 
     <?php foreach($page->children() as $child): ?>
-        <hr id="<?= $child->uid() ?>"> 
+        <hr> 
         <section> 
-        <h3> <?= $child->title() ?></h3>
+        <h3 id="<?= $child->uid() ?>"> <?= $child->title() ?></h3>
         <?php snippet('bodyCont', ['page' => $child]) ?>
     <?php endforeach ?>
     </section> 

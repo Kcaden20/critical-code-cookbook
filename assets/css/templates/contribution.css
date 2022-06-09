@@ -44,6 +44,25 @@ h1 + p {font-size: var(--fixFour);}
 
 .context article h4, .context article:last-child p { margin-bottom: 0;}
 
+h3::before, h1::before { 
+    display: block; 
+    content: " "; 
+    margin-top: -11rem; 
+    height: 11rem; 
+    visibility: hidden; 
+    pointer-events: none;
+  }
+
+@media screen and (max-width: 767px) {
+    h3::before, h1::before { 
+        display: block; 
+        content: " "; 
+        margin-top: -13rem; 
+        height: 13rem; 
+        visibility: hidden; 
+        pointer-events: none;
+      }
+}
 @media screen and (max-width: 500px) { 
     main {
         padding-top: 12em;

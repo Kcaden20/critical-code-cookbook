@@ -8,6 +8,7 @@ body {
     --colorYell: #FFF799;  
     --colorWhite: white; 
     --colorBlack: black; 
+    --colorCode: #3A1443;
 
     /* 0.0.2 Sizes */
     --monitorSize: 90rem;
@@ -25,6 +26,7 @@ body {
     /* 1.1.0 LIGHT THEME VARIABLES */
     --bgColor: var(--colorPink);
     --fontColor: var(--colorBlack);
+    --codeColor: var(--colorCode);
 
     --navColor: var(--colorWhite); 
     color: var(--colorBlack);
@@ -36,6 +38,7 @@ body {
     --fhItalic: 'Avara Bold Italic';
     --fBody: 'Tiresias PC Font'; 
     --fbItalic: 'Tiresias PC Font Italic';
+    --fCode: 'Inconsolata';
 
     /* 1.2.2 Font Sizes */
     --fixFactor: .5rem; 
@@ -70,6 +73,7 @@ body.dark-theme {
     /* 2.1.0 Dark Theme Variables */
     --bgColor: var(--colorBlack);
     --fontColor: var(--colorPink);
+    --colorCode: white;
 }
 
 /* 3.0 Display-P3 COLOR SUPPORT  */
