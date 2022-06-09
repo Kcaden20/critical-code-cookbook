@@ -85,11 +85,7 @@ console.log(header.offsetHeight);
 updateHeader();
 
 
-
-
-
 // Helper Functions
-
 function updateHeader(){
     main.setAttribute("style", "padding-top: " + header.offsetHeight + "px");
 }

@@ -45,7 +45,7 @@
             </section>
             <?php if(($page->hasChildren() && $page->template() == 'contribution') || $page->template() == 'contribution-subpage'):?>
                 <nav class="subnav">
-                    <a href="<?php if($page->template() == 'contribution') { echo $page->url(); } else { echo $page->parent()->url(); }?>"> Overview </a>
+                    <a href="#title"> Introduction </a>
                     <?php 
                     if($page->template() == 'contribution') {
                         $contributions = $page->children();
@@ -57,17 +57,9 @@
                         <a href="#<?= $contribution->uid()?>"> <?= $contribution->title() ?></a>
                     <?php endforeach ?>
                 </nav>
-            <?php elseif($page->template() == 'contribution-subpage'): ?>
-                <nav>
-                    <p> Contribution Content </p>
-                    <a href="<?= $page->parent()->url() ?>"> Overview</a>
-
-                </nav>
             <?php endif ?>
         </header>
-
-        <!-- TODO: Add in a way to change color based on categories on contributions page -->
         <main class="<?= $page->template() ?>">
         <?php if(!$page->isHomePage()): ?>
-            <h1><?= $page->title() ?></h1>
+            <h1 id="title"><?= $page->title() ?></h1>
         <?php endif ?>
