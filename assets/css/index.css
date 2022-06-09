@@ -27,7 +27,7 @@ section + section {
   padding-top: 0;
 }
 
-main section *:not(hr, a, p, code):first-child {
+main section *:not(hr, a, p, code, li, sup ):first-child {
   padding-top: 0;
   margin-top: 0;
 }
@@ -51,7 +51,7 @@ code {
 /* 1.1.2 Header & Navigation */
 header {
     background-color: var(--navColor);
-    padding: var(--pxFive);
+    padding: var(--pxSix) var(--pxFive);
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
     position: fixed;
@@ -85,7 +85,7 @@ header nav a:hover {
 
 }
 
-body.dark-theme header nav a:hover{
+body.dark-theme header nav a:hover, body.dark-theme code {
   color: var(--fontColor);
 }
 
@@ -234,7 +234,7 @@ h3 {font-size: var(--fixThree);}
 h4 {font-size: var(--fixFour);}
 h5, header nav a, header details summary{font-size: var(--fixFive);}
 p, li {font-size: 1.25rem;}
-body.dark-theme main p, body.dark-theme main li { color: white;} 
+body.dark-theme main p:not(.filter p), body.dark-theme main li { color: white;} 
 
 header article p {font-size: 1rem}
 
@@ -264,13 +264,14 @@ details[open] a {
 }
 
 /* Visual Elements */
-figure + figure {
+figure {
   margin: var(--scaThree);
 }
 
 figcaption {
   text-align: center;
   font-style: italic;
+  margin-bottom: var(--scaThree);
 }
 svg {display: block;}
 img {width: 100%; max-width: var(--tabletMax); display: block; margin: 0 auto}
@@ -366,7 +367,12 @@ body.dark-theme svg {
 }
 
 body.dark-theme .button:hover p, body.dark-theme .filter a:hover p, body.dark-theme .project-grid a:hover p {
-  color: black;
+  color: black !important;
+}
+
+body.dark-theme figure {
+  border: var(--borderStroke);
+  border-width: 1px;
 }
 
 /* 2.2 Grids */
@@ -441,10 +447,14 @@ body.dark-theme .button:hover p, body.dark-theme .filter a:hover p, body.dark-th
 section.blocks {
   padding: 0;
 }
+
+section.blocks p {
+  margin: 0;
+}
 /* 3.0 KIRBY */
 .grid {
   --columns: 12;
-  --gutter: 3rem;
+  --gutter: 1rem;
   display: grid;
   grid-gap: var(--gutter);
   grid-template-columns: 1fr;

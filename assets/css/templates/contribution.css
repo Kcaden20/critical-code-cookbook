@@ -1,15 +1,15 @@
 /* 1.0 HEADER  */
 header {
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 0;
+    padding: 0;
+    padding-top: var(--pxSix);
+    padding-top: var(--pxSix);
     width: 100%;
 }
 
 .subnav {padding-bottom: var(--pxFactor);}
 
-header nav {padding-left: var(--pxFive); padding-bottom: var(--pxFive);}
-header section {padding-right: var(--pxFive); padding-bottom: var(--pxFive);}
+header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);}
+header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
 
 /* 2.0 SUBNAV */
 .subnav {
@@ -44,6 +44,7 @@ h1 + p {font-size: var(--fixFour);}
 
 .context article h4, .context article:last-child p { margin-bottom: 0;}
 
+
 h3::before, h1::before { 
     display: block; 
     content: " "; 
@@ -51,17 +52,37 @@ h3::before, h1::before {
     height: 11rem; 
     visibility: hidden; 
     pointer-events: none;
-  }
+}
+
+@supports (background-clip: content-box) {
+    sup, .footnotes ol li  { 
+        padding-top: 9rem;
+        margin-top: -9rem;
+        -webkit-background-clip: content-box;
+        background-clip: content-box;
+    }
+} 
 
 @media screen and (max-width: 767px) {
     h3::before, h1::before { 
-        display: block; 
+        display: inline; 
         content: " "; 
         margin-top: -13rem; 
         height: 13rem; 
         visibility: hidden; 
         pointer-events: none;
       }
+
+      @supports (background-clip: content-box) {
+        sup, .footnotes ol li  { 
+            padding-top: 10rem;
+            margin-top: -10rem;
+            -webkit-background-clip: content-box;
+            background-clip: content-box;
+        }
+    } 
+    
+
 }
 @media screen and (max-width: 500px) { 
     main {

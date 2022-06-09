@@ -45,15 +45,15 @@
                 <p>Light</p>
             </article>
             </section>
-            <?php if(($page->hasChildren() && $page->template() == 'contribution') || $page->template() == 'contribution-subpage'):?>
+            <?php if($page->template() == 'contribution'):?>
                 <nav class="subnav">
                     <a href="#title"> Introduction </a>
-                    <?php 
+                    <a href="#body">Body</a>
+                    <?php
                     if($page->template() == 'contribution') {
                         $contributions = $page->children();
-                    } else {
-                        $contributions = $page->parent()->children();
                     }
+                    
                     
                     foreach($contributions as $contribution): ?>
                         <a href="#<?= $contribution->uid()?>"> <?= $contribution->title() ?></a>

@@ -42,8 +42,8 @@
 <?php endif ?>
 
 <!-- Contribution Body -->
-<section id="body">
-    <h3>Body</h3>
+<section>
+    <h3 id="body">Body</h3>
     <?php snippet('bodyCont') ?>
 </section>
 
