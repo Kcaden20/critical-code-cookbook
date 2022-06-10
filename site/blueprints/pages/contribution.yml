@@ -117,4 +117,5 @@ tabs:
             extends: fields/toggleOps
             label: Add Layout Block? 
             default: off
+  seotab: seo
           

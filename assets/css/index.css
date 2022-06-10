@@ -238,10 +238,23 @@ body.dark-theme main p:not(.filter p), body.dark-theme main li { color: white;}
 
 header article p {font-size: 1rem}
 
+details {
+  width: 100%; ;
+}
+
 details summary {
   color: black;
   cursor: pointer;
   text-decoration: underline;
+  padding: calc(var(--scaFactor) / 2);
+}
+
+details summary:hover {
+  color: var(--bgColor);
+}
+
+body.dark-theme summary:hover {
+  color: var(--fontColor);
 }
 
 details summary:focus {
@@ -252,15 +265,14 @@ body.dark-theme details summary:focus {
   outline-color: var(--fontColor);
 }
 
-details[open] summary{
-  margin-bottom: var(--pxFactor);
-  width: 100%;
-}
-
 details[open] a {
   display: block;
   margin-bottom: calc(var(--scaFactor) / 2);
   text-decoration: none;
+}
+
+details[open] a:first-of-type {
+  margin-top: calc(var(--scaFactor));
 }
 
 /* Visual Elements */
@@ -286,6 +298,7 @@ img {width: 100%; max-width: var(--tabletMax); display: block; margin: 0 auto}
   padding-bottom: calc(100% / var(--w) * var(--h));
   background: var(--color-black);
 }
+
 .img img,
 .video iframe {
   position: absolute;

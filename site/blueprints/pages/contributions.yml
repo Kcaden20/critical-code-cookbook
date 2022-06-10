@@ -70,3 +70,4 @@ columns:
         extends: sections/contribution
         headline: Published 
         status: listed
+  seotab: seo

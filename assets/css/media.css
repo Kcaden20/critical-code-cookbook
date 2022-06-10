@@ -35,17 +35,20 @@
       font-size: .7rem;
   }
 
+  header {
+    align-items: flex-start;
+  }
+
+  header section {
+    flex-wrap: nowrap;
+  }
+
   nav.desktop {
     display: none; 
   }
 
   nav.mobile {
     display: flex; 
-  }
-
-  header section {
-    flex-wrap: nowrap;
-    align-items: flex-start;
   }
 
   .subnav a {

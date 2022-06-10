@@ -31,4 +31,5 @@ fields:
         type: text
         width: 1 
         maxLength: 140
+  seotab: seo
 

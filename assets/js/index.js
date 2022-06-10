@@ -88,8 +88,6 @@ header = document.querySelector("header");
 //     main.setAttribute("style", "padding-top: " + header.offsetHeight + "px");
 // }
 
-window.onresize = console.log(window.innerWidth);
-
 function toggleFunction(a, b, c, d, e) {
     if(e == 1) {
         a.classList.add(b);

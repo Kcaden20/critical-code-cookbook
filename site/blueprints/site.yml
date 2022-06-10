@@ -122,3 +122,4 @@ tabs:
                   creditUrl:
                     label: Credit URL
                     type: url
+  seotab: seo
