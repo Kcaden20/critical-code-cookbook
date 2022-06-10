@@ -62,11 +62,11 @@ body {
 
     /* 1.3.1 Scaling Sizes */
     --scaFactor: .5em; 
-    --scaOne: calc(var(--scaFactor) * 6);
-    --scaTwo: calc(var(--scaFactor) * 5);
-    --scaThree: calc(var(--scaFactor) * 4);
-    --scaFour: calc(var(--scaFactor) * 3.5);
-    --scaFive: calc(var(--scaFactor) * 3);   
+    --scaOne: calc(var(--scaFactor) * 3);
+    --scaTwo: calc(var(--scaFactor) * 2.5);
+    --scaThree: calc(var(--scaFactor) * 2);
+    --scaFour: calc(var(--scaFactor) * 1.75);
+    --scaFive: calc(var(--scaFactor) * 1.5);   
 }
 
 /* 2.0 DARK THEME */

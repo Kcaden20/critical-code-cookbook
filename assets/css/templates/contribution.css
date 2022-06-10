@@ -8,6 +8,12 @@ header {
 
 .subnav {padding-bottom: var(--pxFactor);}
 
+h3:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+
 header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);}
 header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
 

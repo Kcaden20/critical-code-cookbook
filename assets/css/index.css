@@ -27,11 +27,6 @@ section + section {
   padding-top: 0;
 }
 
-main section *:not(hr, a, p, code, li, sup ):first-child {
-  padding-top: 0;
-  margin-top: 0;
-}
-
 ol, ul {
   padding-left: var(--scaFive);
   padding-bottom: var(--scaFive);
@@ -154,7 +149,7 @@ header section article p {
 
 .switch {
     position: relative;
-    display: inline-block;
+    display: block;
     width: 60px;
     height: calc(var(--pxFactor) * 4);
     flex-shrink: 0;
