@@ -7,11 +7,13 @@ main {
 }
 main #splash {
     width:100vw;
+    position: relative;
     padding: 0;
     min-height: 99vh;
     display: flex;
     flex-direction: column; 
     justify-content: center;
+    overflow: hidden;
 
 }
 
@@ -89,10 +91,11 @@ section svg {
 
 .container {
     width: 100%;
-    top: 0;
-    left: 0;
+    top: 60%;
+    left: 40%;
     position: absolute;
     z-index: -1;
+    transform: translate(-50%, -50%);
 
   }
   .container > .row {
@@ -270,4 +273,5 @@ body.dark-theme #resources {
 
 body.dark-theme #about, body.dark-theme #contributions, body.dark-theme #resources {
     --bgColor: black;
+    background-color: var(--bgColor);
 }

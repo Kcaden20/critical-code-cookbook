@@ -13,7 +13,6 @@ if(localStorage.getItem('gradient') == 'false') {
     toggleButtons[0].querySelector('input').checked = false;
     toggleFunction(bottomGrad, 'gradient', 0, 'Effects Off', 0);
     document.querySelector('header').classList.remove('box-shadow'); 
-    document.getElementById('background').classList.add('display-none');
 } else {
     toggleButtons[0].querySelector('input').checked = true;
     toggleFunction(bottomGrad, 'gradient', 0, 'Effects On', 1);
@@ -36,11 +35,9 @@ toggleButtons[0].querySelector('input').addEventListener('click', function(){
     // TODO: Add Splash Gradient Targeting
     if(!this.checked) {
         document.querySelector('header').classList.remove('box-shadow');
-        document.getElementById('background').classList.add('display-none');
         toggleFunction(bottomGrad, 'gradient', 0, 'Effects Off', 0);
         localStorage.setItem('gradient', this.checked);
     } else {
-        document.getElementById('background').classList.remove('display-none');
         document.querySelector('header').classList.add('box-shadow');
         toggleFunction(bottomGrad, 'gradient', 0, 'Effects On', 1);
         localStorage.setItem('gradient', this.checked);

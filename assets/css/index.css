@@ -4,11 +4,6 @@
 /* 1.1 Containers */
 /* 1.1.1 Body */
 
-@keyframes floater {
-  0%{transform: translateY(-5%);transition: ease 0.5s;}
-  50%{transform: translateY(5%);transition: ease 0.5s;}
-}
-
 body {
     position: relative;
     background-color: var(--bgColor);
@@ -235,9 +230,9 @@ h1, h2, h3 {
 /* Font Sizes */
 h1 {font-size: var(--fixOne);}
 h2 {font-size: var(--fixTwo);}
-h3 {font-size: var(--fixThree);}
-h4 {font-size: var(--fixFour);}
-h5, header nav a, header details summary{font-size: var(--fixFive);}
+h3, header details summary, details[open] a {font-size: var(--fixThree);}
+h4{font-size: var(--fixFour);}
+h5, header nav a{font-size: var(--fixFive);}
 p, li {font-size: 1.25rem;}
 body.dark-theme main p:not(.filter p), body.dark-theme main li { color: white;} 
 

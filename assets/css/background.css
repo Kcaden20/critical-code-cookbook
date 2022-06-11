@@ -8,9 +8,6 @@
   }
 }
 
-@keyframes rotate {
-}
-
 .container {
   display: grid;
   grid-template-columns: repeat(10, 200px);
