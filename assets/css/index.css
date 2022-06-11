@@ -4,12 +4,19 @@
 /* 1.1 Containers */
 /* 1.1.1 Body */
 
+@keyframes floater {
+  0%{transform: translateY(-5%);transition: ease 0.5s;}
+  50%{transform: translateY(5%);transition: ease 0.5s;}
+}
+
 body {
+    position: relative;
     background-color: var(--bgColor);
     color: var(--fontColor);
     font-family: var(--fBody);
     margin: 0;
     padding-bottom: 80px;
+
 }
 
 main {
@@ -17,10 +24,12 @@ main {
     max-width: var(--monitorSize);
     margin: 0 auto;
     min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
 }
 
 main section {
-  padding: var(--scaThree);
+  padding: var(--scaOne);
 }
 
 section + section {
@@ -30,6 +39,7 @@ section + section {
 ol, ul {
   padding-left: var(--scaFive);
   padding-bottom: var(--scaFive);
+  margin-left: var(--scaFive)
 }
 
 
@@ -248,6 +258,14 @@ details summary:hover {
   color: var(--bgColor);
 }
 
+.icon {
+  font-size: calc(var(--fixOne) * 2);
+  text-align: center;
+  color: var(--fontColor) !important;
+  font-family: 'MP Tools';
+  margin: 0 auto;
+}
+
 body.dark-theme summary:hover {
   color: var(--fontColor);
 }
@@ -340,6 +358,7 @@ footer .gradient {
     background: linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
     
 }
+
 /* 2.1 Link Buttons */
 .button {
     border: var(--borderStroke);

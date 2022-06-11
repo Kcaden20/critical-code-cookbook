@@ -4,16 +4,15 @@
             <!-- TODO: Build Splashpage -->
             <section id="splash" class="gradient">
                 <h1><?= $site->title() ?></h1>
-                <?= $page->byLine()->kt() ?>
+                 <?= $page->byLine()->kt() ?>
+            <?php snippet('splash') ?>
             </section>
             
             <!-- ABOUT -->
             <section id="about">
                 <!-- TODO: Add Icon -->
                 <!-- Introduction Title Conditional -->
-                <svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="45" cy="45" r="43.5" stroke="black" stroke-width="3"/>
-                </svg>
+                <p class="icon" aria-hidden="true">»</p>
                 <?php 
                 $introTitle = $page->introTitle(); 
                 if($introTitle->isNotEmpty()): ?>
@@ -31,9 +30,7 @@
             <!-- CONTRIBUTIONS  -->
             <section id="contributions">
                 <!-- TODO: Add Final Icon -->
-            <svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="45" cy="45" r="43.5" stroke="black" stroke-width="3"/>
-                </svg>
+                <p class="icon" aria-hidden="true">\</p>
                     <?php $contributions = page('contributions')?>
                     <h2><?= $contributions->title() ?></h2>
 
@@ -68,9 +65,7 @@
             <!-- RESOURCES -->
             <!-- TODO: Add Icon -->
             <section id="resources">
-            <svg width="45" height="45" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <circle cx="45" cy="45" r="43.5" stroke="black" stroke-width="3"/>
-                </svg>
+                <p class="icon" aria-hidden="true">Ë</p>
                     <?php $resources = page('resources'); ?>
                     <h2><?= $resources->title()?></h2>
                     <?php if($page->resourcesText()):?>

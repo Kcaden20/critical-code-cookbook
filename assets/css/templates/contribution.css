@@ -71,7 +71,7 @@ h3::before, h1::before {
 
 @media screen and (max-width: 767px) {
     h3::before, h1::before { 
-        display: inline; 
+        display: block; 
         content: " "; 
         margin-top: -13rem; 
         height: 13rem; 

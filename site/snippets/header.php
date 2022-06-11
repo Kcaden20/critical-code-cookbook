@@ -14,6 +14,7 @@
             'assets/css/index.css',
             'assets/css/media.css',
             'assets/css/lightbox.css',
+            'assets/css/background.css',
             '@auto'
         ]) ?>
 
@@ -36,7 +37,7 @@
                     <input type="checkbox" checked>
                     <span class="slider round"></span>
                 </label>
-                <p>Gradient On</p>
+                <p>Effects On</p>
             </article>
             <article class="toggle" aria-label="Toggle Theme">
                 <label id="theme" class="switch">

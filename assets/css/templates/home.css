@@ -1,21 +1,41 @@
 /* 1.0 HTML ELEMENTS */
 main {
+    padding-top: 0;
     max-width: 100%;
+    overflow-x: hidden;
+
 }
 main #splash {
-    min-height: calc(100vh - 12.5rem);
+    width:100vw;
+    padding: 0;
+    min-height: 99vh;
     display: flex;
     flex-direction: column; 
     justify-content: center;
 
 }
 
+#splash h1, #splash p {
+    padding: var(--pxFive);
+    border: var(--borderStroke);
+    border-radius: 100px;
+    background-color: white;
+    margin: 0 auto; 
+    position: relative;
+    z-index: 1;
+}
+
+body.dark-theme #splash h1, body.dark-theme #splash p {
+  background-color: black;
+}
+
 main #splash h1 {
     font-size: 5rem;
+    margin-bottom: var(--pxFive);
 }
 
 main #splash p {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: var(--fHeading);
 }
 /* 1.1 Containers */
@@ -26,7 +46,7 @@ main section > * {
 }
 
 main section {
-    padding-top: var(--scaThree);
+    padding: calc(var(--scaOne) * 2) var(--scaOne);
   }
 
 /* 1.2 Tags */
@@ -35,9 +55,10 @@ h1, h2, h3, main #splash p {
 }
 
 section svg {
-    --svgSize: 60px;
+    --svgSize: 120px;
     height: var(--svgSize);
     width: var(--svgSize);
+    fill: var(--fontColor);
 }
 
 /* 2.0 CLASSES */
@@ -65,6 +86,175 @@ section svg {
     --bgColor: var(--colorPurp);
     background-color: var(--bgColor);
 }
+
+.container {
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    z-index: -1;
+
+  }
+  .container > .row {
+    position: relative;
+    float: left;
+    width: 100%;
+    clear: both;
+  }
+  .container > .row > .loader {
+    position: relative;
+    display: inline-block;
+    height: 10vw;
+    width: 10vw;
+  }
+  .container > .row > .loader > .lines {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    position: absolute;
+  }
+  .container > .row > .loader > .lines > span {
+    -webkit-animation: shift-background 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+            animation: shift-background 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+    background-color: white;
+    position: absolute;
+    width: 2vw;
+    height: 3px;
+  }
+  .container > .row > .loader > .lines > span::before {
+    background-color: inherit;
+    height: 2vw;
+    position: absolute;
+    content: "";
+    width: 3px;
+  }
+  .container > .row > .loader > .lines > span:nth-child(1), .container > .row > .loader > .lines > span:nth-child(4), .container > .row > .loader > .lines > span:nth-child(1)::before, .container > .row > .loader > .lines > span:nth-child(4)::before {
+    left: 0;
+  }
+  .container > .row > .loader > .lines > span:nth-child(2), .container > .row > .loader > .lines > span:nth-child(3), .container > .row > .loader > .lines > span:nth-child(2)::before, .container > .row > .loader > .lines > span:nth-child(3)::before {
+    right: 0;
+  }
+  .container > .row > .loader > .lines > span:nth-child(1), .container > .row > .loader > .lines > span:nth-child(2), .container > .row > .loader > .lines > span:nth-child(1)::before, .container > .row > .loader > .lines > span:nth-child(2)::before {
+    top: 0;
+  }
+  .container > .row > .loader > .lines > span:nth-child(3), .container > .row > .loader > .lines > span:nth-child(4), .container > .row > .loader > .lines > span:nth-child(3)::before, .container > .row > .loader > .lines > span:nth-child(4)::before {
+    bottom: 0;
+  }
+  .container > .row:nth-child(even) > .loader:nth-child(even) > .lines {
+    -webkit-animation: rotate-right 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+            animation: rotate-right 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+  }
+  .container > .row:nth-child(even) > .loader:nth-child(odd) > .lines {
+    -webkit-animation: rotate-left 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+            animation: rotate-left 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+  }
+  .container > .row:nth-child(odd) > .loader:nth-child(even) > .lines {
+    -webkit-animation: rotate-left 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+            animation: rotate-left 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+  }
+  .container > .row:nth-child(odd) > .loader:nth-child(odd) > .lines {
+    -webkit-animation: rotate-right 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+            animation: rotate-right 3s infinite cubic-bezier(1, 0.5, 0.25, 0.5);
+  }
+  
+  @-webkit-keyframes rotate-right {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    25% {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(90deg);
+    }
+    75% {
+      transform: translate(-50%, -50%) rotate(135deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(180deg);
+    }
+  }
+  
+  @keyframes rotate-right {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    25% {
+      transform: translate(-50%, -50%) rotate(45deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(90deg);
+    }
+    75% {
+      transform: translate(-50%, -50%) rotate(135deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(180deg);
+    }
+  }
+  @-webkit-keyframes rotate-left {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    25% {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(-90deg);
+    }
+    75% {
+      transform: translate(-50%, -50%) rotate(-135deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(-180deg);
+    }
+  }
+  @keyframes rotate-left {
+    0% {
+      transform: translate(-50%, -50%) rotate(0deg);
+    }
+    25% {
+      transform: translate(-50%, -50%) rotate(-45deg);
+    }
+    50% {
+      transform: translate(-50%, -50%) rotate(-90deg);
+    }
+    75% {
+      transform: translate(-50%, -50%) rotate(-135deg);
+    }
+    100% {
+      transform: translate(-50%, -50%) rotate(-180deg);
+    }
+  }
+  @-webkit-keyframes shift-background {
+    0%, 100% {
+      background-color: #3A1443;
+    }
+    25% {
+        background-color: #FFF799;
+    }
+    50% {
+        background-color: #CC66FF;
+    }
+    75% {
+      background-color: white;
+    }
+  }
+  @keyframes shift-background {
+    0%, 100% {
+        background-color: #F485EC;
+      }
+      25% {
+        background-color: #FFF799;
+    }
+    50% {
+        background-color: #CC66FF;
+    }
+      75% {
+        background-color: white;
+      }
+  }
 
 /* 4.0 DARK THEME */
 body.dark-theme #about {

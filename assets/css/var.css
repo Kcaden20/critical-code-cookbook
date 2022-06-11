@@ -39,6 +39,7 @@ body {
     --fBody: 'Tiresias PC Font'; 
     --fbItalic: 'Tiresias PC Font Italic';
     --fCode: 'Inconsolata';
+    --fIcon: 'MP Tools';
 
     /* 1.2.2 Font Sizes */
     --fixFactor: .5rem; 
