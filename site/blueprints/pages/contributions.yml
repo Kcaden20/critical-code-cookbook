@@ -34,12 +34,27 @@ columns:
             label: Contribution Categories
             type: structure 
             min: 1
-            help: This allows you to customize what contribution options you have! Add or remove as needed!
+            help:Directly add the SVG code in here if it needs to be custom, make sure to remove any fill! 
             fields:
               category: 
                 label: Contribution Name
                 type: text
                 required: true
+              select:
+                label: Select Icon
+                type: select
+                required: true  
+                options:
+                  create: Create
+                  paper: Paper
+                  sun: Sun
+                  custom: Custom
+              svgUpload:
+                label: SVG Upload
+                type: text
+                when:
+                  select: custom
+                help: Directly add the SVG code in here if it needs to be custom! 
   - width: 1/2
     sections:
       languages:
@@ -55,6 +70,22 @@ columns:
                 label: Language
                 type: text
                 required: true 
+              select:
+                label: Select Icon
+                type: select 
+                requred: true
+                options:
+                  any: Any
+                  five: Five
+                  snake: Snake 
+                  custom: Custom 
+              svgUpload:
+                label: Custom SVG
+                type: text
+                when:
+                  select: custom
+                help: Directly add the SVG code in here if it needs to be custom, make sure to remove any fill! 
+
 
   - width: 1/4
     sections:

@@ -1,7 +1,6 @@
 <?php snippet('header') ?>
 
             <!-- TITLESPLASH -->
-            <!-- TODO: Build Splashpage -->
             <section id="splash" class="gradient">
                 <h1><?= $site->title() ?></h1>
                  <?= $page->byLine()->kt() ?>
@@ -10,10 +9,9 @@
             
             <!-- ABOUT -->
             <section id="about">
-                <!-- TODO: Add Icon -->
-                <!-- Introduction Title Conditional -->
-                <p class="icon" aria-hidden="true">»</p>
                 <?php 
+                $about = page('about');
+                snippet('svg-select', ['svgSel' => $about->title()]); 
                 $introTitle = $page->introTitle(); 
                 if($introTitle->isNotEmpty()): ?>
                     <h2><?= $introTitle?></h2>
@@ -30,8 +28,10 @@
             <!-- CONTRIBUTIONS  -->
             <section id="contributions">
                 <!-- TODO: Add Final Icon -->
-                <p class="icon" aria-hidden="true">\</p>
-                    <?php $contributions = page('contributions')?>
+                    <?php 
+                    $contributions = page('contributions');
+                    snippet('svg-select', ['svgSel' => $contributions->title() ]);
+                    ?>
                     <h2><?= $contributions->title() ?></h2>
 
                     <!-- Contributions Text Conditional -->
@@ -49,6 +49,7 @@
                                     $url = $contributions->url();
                                     $key = strval($filter); 
                                     $cleanFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", $filter); ?>
+                                    <!-- TODO: Compare Filter Against Larger Structure: If Found, Display SVG -->
                                     <a <?php e((strpos($url, $key) !== false), 'aria-current') ?> href="<?= $contributions->url() ?>?filter=<?= $filter ?>">
                                     <p><?= $cleanFilter ?></p>
                                     </a>
@@ -65,8 +66,10 @@
             <!-- RESOURCES -->
             <!-- TODO: Add Icon -->
             <section id="resources">
-                <p class="icon" aria-hidden="true">Ë</p>
-                    <?php $resources = page('resources'); ?>
+                    <?php 
+                    $resources = page('resources'); 
+                    snippet('svg-select', ['svgSel' => $resources->title()]);
+                    ?>
                     <h2><?= $resources->title()?></h2>
                     <?php if($page->resourcesText()):?>
                         <article><?= $page->resourcesText()->kt() ?></article>

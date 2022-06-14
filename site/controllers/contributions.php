@@ -15,6 +15,7 @@ return function() {
                 return $this;
             }
         });
+
         $catFilter = $unfiltered->pluck('category', null, true);
         $langFilter = $unfiltered->pluck('language', null, true);
         $filters = array_merge($catFilter, $langFilter);

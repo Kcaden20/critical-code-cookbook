@@ -10,10 +10,16 @@ Catoptions:
 
 - 
   category: Activity
+  select: create
+  svgupload: ""
 - 
   category: Project
+  select: paper
+  svgupload: ""
 - 
   category: Case Study
+  select: custom
+  svgupload: ""
 
 ----
 
@@ -21,7 +27,13 @@ Langoptions:
 
 - 
   category: Any
+  select: any
+  svgupload: ""
 - 
   category: P5.js
+  select: five
+  svgupload: ""
 - 
   category: Python
+  select: snake
+  svgupload: ""

@@ -294,6 +294,24 @@ figcaption {
   margin-bottom: var(--scaThree);
 }
 svg {display: block;}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.svg-container svg {
+  --svgSize: 15%;
+  --maxW: 150px;
+  max-width: var(--maxW) !important;
+  min-width: calc(var(--maxW) / 2);
+  height: var(--svgSize);
+  width: var(--svgSize);
+  fill: var(--fontColor);
+}
+
 img {width: 100%; max-width: var(--tabletMax); display: block; margin: 0 auto}
 
 

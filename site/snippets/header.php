@@ -52,11 +52,7 @@
                     <a href="#title"> Introduction </a>
                     <a href="#body">Body</a>
                     <?php
-                    if($page->template() == 'contribution') {
-                        $contributions = $page->children();
-                    }
-                    
-                    
+                    if($page->template() == 'contribution') {$contributions = $page->children();}
                     foreach($contributions as $contribution): ?>
                         <a href="#<?= $contribution->uid()?>"> <?= $contribution->title() ?></a>
                     <?php endforeach ?>
@@ -65,5 +61,10 @@
         </header>
         <main class="<?= $page->template() ?>">
         <?php if(!$page->isHomePage()): ?>
-            <h1 id="title"><?= $page->title() ?></h1>
+            <?php if(($page->template() == 'contributions') or ($page->template() == 'about') or ($page->template() == 'resources') or ($page->template() == 'downloads')): ?>
+                <?php snippet('svg-select', ['svgSel' => $page->title() ]) ?>
+                <h1 id="title"><?= $page->title() ?></h1>
+            <?php else: ?>
+                <h1 id="title"><?= $page->title() ?></h1>
+            <?php endif ?>
         <?php endif ?>
