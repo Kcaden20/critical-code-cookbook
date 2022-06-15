@@ -13,7 +13,6 @@
   grid-template-columns: repeat(10, 200px);
   grid-template-rows: repeat(6, 230px);
   transform: translate(-3%, -4%);
-  opacity: .7;
 }
 
 .display-none {

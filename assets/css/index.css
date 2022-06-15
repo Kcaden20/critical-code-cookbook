@@ -26,7 +26,6 @@ main {
 main section {
   padding: var(--scaOne);
 }
-
 section + section {
   padding-top: 0;
 }
@@ -304,7 +303,7 @@ svg {display: block;}
 
 .svg-container svg {
   --svgSize: 15%;
-  --maxW: 150px;
+  --maxW: 200px;
   max-width: var(--maxW) !important;
   min-width: calc(var(--maxW) / 2);
   height: var(--svgSize);
@@ -378,6 +377,7 @@ footer .gradient {
     padding: var(--scaFive) var(--scaThree);
     border-radius: 50px;
     position: relative;
+    margin-top: calc(var(--scaOne) * 3);
 }
 
 .button, .filter a, .project-grid a {
@@ -385,10 +385,23 @@ footer .gradient {
 }
 
 
+
 .button:hover , .filter a:hover, .project-grid a:hover { 
   background-color: var(--fontColor); 
   color: var(--bgColor);
   text-decoration: line-through;
+}
+
+.filter a .svg-container {
+  padding: calc(var(--scaOne) * 2) 0;
+}
+
+.filter a .svg-container svg {
+  --maxW: 250px;
+}
+
+.filter a:hover .svg-container svg {
+  fill: var(--bgColor);
 }
 
 .project-grid a:hover {

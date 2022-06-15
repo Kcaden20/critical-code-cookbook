@@ -51,7 +51,7 @@ main section > * {
 
 main section {
     padding: calc(var(--scaOne) * 2) var(--scaOne);
-    margin: calc(var(--scaOne) * 5) 0;
+    margin: calc(var(--scaOne) * 3) 0;
   }
 
 /* 1.2 Tags */

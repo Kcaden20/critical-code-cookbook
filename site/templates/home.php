@@ -48,9 +48,29 @@
                                 <?php 
                                     $url = $contributions->url();
                                     $key = strval($filter); 
-                                    $cleanFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", $filter); ?>
+                                    $cleanFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", str_replace(' ', '', $filter)); 
+                                    $catOptions = $contributions->catOptions()->toStructure();
+                                    $langOptions = $contributions->langOptions()->toStructure();
+                                    ?>
                                     <!-- TODO: Compare Filter Against Larger Structure: If Found, Display SVG -->
                                     <a <?php e((strpos($url, $key) !== false), 'aria-current') ?> href="<?= $contributions->url() ?>?filter=<?= $filter ?>">
+                                    <?php if(in_array($key, $catFilter) !== FALSE): ?>
+                                        <?php foreach ($catOptions as $catOption): ?>
+                                            <?php $catCompFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", strval($catOption->category())); 
+                                                if(strcasecmp($cleanFilter, $catCompFilter) === 0): ?>
+                                                <?php $catString = preg_replace("/[^a-zA-Z0-9]+/", " ", str_replace(" ", "", $catOption->select())) ?>
+                                                    <?php snippet('svg-select', ['svgSel' => $catString ]); ?>
+                                                <?php endif ?>
+                                        <?php endforeach ?>
+                                    <?php else: ?>
+                                        <?php foreach($langOptions as $langOption): ?>
+                                            <?php $langCompFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", strval($langOption->category())); 
+                                                if(strcasecmp($cleanFilter, $langCompFilter) === 0): ?>
+                                                <?php $langString = preg_replace("/[^a-zA-Z0-9]+/", " ", str_replace(" ", "", $langOption->select())) ?>
+                                                    <?php snippet('svg-select', ['svgSel' => $langString ]); ?>
+                                                <?php endif ?>
+                                        <?php endforeach ?>
+                                    <?php endif ?>
                                     <p><?= $cleanFilter ?></p>
                                     </a>
                                 <?php endif ?>

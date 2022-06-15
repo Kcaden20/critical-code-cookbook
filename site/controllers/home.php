@@ -25,6 +25,8 @@ return function() {
         'filterBy' => $filterBy, 
         'unfiltered' => $unfiltered,
         'projects' => $projects,
-        'filters' => $filters
+        'filters' => $filters,
+        'catFilter' => $catFilter,
+        'langFilter' => $langFilter
     ];
 };
