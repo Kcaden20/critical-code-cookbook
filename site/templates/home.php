@@ -59,7 +59,7 @@
                                             <?php $catCompFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", strval($catOption->category())); 
                                                 if(strcasecmp($cleanFilter, $catCompFilter) === 0): ?>
                                                 <?php $catString = preg_replace("/[^a-zA-Z0-9]+/", " ", str_replace(" ", "", $catOption->select())) ?>
-                                                    <?php snippet('svg-select', ['svgSel' => $catString ]); ?>
+                                                    <?php snippet('svg-select', ['svgSel' => $catString, 'cusSel' => $catOption->svgUpload() ]); ?>
                                                 <?php endif ?>
                                         <?php endforeach ?>
                                     <?php else: ?>

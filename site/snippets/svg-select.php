@@ -1,5 +1,5 @@
 <section class="svg-container "aria-hidden="true">
-<?php $svgSel; 
+<?php $svgSel; $cusSel; 
 switch ($svgSel) {
     // ABOUT SVG
     case page('about')->title() :?>
@@ -18,7 +18,7 @@ switch ($svgSel) {
     <?php 
     // PROJECT SVG
     break; case "paper": ?>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-25 -20  350 350" fill="none" stroke="#231f20" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="150.94" cy="149.65" rx="105.3" ry="105.19"/><ellipse cx="153.81" cy="65.93" rx="51.65" ry="63.81"/><ellipse cx="149.85" cy="149.65" rx="51.65" ry="63.81"/><ellipse cx="227.36" cy="148.61" rx="51.65" ry="63.81"/><ellipse cx="149.27" cy="240.82" rx="51.65" ry="63.81"/><ellipse cx="73.73" cy="156.04" rx="51.65" ry="63.81"/></svg>
+       <svg xmlns="http://www.w3.org/2000/svg" viewBox="-25 -20  350 350" fill="none" stroke="" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="150.94" cy="149.65" rx="105.3" ry="105.19"></ellipse><ellipse cx="153.81" cy="65.93" rx="51.65" ry="63.81"></ellipse><ellipse cx="149.85" cy="149.65" rx="51.65" ry="63.81"></ellipse><ellipse cx="256.36" cy="148.61" rx="51.65" ry="63.81"></ellipse><ellipse cx="149.27" cy="240.82" rx="51.65" ry="63.81"></ellipse><ellipse cx="46.73" cy="156.04" rx="51.65" ry="63.81"></ellipse></svg>
 
     <?php 
     // ACTIVITY SVG
@@ -47,7 +47,7 @@ switch ($svgSel) {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="-25 -20  350 350" fill="none" stroke="#231f20" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="154.53" cy="63.47" rx="129.61" ry="63.47"/><ellipse cx="153.09" cy="148.28" rx="158.47" ry="39.05" transform="matrix(.818451 -.574577 .574577 .818451 -57.4 114.9)"/><circle cx="54.05" cy="243.53" r="39.05"/><circle cx="245.1" cy="63.47" r="39.05"/><circle cx="67.2" cy="63.9" r="39.05"/><ellipse cx="155.39" cy="263.75" rx="129.61" ry="33.37"/></svg>
     <?php break;
     case "custom":
-        echo "figure it out"
+       $cusSel->kt()
     ?>
 <?php break;
     } ?>
