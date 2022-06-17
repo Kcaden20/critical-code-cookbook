@@ -7,6 +7,7 @@ switch ($svgSel) {
     <?php 
     // DOWNLOADS SVG
     break; case page('downloads')->title(): ?>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" fill="none" xmlns:v="https://vecta.io/nano"><ellipse cx="175" cy="174.38" rx="59.63" ry="131.87" stroke-width="7.1"/><g stroke-width="6.3"><ellipse cx="224.34" cy="222.22" rx="103.93" ry="59.63" transform="matrix(.707107 -.707107 .707107 .707107 -91.43 223.72)"/><ellipse cx="123.05" cy="220.22" rx="59.63" ry="103.93" transform="matrix(.748261 -.663404 .663404 .748261 -115.12 137.07)"/></g></svg>
     <?php 
     // CONTRIBUTIONS SVG
     break; case page('contributions')->title(): ?>

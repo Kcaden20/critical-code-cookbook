@@ -229,9 +229,9 @@ h1, h2, h3 {
 /* Font Sizes */
 h1 {font-size: var(--fixOne);}
 h2 {font-size: var(--fixTwo);}
-h3, header details summary, details[open] a {font-size: var(--fixThree);}
+h3, header {font-size: var(--fixThree);}
 h4{font-size: var(--fixFour);}
-h5, header nav a{font-size: var(--fixFive);}
+h5, header nav a, details summary, details[open] a{font-size: var(--fixFive);}
 p, li {font-size: 1.25rem;}
 body.dark-theme main p:not(.filter p), body.dark-theme main li { color: white;} 
 
@@ -302,7 +302,7 @@ svg {display: block;}
 }
 
 .svg-container svg {
-  --svgSize: 15%;
+  --svgSize: 30%;
   --maxW: 200px;
   max-width: var(--maxW) !important;
   min-width: calc(var(--maxW) / 2);
@@ -397,7 +397,7 @@ footer .gradient {
 }
 
 .filter a .svg-container svg {
-  --maxW: 250px;
+  --maxW: 300px;
 }
 
 .filter a:hover .svg-container svg {

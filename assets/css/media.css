@@ -25,9 +25,12 @@
   }
 
 @media screen and (max-width: 960px) {
-    html {
-        font-size: .85rem;
+    body {
+         --fixFactor: .45rem; 
+         --scaFactor: .45em;
     }
+
+
 
     .filter, .project-grid {
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
@@ -36,9 +39,10 @@
   }
   
 @media screen and (max-width: 767px) {
-  html {
-      font-size: .7rem;
-  }
+  body {
+    --fixFactor: .425rem; 
+    --scaFactor: .425em;
+}
 
   header {
     align-items: flex-start;
@@ -49,7 +53,8 @@
   }
 
   header section article {
-    display: block;
+    display: grid;
+    justify-items: center;
     text-align: center;
   }
 
@@ -70,14 +75,14 @@
   .subnav a {
     font-size: var(--fixFive) !important;
   }
+
+  p, li, h5 {
+    font-size: 1rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
  
-  html {
-    font-size: .5rem;
-  }
-  
   header {
     padding: var(--pxFactor);
     width: calc(100% - calc(var(--pxFactor) * 2));
@@ -93,6 +98,10 @@
 
   .filter a, .project-grid a {
     border-radius: 25px;
+  }
+
+  p, li, h5 {
+    font-size: 1.25rem;
   }
 
 }
