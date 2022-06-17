@@ -10,15 +10,15 @@ Catoptions:
 
 - 
   category: Activity
-  select: create
-  svgupload: ""
-- 
-  category: Project
   select: paper
   svgupload: ""
 - 
+  category: Project
+  select: create
+  svgupload: ""
+- 
   category: Case Study
-  select: custom
+  select: sun
   svgupload: ""
 
 ----
