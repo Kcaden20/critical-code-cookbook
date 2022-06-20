@@ -12,8 +12,5 @@ return [
     'smartypants' => true,
     'markdown' => [
         'extra' => true
-    ],
-    'panel' =>[
-        'install' => true
-      ]
+    ]
 ];
