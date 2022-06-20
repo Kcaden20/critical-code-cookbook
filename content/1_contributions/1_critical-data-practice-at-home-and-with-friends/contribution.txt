@@ -1,0 +1,234 @@
+Title: CRITICAL DATA PRACTICE AT HOME AND WITH FRIENDS
+
+----
+
+Author: Kit Kuksenok
+
+----
+
+Keywords: dataFeminism, selfTracking, dataVisualization
+
+----
+
+Category: activity
+
+----
+
+Language: p5-js
+
+----
+
+Gallery:
+
+- daybird.png
+- bild6.jpg
+- df.png
+
+----
+
+Contextone: Over the past decade, I’ve kept one foot in art-making, and another in code work. Personally, I experimented with journaling and self-reflection since 2008, bringing art (and sometimes code) into this very personal practice. In 2020, after feedback to some of this artwork, I realized that many people have a difficult relationship to technology (not surprising), and that it was helpful to use self-tracking data visualization to engage with broader socio-technical issues (initially very surprising). For the past 1.5 years, I hosted several workshops, and had dozens of conversations on technology-mediated self-reflection, and this recipe builds on those.
+
+----
+
+Contexttwo: This recipe is for everyone with a little bit of interest in working with data as art material; especially people who feel skeptical about collecting data about themselves. I do offer some specific resources. However, my primary goal is to share the idea that something like, for example, making drawings based on your sleep tracker data with a few other people can be a powerful starting point for important discussion of the role of technology in our daily life, and how we want to change it.
+
+----
+
+Contextthree: The lens of intersectionality recognizes how each person’s overlapping identities contribute to discrimination or privilege. There are many books on how technology encodes existing discriminatory practices or structures. But the fact that we each use technology in isolation makes this fact often feel theoretical (including often to those who are affected by technological bias). This recipe suggests applying the principles of (link: https://data-feminism.mitpress.mit.edu/ text: Data Feminism) to data practice, but crucially also proposes “self-tracking” as a group activity. This allows us to see how limited, imperfect, and biased data collection and data tooling can be in a direct way.
+
+----
+
+Shortdesctext:
+
+We are all interfacing with data on a regular basis in different ways. We can use some of this data not only for reflecting on our own lives and bodies, but to practice bringing principles of data feminism into practice, and into a conversation. This can help us develop critical, subversive practices not only as individuals, but as members of our communities.
+
+The ingredients of this recipe are as follows:
+1. The basic concepts of information or data visualization
+1. An expressive medium for journaling with data
+1. Principles to practice while working with one’s data
+1. Community of meaning-making
+
+This recipe includes each ingredient, based on my own data/art practice and teaching experience, but I hope teachers and learners alike feel free to substitute their own ingredient(s) as they see fit:
+1. [A set of p5.js sketches with written tutorials](https://openprocessing.org/class/70239#) that cover fundamental visualization building blocks, like encodings, filtering, repetition, and interactivity
+1. [A living channel that collects examples beyond p5.js](https://www.are.na/kit-kuksenok/encodings), drawing from multi-disciplinary art practice
+1. [An initial suggestion and conversation-starter for how the principles of data feminism applies to personal data practice](https://gist.github.com/ksen0/7d5415e119388664e0c672d0befe820c), drawing from Data Feminism (2020)1 by Catherine D'Ignazio and Lauren F. Klein
+1. In the rest of this document, I offer some reflections on my experiences teaching, learning, and organizing discussions that I hope can spark ideas on how to hold space for confronting complexity and uncertainty collaboratively.
+
+----
+
+Bodycont:
+
+Many of us have some difficulty in their relationship to technology that feels unresolved and isolating. I have found that combining artmaking and group discussion about personal data practice can be a joyful and productive method for engaging with such difficulties. Though some of the ideas in this recipe have been slowly developing over a decade of personal art practice, they were brought into being while teaching two courses on the subject at Berlin's School of Machines, and through ongoing collaborations. I initially intended to support critical engagement with the methods of the “quantified self,” and, through the discussions that ensued, realized that working with personal data can be a powerful site of engagement with broader socio-technical issues that felt both looming and out of reach to many participants.
+
+This recipe is for both learners and teachers who are unsure how to make critical data practice concepts immediately practical. Working with personal data can lead well to interrogating all aspects of how data is produced and handled, and these can be applied to broader societal issues. This approach also lowers the barrier to entry: it is invigorating to create personally meaningful objects from the start. The output is expressive art that can exist on its own, while the process can scaffold critical technical discourse.
+
+(image: daybird.png)
+
+Working with your own data plunges you into the thick of difficult human-technology relationships. Tools for self-tracking are entrenched in a neoliberal political rationality that is present in other technologies, too. Deborah Lupton writes in the Quantified Self2 that “...apparatuses of ‘soft’ rather than ‘hard’ power...[are not] coercive measures that appear to be imposed from above ... People attempt to become productive workers ... because they see it as a way toward achieving their optimal selves;” and such practices of self-optimization “appear to emerge from personal desires and voluntary objectives ...rather from imperatives issues by the state of other sources of authority” (p.45-51). Although some definitions of “self-tracking” emphasize conscious, deliberate data collection, there is a vast amount of data being collected that we could access, but usually don’t; as well as data we have no control over or access to. One exercise for self-reflection and group discussion is the **Data Inventory**:
+
+1. List as many existing personal data sources as you can (e.g.: Screen Time; Calendar)
+1. For each:
+    - What would be an obvious finding from this data?
+    - What would be a surprising finding?
+    - How long does this data need to be collected to be valuable for me?
+1. For the whole list:
+    - What data sources are complementary?
+    - What data sources help validate a surprising finding?
+
+To use this in a group setting, either in teaching or as a discussion topic, introduce the idea early in a session. Then, during discussion, participants may keep adding things they didn’t consider; one outcome from this exercise is a feeling of accumulating awareness. This might itself be a difficult feeling. The above list highlights the benefit to oneself; the discussion can then go on to ask: what is the cost to individuals? To society? Are there data sources here that are not valuable for us, and what pathways if any are there to modify what data is collected and how? Why does this data exist in the first place?
+
+Working with any data makes discussion less abstract, including discussing how many consumer technologies often intentionally hide data work from view to create a sense of seamlessness. This can bring intersectional feminism into data practice on a practical level; I use the Data Feminism principles outlined by D’Ignazio and Klein to structure any lecture material. Colloquial understanding of “the algorithm” on social media suggests a false stability to systems. In "Algorithms of Oppression", Noble details many examples of search engines being described as neutral or inscrutable; then, after sufficient pressure, being reviewed, found to be biased, and sometimes changed. Critique and revision is possible, so a critical data practice that starts at home doesn’t have to stay there.
+
+(image: df.png)
+
+Community care is essential to a critical data practice, at home and beyond. Expressive personal data practice can be both a playful way to learn data methods, but the moment it enters a social discussion, it has the possibility to be a powerful and fascinating microcosm. The ways in which personal experiences and identities influence our relationship to the world and to technology, and the ways in which those identities intersect, come up in topics of personal data collection, analysis, and interpretation. This is essential to allow participants to consider: *What can I do here that I didn’t even realize was possible?*
+
+(image: bild6.jpg)
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-06-19 18:15:00
+
+----
+
+Og-type-article-modified-time: 2022-06-19 18:15:00
+
+----
+
+Og-type-article-expiration-time: 2022-06-19 18:15:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

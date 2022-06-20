@@ -1,0 +1,54 @@
+Title: Further Readings
+
+----
+
+Layouttog: false
+
+----
+
+Bodycont:
+
+1. Ruha Benjamin, 2019. Race After Technology: Abolitionist Tools for the New Jim Code.
+2. Medford, MA: Polity.
+3. Patricia Hill Collins, 2009 [1990]. Black Feminist Thought: Knowledge, Consciousness and the
+4. Politics of Empowerment. New York, NY: Routledge.
+5. Sasha Costanza-Chock, 2019. Design Justice: Community-Led Practices to Build the Worlds
+6. We Need. Cambridge, MA: MIT Press.
+7. Arturo Escobar, 2018. Designs for the Pluriverse: Radical Interdependence, Autonomy, and the
+8. Making of Worlds. Durham, NC: Duke University Press.
+9. Donna Haraway, 1991. “Situated Knowledges: The Science Question in Feminism and the
+10. Privilege of Partial Perspective”. In Simians, Cyborgs and Women: The Reinvention of Nature.
+11. New York, NY: Routledge.
+12. Sandra Harding, 1986. The Science Question in Feminism. Ithaca, NY: Cornell University
+13. Press.
+14. Sandra Harding, 2015. Objectivity and Diversity: Another Logic of Scientific Research. Chicago,
+15. IL: University of Chicago Press.
+
+----
+
+Images: 
+
+----
+
+Layout: 
+
+----
+
+Text:
+
+Ruha Benjamin, 2019. Race After Technology: Abolitionist Tools for the New Jim Code.
+Medford, MA: Polity.
+
+Patricia Hill Collins, 2009 [1990]. Black Feminist Thought: Knowledge, Consciousness and the Politics of Empowerment. New York, NY: Routledge.
+
+Sasha Costanza-Chock, 2019. Design Justice: Community-Led Practices to Build the Worlds We Need. Cambridge, MA: MIT Press.
+
+Arturo Escobar, 2018. Designs for the Pluriverse: Radical Interdependence, Autonomy, and the Making of Worlds. Durham, NC: Duke University Press.
+
+Donna Haraway, 1991. “Situated Knowledges: The Science Question in Feminism and the
+Privilege of Partial Perspective”. In Simians, Cyborgs and Women: The Reinvention of Nature. New York, NY: Routledge.
+
+Sandra Harding, 1986. The Science Question in Feminism. Ithaca, NY: Cornell University
+Press.
+
+Sandra Harding, 2015. Objectivity and Diversity: Another Logic of Scientific Research. Chicago, IL: University of Chicago Press.

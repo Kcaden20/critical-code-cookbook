@@ -1,0 +1,191 @@
+Title: Test
+
+----
+
+Author: 
+
+----
+
+Keywords: 
+
+----
+
+Category: case-study
+
+----
+
+Language: any
+
+----
+
+Gallery:
+
+- screen-shot-2022-06-16-at-7.15.12-pm.png
+
+----
+
+Contextone: 
+
+----
+
+Contexttwo: 
+
+----
+
+Contextthree: 
+
+----
+
+Shortdesctext: 
+
+----
+
+Bodycont: 
+
+----
+
+Bodylayout: [{"attrs":[],"columns":[{"blocks":[{"content":{"location":"kirby","image":["screen-shot-2022-06-16-at-7.15.12-pm.png"],"src":"","alt":"","caption":"","link":"","ratio":"","crop":"false"},"id":"67887fe1-ced3-46fb-99a1-2859c2ac7bcd","isHidden":false,"type":"image"}],"id":"85cd0f9e-aa21-4313-9a72-55da94bed407","width":"1\/2"},{"blocks":[],"id":"f76327d3-6028-4264-90f1-e04f4965a817","width":"1\/2"}],"id":"016dfc2e-c12d-492d-9149-4cbfa7859df2"}]
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: true
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-06-19 16:40:00
+
+----
+
+Og-type-article-modified-time: 2022-06-19 16:40:00
+
+----
+
+Og-type-article-expiration-time: 2022-06-19 16:40:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

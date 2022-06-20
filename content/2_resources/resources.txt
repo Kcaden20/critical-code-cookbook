@@ -2,20 +2,12 @@ Title: Resources
 
 ----
 
-Resourcestext: edit
+Resourcestext: Test. Test. Test. Test.
 
 ----
 
 Resources:
 
-- 
-  title: 'Critical Code Cookbook Website '
-  url: >
-    https://parsonsdt.github.io/critical-coding-cookbook/
-  image:
-    - >
-      screen_shot_2022-05-05_at_10.47.46_pm.png
-  description: An amazing book!
 - 
   title: CCC
   url: https://duckduckgo.com
@@ -28,6 +20,14 @@ Resources:
   image:
     - screen-shot-2022-05-20-at-2.57.03-pm.png
   description: 'A final cool website '
+- 
+  title: 'Critical Code Cookbook Website '
+  url: >
+    https://parsonsdt.github.io/critical-coding-cookbook/
+  image:
+    - >
+      screen_shot_2022-05-05_at_10.47.46_pm.png
+  description: An amazing book!
 
 ----
 

@@ -1,0 +1,13 @@
+Caption: [A set of p5.js sketches with written tutorials that cover fundamental visualization building blocks](https://openprocessing.org/class/70239#), like encodings, filtering, repetition, and interactivity.
+
+----
+
+Alt: A screenshot from a “tutorial” view on OpenProcessing, with the left-hand side of the screen showing text, and the right-hand side showing the code.
+
+----
+
+Credits: 
+
+----
+
+Template: image

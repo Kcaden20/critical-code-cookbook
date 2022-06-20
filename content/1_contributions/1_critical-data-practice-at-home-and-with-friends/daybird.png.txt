@@ -1,0 +1,13 @@
+Caption: [daybird (2021)]((https://openprocessing.org/class/70239#)) is a p5.js sketch used as an example of an abstract, expressive rendering of my own time-on-task data over 11 weekends (left is the accumulation of Saturdays, and right - Sundays). The bright neon yellow segments draw attention to times of day that are frequently not tracked; and randomness (in position within the days, but also in the width of the brush-strokes) visually confronts assumption of data neutrality and completeness.
+
+----
+
+Alt: A still from a p5.js sketch, using color blocks and small black marks to represent activities over time.
+
+----
+
+Credits: 
+
+----
+
+Template: image
