@@ -1,0 +1,19 @@
+Title: Downloads
+
+----
+
+Downloadtext: Test
+
+----
+
+Download:
+
+- 
+  title: Test-Download
+  file:
+    - inclusive_toolkit_activities.pdf
+  description: This is a test download
+
+----
+
+Text: 

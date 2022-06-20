@@ -1,0 +1,25 @@
+title: About
+icon: ☎️
+status:
+  draft: true
+  listed: true
+options:
+  changeStatus: false
+  changeSlug: false
+  delete: false
+tabs:
+  content:
+    icon: text
+    label: About 
+    fields:
+      layout:
+        extends: fields/layout
+        label: About Content
+        fieldsets:
+          - heading
+          - text
+          - list
+          - line
+          - image 
+          - gallery
+          - markdown 

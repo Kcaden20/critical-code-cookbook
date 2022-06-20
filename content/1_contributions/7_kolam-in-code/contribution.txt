@@ -1,0 +1,243 @@
+Title: Kolam in Code
+
+----
+
+Author: Lavannya Suressh
+
+----
+
+Keywords: pulliKolam, southIndia, kolampudu
+
+----
+
+Category: activity
+
+----
+
+Language: code-agnostic
+
+----
+
+Gallery:
+
+- kolam_suressh.png
+- kolam_suressh-1.png
+- kolam_suressh-2.png
+- kolam_suressh-11.png
+- kolam_suressh-9.png
+- kolam_suressh-7.png
+- kolam_suressh-13.png
+- kolam_suressh-5.png
+- kolam_suressh-12.png
+- kolam_suressh-4.png
+- kolam_suressh-8.png
+- kolam_suressh-14.png
+- kolam_suressh-10.png
+- kolam_suressh-3.png
+- kolam_suressh-6.png
+
+----
+
+Contextone: While growing up I used to see my grandmother perform Kolams as a part of her daily morning ritual. There were different Kolam patterns everyday, and different ways of thinking involved. All this was from pinching rice flour between your fingers. I never questioned why this is the way it is or paid too much attention to it growing up, it was just an everyday thing. I once asked her where she learnt this from and she told me about her mother how talented she was and how if she had an education or a degree in mathematics she would be brilliant. She also mentioned how the present generation is “too-cool” to learn and take up these traditions. There is a lot of mention of mathematics and structure associated with the Kolam art form but this was something I wanted to dive deep into and explore for myself. More so see what Kolam can do for mathematics over what mathematics can do for Kolams.
+
+----
+
+Contexttwo: The community this recipe is relevant to would be the younger generation learning through a playful exploration of Kolams where we involve code, computing and technology to make generative explorations. Even for mathematicians and computer scientists, there are concepts where Kolam can be a good precedent to learn from.
+
+----
+
+Contextthree: Throughout history there were gendered exclusions in tech centric fields and the intelligence required to draw increasingly complex Kolams have been undervalued. Exploring the form through technology, mathematical structures and taking it as a cultural precedent to learn mathematical concepts from can play an important role valuing contributions to art science and technology from non-western cultures, and from women.
+
+----
+
+Shortdesctext:
+
+Taking a clump of rice flour in a bowl (or a coconut shell), the Kolam artist steps onto her freshly washed canvas: the ground at the entrance of her house, or any patch of floor marking an entrypoint. Working swiftly, she takes pinches of rice flour and draws geometric patterns: curved lines, labyrinthine loops around red or white dots, hexagonal fractals, or floral patterns resembling the lotus, a symbol of the goddess of prosperity, Lakshmi, for whom the Kolam is drawn as a prayer in illustration.
+
+Looking at Kolams, a traditional South Indian art form beyond something that’s a daily ritual, by taking it as a valued precedent for mathematical learning concepts exploring rules that limit yet encourage creativity at the same time. Approaching this art form with code to create generative code-driven art forms following the same traditional rules and structures show that there is more intelligence required to perform this than credited for and a way of looking at Kolams alongside mainstream generative art. Exploring the form through technology, mathematical structures can play an important role valuing contributions to art science and technology from non-western cultures and women. 
+
+With our mathematical learnings, it is important to take examples and precedents from our cultures as practices. Pulli Kolam, a South Indian art form, is a great way to study fractals, geometry and looping patterns. Approaching this through code helps enshrine the intricacy of practices, which have, for a very long time due to colonialist epistemologies, seen as ‘primitive’ or ‘primordial’.
+
+----
+
+Bodycont:
+
+####A Journey Into Code####
+
+There are a set of rules that follow what is specifically identified as a Kolam. They are as follows:
+
+1. Loop drawing-lines, and never trace a line through the same route.
+1. The drawing is completed when all points are enclosed by a drawing-line.
+1. Straight lines are drawn along the dual grid inclined at an angle of 45°.	
+1. Arcs are drawn surrounding the points.
+1. Smooth drawing-lines. Lines should not bend in a right angle. 							
+
+The rules and conventions will be explained in further detail going forward.
+
+####Method 1: Looping Kolams Across a Grid####
+
+In this method, we will replicate the core method of how the Kolam art is done. The dots are placed in a grid-like structure linearly across a diagonal first as a framework and go around in loops with arcs and straight lines following patterns and symmetry. The grid is however big or small you want the Kolam to be.  
+
+For the purpose of keeping simple, we’ll go with a 4-fold symmetry i.e we start with keeping a square (everything is rotated by 45 degrees) in the middle and the pattern repeats on all 4 sides. 
+
+(image: kolam_suressh.png)
+
+There are 3 types of arcs that make up the single line drawing of a Kolam. They are all based on having 1, 2, and 3 curved sides of a square. The radius of the curved sides is half the side-length of the square. Assigning these numerical values to each type can be processed by the looping function.
+
+(image: kolam_suressh-1.png)
+
+There are a set of rules that we follow while traversing across the grid to make up what distinctively identifies as a Kolam. The rules are illustrated in Figure 3 and Figure 4 below showing two case scenarios:
+
+1. If the direction of traversing through the grid is the same.
+1. If you’re traversing to the next row of dots.
+
+(image: kolam_suressh-2.png)
+(image: kolam_suressh-3.png)
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-06-20 18:25:00
+
+----
+
+Og-type-article-modified-time: 2022-06-20 18:25:00
+
+----
+
+Og-type-article-expiration-time: 2022-06-20 18:25:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

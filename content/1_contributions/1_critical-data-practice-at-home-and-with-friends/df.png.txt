@@ -1,0 +1,13 @@
+Caption: An example set of “book-end” slides. At the beginning of any presentation (keeping lecture to a minimum) within a course, I highlight all the topics covered I the course already, and then highlight today’s theme. At the end of any talk, I briefly show the list again to remind what we have covered. I try to always connect the general principle to something concrete, but it may be a different example or question based on the theme of that class. Repetition is a powerful teacher.
+
+----
+
+Alt: Two slides, each listing seven principles of data feminism. The first slide has four of the principles highlighted, and additional examples and prompts listed. The second slide has one principle highlighted, with notes relevant to that principle also listed. The principles of data feminism are as follows: Examine Power; Challenge Power; Elevate Emotion and Embodiment; Rethink Binaries and Hierarchies; Embrace Pluralism; Consider Context; Make Labor Visible.
+
+----
+
+Credits: 
+
+----
+
+Template: image

@@ -1,0 +1,90 @@
+/* REM for Font
+EM for Anything Sizing Based on REM */
+/* ***************************************** */
+body {
+    /* 0.0.1 Colors */
+    --colorPink: #F485EC;
+    --colorPurp: #CC66FF;
+    --colorYell: #FFF799;  
+    --colorWhite: white; 
+    --colorBlack: black; 
+    --colorCode: #3A1443;
+
+    /* 0.0.2 Sizes */
+    --monitorSize: 90rem;
+    --deskSize: 75rem;
+    --mainSize: 60rem; 
+    --tabletMax: 48rem;
+    --tabletMin: 42rem;
+    --mobileSize: 32rem;
+
+    /* 0.0.3 Elements */
+    --borderStroke: .25rem solid var(--fontColor);
+/* ________________________________________ */
+
+    /* 1.0 LIGHT THEME */
+    /* 1.1.0 LIGHT THEME VARIABLES */
+    --bgColor: var(--colorPink);
+    --fontColor: var(--colorBlack);
+    --codeColor: var(--colorCode);
+
+    --navColor: var(--colorWhite); 
+    color: var(--colorBlack);
+/* ________________________________________ */
+
+    /* 1.2.0 FONT VARIABLES */
+    /* 1.2.1 Fonts */
+    --fHeading: 'Avara Bold';
+    --fhItalic: 'Avara Bold Italic';
+    --fBody: 'Tiresias PC Font'; 
+    --fbItalic: 'Tiresias PC Font Italic';
+    --fCode: 'Inconsolata';
+    --fIcon: 'MP Tools';
+
+    /* 1.2.2 Font Sizes */
+    --fixFactor: .5rem; 
+    --fixOne: calc(var(--fixFactor) * 6);
+    --fixTwo: calc(var(--fixFactor) * 5);
+    --fixThree: calc(var(--fixFactor) * 4);
+    --fixFour: calc(var(--fixFactor) * 3.5);
+    --fixFive: calc(var(--fixFactor) * 3);
+
+/* ________________________________________ */
+
+    /* 1.3.0 LAYOUT */
+    /* Absolute Sizes */
+    --pxFactor: 8px; 
+    --pxOne: calc(var(--pxFactor) * 6);
+    --pxTwo: calc(var(--pxFactor) * 5);
+    --pxThree: calc(var(--pxFactor) * 4);
+    --pxFour: calc(var(--pxFactor) * 3.5);
+    --pxFive: calc(var(--pxFactor) * 3);
+    --pxSix: calc(var(--pxFactor) * 1.5);
+
+    /* 1.3.1 Scaling Sizes */
+    --scaFactor: .5em; 
+    --scaOne: calc(var(--scaFactor) * 3);
+    --scaTwo: calc(var(--scaFactor) * 2.5);
+    --scaThree: calc(var(--scaFactor) * 2);
+    --scaFour: calc(var(--scaFactor) * 1.75);
+    --scaFive: calc(var(--scaFactor) * 1.5);   
+}
+
+/* 2.0 DARK THEME */
+body.dark-theme {
+    /* 2.1.0 Dark Theme Variables */
+    --bgColor: var(--colorBlack);
+    --fontColor: var(--colorPink);
+    --colorCode: white;
+}
+
+/* 3.0 Display-P3 COLOR SUPPORT  */
+@supports (color: color(display-p3 1 1 1)) {
+    body {
+        --colorPink: color(display-p3 0.992 0.57 1);
+        --colorPurp: color(display-p3 0.752 0.393 0.995);
+        --colorYell: color(display-p3 1 0.968 0.595);
+
+    }
+}
+

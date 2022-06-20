@@ -1,0 +1,104 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Contributions
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: 🍳
+
+options:
+  changeSlug: false
+
+# Here we extend two sections which are defined in `/site/blueprints/sections/albums.yml`
+# They differ in their page status and the headline.
+columns: 
+  - width: 1
+    sections:
+      overview:
+        type: fields
+        fields:
+          workInfo:
+            label: About
+            type: info
+            theme: none
+            text: |
+              An overview of all the contributions. Add, edit or delete any projects, as well as decide what categories are available to tag each contribution with!
+          contributionText:
+            label: Contributions Text
+            type: textarea
+            size: small
+  - width: 1/2 
+    sections: 
+      contributions:
+        type: fields
+        fields: 
+          catOptions:
+            label: Contribution Categories
+            type: structure 
+            min: 1
+            help:Directly add the SVG code in here if it needs to be custom, make sure to remove any fill! 
+            fields:
+              category: 
+                label: Contribution Name
+                type: text
+                required: true
+              select:
+                label: Select Icon
+                type: select
+                required: true  
+                options:
+                  create: Create
+                  paper: Paper
+                  sun: Sun
+                  custom: Custom
+              svgUpload:
+                label: SVG Upload
+                type: text
+                when:
+                  select: custom
+                help: Directly add the SVG code in here if it needs to be custom! 
+  - width: 1/2
+    sections:
+      languages:
+        type: fields
+        fields: 
+          langOptions:
+            label: Coding Languages
+            type: structure
+            min: 1
+            help: To assign a Code language filer to any of the fields here. 
+            fields: 
+              category:
+                label: Language
+                type: text
+                required: true 
+              select:
+                label: Select Icon
+                type: select 
+                requred: true
+                options:
+                  any: Any
+                  five: Five
+                  snake: Snake 
+                  custom: Custom 
+              svgUpload:
+                label: Custom SVG
+                type: text
+                when:
+                  select: custom
+                help: Directly add the SVG code in here if it needs to be custom, make sure to remove any fill! 
+
+
+  - width: 1/4
+    sections:
+      drafts:
+        extends: sections/contribution
+        headline: In Development
+        status: draft
+        layout: list
+        size: tiny
+  - width: 3/4
+    sections:
+      listed:
+        extends: sections/contribution
+        headline: Published 
+        status: listed
+  seotab: seo

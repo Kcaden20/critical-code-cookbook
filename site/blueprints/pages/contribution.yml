@@ -1,0 +1,121 @@
+title: Contribution
+tabs: 
+  content: 
+    label: Content 
+    icon: document 
+    columns:
+      - width: 1 
+        fields: 
+          overviewHeadline: 
+            label: Overview
+            type: headline
+      - width: 1/2
+        fields: 
+          author: 
+            label: Author
+            type: text
+          keywords:
+            label: Keywords
+            type: tags
+      - width: 1/2 
+        fields: 
+          category: 
+            label: Contribution Category
+            type: select
+            options: query
+            query: 
+              fetch: page.parent.catOptions.toStructure
+              text: "{{ structureItem.category }}"
+              value: "{{ structureItem.category.slug }}"
+            help: The options for this category are selected from the **Works** page.
+          language: 
+            label: Coding Language
+            type: select
+            options: query
+            query:
+              fetch: page.parent.langOptions.toStructure 
+              text: "{{ structureItem.category }}"
+              value: "{{ structureItem.category.slug }}"
+      - width: 1
+        sections: 
+          subpages:
+            type: pages
+            headline: Subpages
+            size: tiny
+            template: contribution-subpage
+            empty: No Subpages Yet!
+            num: zero
+          images: 
+            type: fields
+            fields:             
+              gallery:
+                type: files
+                label: Images
+                query: page.images.template('image')
+                uploads:
+                  template: image
+      - width: 1 
+        fields: 
+          contextHeadline: 
+            label: Context
+            type: headline
+      - width: 1/3
+        fields: 
+          contextOne: fields/context
+      - width: 1/3
+        fields: 
+          contextTwo: 
+            extends: fields/context
+            label: Which community are you offering the recipe to?
+      - width: 1/3 
+        fields: 
+          contextThree: 
+            extends: fields/context 
+            label: How does your submission relate to intersectional feminism?
+      - width: 1 
+        fields: 
+          shortDescText: 
+            label: Short Description
+            type: textarea
+            size: mid
+          bodyHeadline:
+            label: Body 
+            type: headline
+          bodyCont:
+            label: Body of Content
+            type: textarea
+            size: large
+            when:
+              layoutTog: off 
+          bodyLayout:
+            extends: fields/layout
+            label: Layout Content
+            when: 
+              layoutTog: on
+  layoutOptions:
+    label: Settings 
+    icon: bars
+    columns: 
+      - width: 1/2
+        fields:
+          pageSettings:
+            label: Default Settings
+            type: headline
+          context: fields/toggleOps
+          shortDesc:
+            extends: fields/toggleOps
+            label: Short Descriptions?
+          bodyContent:
+            extends: fields/toggleOps
+            label: Body Content?
+      - width: 1/2
+        fields: 
+          overrideSettings:
+            label: Override Settings 
+            type: headline 
+          layoutTog:
+            extends: fields/toggleOps
+            label: Add Layout Block? 
+            default: off
+  seotab: seo
+          

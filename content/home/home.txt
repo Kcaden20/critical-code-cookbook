@@ -1,1 +1,29 @@
 Title: Home
+
+----
+
+Byline: Intersectional Feminist Approaches to Teaching and Learning
+
+----
+
+Introtitle: About Our Work
+
+----
+
+Introtext: Oh is this working?
+
+----
+
+Contributiontext: Contributions Copy
+
+----
+
+Contributionlink: See The Full Selection of Projects
+
+----
+
+Resourcestext: Resources Copy
+
+----
+
+Resourceslink: View Our Curated Selection of Resources

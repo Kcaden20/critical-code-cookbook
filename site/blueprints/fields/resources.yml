@@ -1,0 +1,12 @@
+label: Resource Links
+type: structure
+min: 1
+fields: 
+  title:
+    label: Link Title
+    type: text
+    required: true
+  url:
+    label: Link URL 
+    type: url
+    required: true  

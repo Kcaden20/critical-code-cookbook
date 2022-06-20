@@ -1,0 +1,162 @@
+Title: Resources
+
+----
+
+Resourcestext: Test. Test. Test. Test.
+
+----
+
+Resources:
+
+- 
+  title: CCC
+  url: https://duckduckgo.com
+  image:
+    - screen-shot-2022-05-16-at-9.12.11-pm.png
+  description: Another Awesome Website!
+- 
+  title: Crit Co Coo
+  url: https://www.yahoo.com
+  image:
+    - screen-shot-2022-05-20-at-2.57.03-pm.png
+  description: 'A final cool website '
+- 
+  title: 'Critical Code Cookbook Website '
+  url: >
+    https://parsonsdt.github.io/critical-coding-cookbook/
+  image:
+    - >
+      screen_shot_2022-05-05_at_10.47.46_pm.png
+  description: An amazing book!
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 
+
+----
+
+Text: 

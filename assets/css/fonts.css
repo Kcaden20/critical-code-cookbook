@@ -1,0 +1,67 @@
+/* This file contains all fonts for Critical Code Cookbook Website */
+
+/* 1.0 AVARA  */
+/* To be used for headings */
+
+/* 1.1 Avara Bold */
+@font-face {
+    font-family: 'Avara Bold';
+    src:    url('../fonts/Avara/Avara-Bold.eot');
+    src:    url('../fonts/Avara/Avara-Bold.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Avara/Avara-Bold.woff') format('woff'),
+            url('../fonts/Avara/Avara-Bold.woff2') format('woff2'),
+            url('../fonts/Avara/Avara-Bold.ttf') format('truetype'),
+            url('../fonts/Avara/Avara-Bold.svg#svgFontName') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Avara Bold Italic';
+    src:    url('../fonts/Avara/BoldItalic/Avara-BoldItalic.eot');
+    src:    url('../fonts/Avara/BoldItalic/Avara-BoldItalic.eot?#iefix') format('embedded-opentype'),
+            url('../fonts/Avara/BoldItalic/Avara-BoldItalic.woff') format('woff'),
+            url('../fonts/Avara/BoldItalic/Avara-BoldItalic.woff2') format('woff2'),
+            url('../fonts/Avara/BoldItalic/Avara-BoldItalic.ttf') format('truetype'),
+            url('../fonts/Avara/BoldItalic/Avara-BoldItalic.svg#svgFontName') format('svg');
+}
+
+/* 2.0 TIRESIAS PC */
+/* To be used for body content */
+
+/* 2.1 TPC Font Regular */
+@font-face {
+    font-family: 'Tiresias PC Font';
+    src: url('../fonts/Tiresias/tiresias_pcfont.woff2') format('woff2'),
+         url('../fonts/Tiresias/tiresias_pcfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 2.2 TPC Font Bold */
+@font-face {
+    font-family: 'Tiresias PC Font Bold';
+    src: url('../fonts/Tiresias/Bold/tiresias_pcfont_bold.woff2') format('woff2'),
+         url('../fonts/Tiresias/Bold/tiresias_pcfont_bold.woff') format('woff');
+    font-weight: bold;
+}
+
+/* 2.3 TPC Font Italics */
+@font-face {
+    font-family: 'Tiresias PC Font Italic';
+    src: url('../fonts/Tiresias/Italics/tiresias_pcfont_italic.woff2') format('woff2'),
+         url('../fonts/Tiresias/Italics/tiresias_pcfont_italic.woff') format('woff');
+    font-style: italic, oblique;
+
+}
+
+
+/* 3.0 MISTER PIXEL */
+/* Used for Iconography */
+@font-face {
+    font-family: 'MP Tools';
+    src: url('../fonts/Mister-Pixel/mister_pixel_tools-webfont.woff2') format('woff2'),
+         url('../fonts/Mister-Pixel/mister_pixel_tools-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}

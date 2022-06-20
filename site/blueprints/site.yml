@@ -1,2 +1,125 @@
-preset: pages
-unlisted: true
+title: Site
+tabs:
+  subpages:
+    label: Main
+    icon: document
+    columns:
+      - width: 1
+        fields: 
+          siteInfo:
+            label: About 
+            type: info
+            theme: none
+            text: |
+              This is the main hub of the site. From this page, you can access **contributions**, **resources**  or direct site subpages such as **about** or **home**.
+
+              Use the **Site Information** tab above to add social media & credit information!
+      - width: 2/3
+        sections:
+          contributions: sections/contribution
+      - width: 1/3
+        sections:
+          pages:
+            headline: Other Pages
+            type: pages
+            templates:
+              - about
+              - home
+              - default
+              - resources
+              - downloads
+  site:
+    label: Site Information
+    icon: globe
+    columns:
+      - width: 1
+        sections:
+          headline:
+            type: fields
+            fields: 
+                siteInfoText:
+                  label: About
+                  type: info
+                  width: 1/2
+                  theme: none
+                  text: |
+                    Here you can add social media information, text and any other information that should be showcased across pages.
+
+      - width: 1 
+        sections:
+          contactInfo:
+            type: fields
+            fields: 
+              socialPlatforms:
+                label: Social Media Platforms
+                type: structure
+                help: This defines the categories you can use for the social media information below
+                width: 1/4
+                fields:
+                  socialPlatform:
+                    label: Platform Name
+                    type: text
+              socialMedia:
+                label: Contact & Social Media Information
+                type: structure
+                width: 3/4
+                help: Add your social media information here! 
+                fields:
+                  platform:
+                    label: Platform
+                    type: select
+                    required: yes
+                    options: query
+                    query: 
+                      fetch: site.socialPlatforms.toStructure
+                      text: "{{ structureItem.socialPlatform }}"
+                      value: "{{ structureItem.socialPlatform.slug }}"
+                    help: The options for this category are selected from the **Social Media Platforms** table above.
+                  emailToggle:
+                    label: Is this an E-mail? 
+                    type: toggle 
+                    default: no
+                    text: 
+                      - "No"
+                      - "Yes"
+                    width: 1/2
+                  link:
+                    label: Link
+                    type: url
+                    required: yes
+                    width: 1/2
+                    when: 
+                      emailToggle: no
+                  emailLink:
+                    label: Email Link
+                    type: email
+                    required: yes
+                    before: 'mailto:'
+                    width: 1/2
+                    when: 
+                      emailToggle: yes
+                      platform: e-mail
+                  displayText:
+                    label: Display Text
+                    type: text
+                    width: 1
+                    help: Fill this out if you want the text shown on the website to be different than the link. 
+      - width: 1 
+        sections:
+          credits:
+            type: fields
+            fields: 
+              creditsStruct:
+                label: Credits Information
+                type: structure
+                max: 4
+                help: Add a new field to allow for credits
+                fields: 
+                  creditText:
+                    label: Credit Line
+                    type: text
+                    required: yes
+                  creditUrl:
+                    label: Credit URL
+                    type: url
+  seotab: seo

@@ -1,0 +1,47 @@
+title: Home
+icon: 🏠
+sections:
+  content:
+    type: fields
+    fields:
+      byLine:
+        label: Splash Page Byline
+        type: text 
+        maxLength: 140
+      introHD:
+        type: headline
+        label: About
+      introTitle: 
+        label: Introduction Title
+        type: text
+        width: 1
+      introText:
+        label: Introduction Copy
+        type: textarea
+        size: medium
+        width: 1
+        help: Addinformation about CCC here to go underneath the splash!
+      contributionHD:
+        type: headline
+        label: Contributions
+      contributionText: 
+        label: Contributions Copy
+        type: textarea
+        size: medium
+        width: 1 
+      contributionLink:
+        label: Contribution Link Text
+        type: text
+        width: 1
+      resourcesHD: 
+        type: headline
+        label: Resources 
+      resourcesText: 
+        label: Resources Copy 
+        type: textarea
+        size: medium
+        width: 1 
+      resourcesLink:
+        type: text
+        label: Resources Link Text
+        width: 1

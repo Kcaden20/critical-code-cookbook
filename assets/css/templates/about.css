@@ -1,0 +1,2 @@
+body {--bgColor: var(--colorYell);}
+body.dark-theme {--fontColor: var(--colorYell);}

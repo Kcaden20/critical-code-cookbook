@@ -1,0 +1,7 @@
+type: pages 
+headline: Contributions 
+parent: kirby.page("contributions")
+size: tiny 
+template: contribution
+info: "{{ page.author }} | {{ page.category.titlecase }} | {{ page.language.titlecase }}"
+empty: No Contributions yet!

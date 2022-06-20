@@ -1,0 +1,39 @@
+title: Downloads
+icon: 💾 
+
+options:
+  delete: false 
+  changeStatus: false
+
+tabs: 
+  content: 
+    icon: text
+    label: Downloads
+    fields: 
+      downloadText:
+        label: Download Text
+        type: textarea
+        size: medium
+      download:
+        label: Downloads
+        type: structure 
+        fields: 
+          title: 
+            label: Download Title
+            type: text 
+            width: 1/2 
+          file: 
+            type: files 
+            label: File
+            multiple: false 
+            width: 1/2
+            required: true
+            accept:
+              extension: pdf
+              maxsize: 10000000
+          description: 
+            type: text
+            width: 1 
+            maxLength: 140
+  seotab: seo
+
