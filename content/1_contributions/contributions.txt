@@ -30,10 +30,22 @@ Langoptions:
   select: any
   svgupload: ""
 - 
+  category: JavaScript
+  select: ""
+  svgupload: ""
+- 
   category: p5
   select: five
   svgupload: ""
 - 
+  category: Babylon.js
+  select: ""
+  svgupload: ""
+- 
   category: Python
   select: snake
+  svgupload: ""
+- 
+  category: SQL
+  select: ""
   svgupload: ""

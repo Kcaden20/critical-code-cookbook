@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Screenshot of training the Machine Learning model through separate key image classes on Teachable Machine.
+
+----
+
+Credits: 
+
+----
+
+Template: image

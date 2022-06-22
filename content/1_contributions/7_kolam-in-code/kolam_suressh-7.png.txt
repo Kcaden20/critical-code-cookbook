@@ -1,8 +1,8 @@
-Caption: 
+Caption: Figure 7. Image credit: Lavannya Suressh.
 
 ----
 
-Alt: 
+Alt: A flowchart of code composed of five orange diamonds, depicting each operation. The first step can either be “User Input” or “Randomized Input.” The next steps are: “Forward Loop based on entered Array”, “Reverse back and to get to position 0”, and then finally “Rotatate 45 degrees, repeat 3 times.”
 
 ----
 

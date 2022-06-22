@@ -1,0 +1,217 @@
+Title: Esolangs: Deprogramming the Language Divide
+
+----
+
+Author: Echo Theohar
+
+----
+
+Keywords: linguisticInequality, esotericProgrammingLanguages, linguaFranca
+
+----
+
+Category: activity
+
+----
+
+Language: code-agnostic
+
+----
+
+Gallery: 
+
+----
+
+Contextone: When my Japanese father and Mexican great-grandmother immigrated to the United States, they relinquished their native tongues to learn English. I am now a multi-racial programmer working in education – helping others with machine language retention everyday – and yet I have no linguistic connection to my own culture. The pain of this loss is not uncommon amongst the children of immigrants, and I found myself interrogating this lack in other aspects of my life as a programmer. Given that English has colonized the world of code, how do we move forward in a way that minimizes linguistic inequality and/or retains the cultural roots of established and emerging programming languages?
+
+----
+
+Contexttwo: This recipe is offered to anyone with an interest in coding. My hope is that it will inspire you to contextualize the languages you learn or teach. There is a common misconception that English coding languages are neutral because they equalize all users – the argument being that everyone needs to learn the same syntax. But the real conflict lies in who dictates that syntax, and for who the syntax serves. English programming languages as a de facto solution to globalization is a reflection of that power disparity.
+
+----
+
+Contextthree: Let’s assume you are learning Python for the first time, and you do not know English. Your learning experience is going to be radically different from someone who is a native speaker, right? Add gender, race, class, etc. to that equation and you begin to have a multitude of very different experiences. We all begin our education of computer languages at different starting points, with differing amounts of privilege, discrimination, and access. We need to examine our own stake in the English colonization of computer languages in order to explore solutions that are cognizant of the experiences of others. This constant negotiation is rooted in intersectional feminism.
+
+----
+
+Shortdesctext: English has operated as the lingua franca of coding for over half a century. Even in instances where non-English speaking coders are writing software in non-English speaking countries, it is common to encounter programming keywords in English. This is despite the fact that all comments, variables, and user defined classes are usually written in the programmer’s native language, where they must quickly switch between a native and foreign binary during development. Is this really the most efficient way for non-English speakers to write software?
+
+----
+
+Bodycont:
+
+This recipe is designed to act as a discursive lab where participants propose speculative solutions to the ongoing issue of linguistic inequality in contemporary programming languages. While this works well in an academic setting, this recipe is appropriate for any community interested in interrogating the white, western, and rational discourse surrounding English-based programming languages, through the context of creative coding, historical linguistics, speculative design, UX/UI, and intersectional feminist critique. 
+
+To complete this recipe, please prepare the following:
+
+1. An introduction to the history of linguistic inequality in computer programming
+
+1. An introduction to esoteric programming languages
+
+Once these ingredients have been prepped, you may mix the following elements for a group discussion:
+
+- How do you feel about learning code based in your native language?
+- How do you feel about learning code based in a foreign language?
+- Do you think that having a lingua franca is useful for society? Do you think it is useful for programming? Why or why not?
+- How do you define “human-readable language”? What rules must “human-readable” languages follow?
+- If you were to design a new lingua franca for code, what qualities would it need to remain equitable?
+- What are the limitations of designing a lingua franca for code?
+
+After the discussion has finished, you may set aside time for an additional (and optional) exercise. This is recommended for participants who have some background in programming. Each participant will need a pencil, paper, and colored markers. Split into working groups and draw up an original concept for an esoteric programming language (esolang) or visual programming language interface that addresses any or all of the following:
+
+- Multilingual support
+- Illustrative or skeuomorphic characters and symbols
+- Alternative lingua franca solutions (e.g. tactile-based esolangs, shape/color-based esolangs, etc.)
+- Absurdist translations of machine language to human-readable language
+
+As a reminder, it is not expected that you create a Turing-complete syntax in this exercise. The idea is that you expand your notion of what a linguistically equitable programming language might look and feel like, by illustrating a simple GUI with example elements. One easy place to start is to imagine what a “Hello World!” input and output would look like in your programming language. Alternatively, if you’re more comfortable with working off an example you are familiar with, you might draw an example of multilingual support options integrating into the programming language you know best. The idea is to have fun and allow yourself to see possible solutions to this problem, as they certainly exist!
+
+Once complete, please gather back together and share results :)
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-06-21 03:10:00
+
+----
+
+Og-type-article-modified-time: 2022-06-21 03:10:00
+
+----
+
+Og-type-article-expiration-time: 2022-06-21 03:10:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
