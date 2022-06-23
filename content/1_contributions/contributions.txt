@@ -9,15 +9,15 @@ Contributiontext: Recipes are published digitally under the (link: https://creat
 Catoptions:
 
 - 
-  category: Activity
+  category: Dinner
   select: paper
   svgupload: ""
 - 
-  category: Project
+  category: Lunch
   select: create
   svgupload: ""
 - 
-  category: Case Study
+  category: Breakfast
   select: sun
   svgupload: ""
 
@@ -44,6 +44,10 @@ Langoptions:
 - 
   category: Python
   select: snake
+  svgupload: ""
+- 
+  category: Processing
+  select: ""
   svgupload: ""
 - 
   category: SQL

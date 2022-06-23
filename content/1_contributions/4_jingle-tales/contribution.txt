@@ -10,7 +10,7 @@ Keywords: makeItYourOwnTechnology, customisedRaspberryPi, soundsOfPlay
 
 ----
 
-Category: activity
+Category: lunch
 
 ----
 
@@ -88,7 +88,7 @@ Bodylayout:
 
 ----
 
-Context: true
+Context: false
 
 ----
 

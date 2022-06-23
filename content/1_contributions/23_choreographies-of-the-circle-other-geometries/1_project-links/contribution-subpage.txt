@@ -1,0 +1,24 @@
+Title: Project Links
+
+----
+
+Layouttog: false
+
+----
+
+Bodycont:
+
+We have created (link: https://geometries.xyz/t-interface/type+source.html text: temporary stage or a kitchen stand within which similar recipes can be tried out).
+
+More info on our project can be found at:
+- (link: https://geometries.xyz/ text: Project’s website)
+- (link: https://geometries.xyz/wiki/doku.php  text: Project’s wiki)
+- (link: https://gitlab.com/OtherGeometries  text: Code repository)
+
+----
+
+Images: 
+
+----
+
+Layout: 

@@ -10,11 +10,11 @@ Keywords: positionality, ethics, collaboration
 
 ----
 
-Category: activity
+Category: dinner
 
 ----
 
-Language: p5
+Language: code-agnostic
 
 ----
 

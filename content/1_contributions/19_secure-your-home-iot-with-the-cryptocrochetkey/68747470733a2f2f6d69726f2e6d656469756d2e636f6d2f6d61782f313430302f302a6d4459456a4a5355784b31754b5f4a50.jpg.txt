@@ -1,0 +1,13 @@
+Caption: 
+
+----
+
+Alt: Testing key-recognition via a Touchscreen display and a Raspberry Pi running the Machine Learning model on Teachable Machine.
+
+----
+
+Credits: 
+
+----
+
+Template: image

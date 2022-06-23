@@ -1,0 +1,261 @@
+Title: Choreographies of the Circle & Other Geometries
+
+----
+
+Author: Joana Chicau, Renick Bell
+
+----
+
+Keywords: audioVisualAlgorithmicPerformance, collaborativeCompositionTools, esotericProgrammingLanguages
+
+----
+
+Category: dinner
+
+----
+
+Language: javascript
+
+----
+
+Gallery: 
+
+----
+
+Contextone:
+
+The authors' background in choreography (Chicau) and music (Bell) has inspired them to dive deeper into systems of notations from the two fields. As a starting point, we collected musical and choreographic scores that reference principles of non-linear composition, non-hegemonic time and space constructs, and techno-feminist understandings. 
+
+We then analyzed various viewpoints from the sphere of dance and music and the socio-political meanings that surround such geometries, starting with the notion of the 'circle'. The (link: https://www.geometries.xyz/inventory.html text: inventory) being built supplies triggers for questioning the abstractions and their normative power and geometrical definitions, including their powers of transgression, commonality, consciousness, and freedom.
+
+----
+
+Contexttwo:
+
+The project centrally involves live programming tools, approaches, usages, and we hope to engage the communities that employ them: software development, interface design, algorithmic performances, media art, digital humanities and education.
+
+Along with the development of the performance piece and related tools, we also hope to make the work accessible and to reach out to more general audiences, helping the community to grow. We aim to present the work to different audiences and contexts, from community-driven ones to larger-scale digital-culture-art-tech-sound events.
+
+----
+
+Contextthree:
+
+Computer sciences and algorithmic performance can reflect patriarchal hierarchies rooted in Anglo traditions through the role of English as one pillar of the base of programming. In Choreographies of the Circle and Other Geometries, we have a multi-lingual approach and we engage with esoteric languages as a way to challenge established orders and for devising more inclusive modes of participation.
+
+Another tactic built in our project tools is the fact that each performer can deeply influence the behaviour of the other's performers system in real-time. Opening a new imagining of how current tools and ensembles can attempt to challenge dominant powers inherent in performance formats.
+
+----
+
+Shortdesctext:
+
+(link: https://www.geometries.xyz/ text: Choreographies of the Circle & Other Geometries) is a research project initiated by Joana Chicau & Renick Bell on socio-technical protocols for collaborative audio-visual live coding and a corresponding peer-to-peer environment programmed in JavaScript.
+
+The project reflects how language boundaries are enacted through the computing environment and within social spheres. It explores how movement, gestures, discourses, and behaviours are choreographed and communicated through the apparatuses at work and how our hybrid digital systems and transdisciplinary research practices co-construct each other. It is informed by on-going research and recollection of musical and choreographic sources and scores that reference principles of non-linear composition, non-hegemonic time and space constructs, techno-feminist understandings.
+
+----
+
+Bodycont:
+
+Algorithms and data infiltrate our every move. The data and the way it is structured, how networks are connected, and their status as public or private create boundaries and hierarchies. We want to develop a critical understanding by making these hidden processes visible and experiential.
+
+In particular within media technologies, we can observe the tactical use and re-purposing of the settings, protocols, and abstract status of notations which determine the concrete conditions and ways in which we inhabit and produce both physical and digital spaces. Under the hypothesis that our interfaces are "scripted" with ideologies, our aim was to engage in critical practices of live notation by understanding the political significance of choreographic references.
+Choreographies of the Circle & Other Geometries explores the construction of a modular system that bridges our research, methodologies, and technical apparati. We have been engaging in different formats such as performances, workshops, open-source software, and project documentation as modes of sharing.
+
+We are now in the process of building a library and tools for the modification of real-time web environments involving not only audio and visuals but also content from the web browser (such as search engine results). It is synced in a peer-to-peer manner, meaning that each performer has the ability to modify and execute code on the other performers’ systems and to do so without the use of a central server. And key to this environment is that it allows users to define their own vocabulary in multiple languages, shaping both the technical and conceptual framing of the piece, and in doing so employ esoteric programming.
+
+We are sharing an example from the code we have been developing, in other words, a recipe or choreographic script for you to try! As a starting point you will need the main elements or meta-ingredients listed below:
+
+`stage { specific HTML sections are set as stage by defining, for eg.: <div class="stage01"> };`
+`props { aka (theatrical) property, it is an object used on stage or screen; for eg.: text material; image; iframes; sounds... };`
+`choreographic glossary { list of movement functions or actions which use props that are placed in different stages; actions can generate for eg.: audio and visuals); and be called for eg.: breathing ( ) };`
+`dancers { dancers are algorithmic character that compose sequence of movement functions or actions };`
+`performance score { is the sequence by which movement functions or actions are performed by dancers; altogether forming a complex choreographic relational filed };`
+
+Here is an example of a more detailed recipe, specifically for creating the choreographic glossary:
+
+`// find the file "geometriesStarter.html" in this repo: https://gitlab.com/OtherGeometries/othergeometries-workshop/-/tree/main/code-snippets`
+`// and add a new section for the code:`
+`<script type="text/javascript"> … </script>`
+`// create the empty vocabulary object:`
+`let vocabulary = {};`
+`// add the various vocabulary words to the vocabulary;`
+`// first create an object for the word, then add instances for each word to the corresponding object;`
+`// note that there are instances for DOM (changing the browser window contents) and tone (making sound);`
+`// each instance should be a function;`
+`// at the moment, it should have two arguments: one for time and one to consume items from a parameter array;`
+`// we will name this action applied to the text as BREATHING`
+`let x = document.querySelector("#image");`
+`vocabulary["breathing"] = {}`
+`vocabulary["breathing"].DOM =`
+    `((time,value) => { Tone.Draw.schedule(() => {`
+	    ``x.style.transform=`scale(${value.args[0]})`;``
+	    `console.log('dancer 101: breathing ()');`
+     `}, time);`
+` })`
+`// and now let the dance begin! (aka recipe in action)`
+`let p = new Performance();`
+`// create the dancers to be used;`
+`p.newdancer('dancer101')`
+`p.dancers.dancer101.rhythm = m.rhythms.rhythm1.slice()` 
+`p.dancers.dancer101.part = new Tone.Part(`
+    `vocabulary["breathing"].DOM`
+    `, beatsToEvents(p.dancers.dancer101.rhythm)`
+`)`
+`p.dancers.dancer101.part.loop = true;`
+`p.dancers.dancer101.part.loopEnd = "2m";`
+`p.dancers.dancer101.part.probability = 1;`
+`p.dancers.dancer101.changeRhythmAndArgs([0,1,2,3,4,5,6,7], [["0.5"],["0.9"],["0.05"],["1"],["5"]])`
+`// two things necessary to get tone to start;`
+`// to be done in the web console;`
+`Tone.start()`
+`Tone.Transport.start()`
+`// actually start the dancer`
+`p.dancers.dancer101.start(inNMeasures(2))`
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-06-22 01:30:00
+
+----
+
+Og-type-article-modified-time: 2022-06-22 01:30:00
+
+----
+
+Og-type-article-expiration-time: 2022-06-22 01:30:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

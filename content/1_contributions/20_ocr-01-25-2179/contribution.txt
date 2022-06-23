@@ -1,0 +1,221 @@
+Title: OCR 01-25-2179
+
+----
+
+Author: Winnie Yoe
+
+----
+
+Keywords: boundary, participatory, physicalComputing
+
+----
+
+Category: dinner
+
+----
+
+Language: code-agnostic
+
+----
+
+Gallery:
+
+- 6a1a8166-edit.jpg
+- 6a1a9678.jpg
+- 6a1a9668-edit.jpg
+
+----
+
+Contextone: This recipe was inspired by a series of traumatic events that led to a Title IX filing and investigation. As I navigate an unfamiliar and lengthy legal process, I began reflecting on the limitations of procedural measures in seeking social justice. I felt the need to craft and share my own narrative when authorities and others around me denied my experience and turned to creative mediums to create a space to grieve, make sense, and search for closure.
+
+----
+
+Contexttwo: To those in marginalized communities, who have to constantly negotiate their boundaries and different power dynamics, who have felt lost against powers and scenarios much larger than them.
+
+----
+
+Contextthree: The form and participatory approach of the piece is shaped by my personal experience navigating oppressive systems as a woman of color and an immigrant. The piece is seemingly subtle but startling, rather than being prescriptive, the piece offers a space for participants to evaluate their power and their role as the gaze. Using relatively simple electronics and fabrication techniques, the piece offers an alternative in discussing how one negotiates boundaries in oppressive systems.
+
+----
+
+Shortdesctext:
+
+(image: 6a1a8166-edit.jpg)
+
+*OCR 01-25-2179* is an interactive installation to materialize a boundary line. 
+
+Excerpts from a personal letter detailing events that led to a Title IX filing and subsequently an investigation by the U.S. Department of Education is laser etched in decreasing font size. The text gets smaller as the letter gets more personal. If the audience decides to cross the line (projected on the floor) to read the text, the light flickers/fades and turns off. When the audience steps back, the light turns back on. The time when they crossed the line is printed on the display, which is also recorded on a SD card that I collect at the end of the day.
+
+The exhibition of the piece saw different responses — some stepped back behind the line, some stayed for a while, some ignored the light and read the entire letter, some read out loud passages of the letter.
+
+----
+
+Bodycont:
+
+(image: 6a1a9668-edit.jpg)
+
+*OCR 01-25-2179* was one of three projects created, driven by my experience filing a Title IX complaint and reflecting on the limitations of procedural measures in seeking social justice. The piece is a recipe for those, particularly in marginalized communities, who have to constantly negotiate their boundaries and different power dynamics.The piece uses participatory approaches to allow for a wide but personal experience.
+
+The interaction in the piece is subtle but unsettling. The quiet nature of the piece is deliberate in leaving space for the nuances and complicated emotions that are often associated with the topic of boundary. As the audience approaches the piece or witnesses others interacting with the piece, they negotiate between the urge to read the personal narrative etched on the piece and the suggestion, prompted by the light that switched off, that they should not be reading the narrative. While the letter itself is about boundary and abuse, the interaction between the audience and the etched letter adds another layer of boundary to be negotiated. This layered interaction and the liberty given to how the audience interacts with accounts of the artist’s traumatic experience, to avoid distilling abuse into simplified and singular narratives reveals the different power dynamics in play.
+
+The collection of data regarding when the audience crossed the line and how long they remained over the line, which is the final act performed by the artist at the end of the installation period, becomes a physical artifact, serving as a piece of evidence and a metaphor of the artist’s ultimate ownership of the narrative.
+
+####Code####
+
+In terms of components, the installation includes a distance sensor, a LCD display, and a LED tube light. The distance read by the sensor is an “input”, which depending on its reading, controls the behavior of the LCD display and LED light — the “output”.
+
+A coding concept behind the piece is setting conditions and calling functions. Three conditions (highlighted on right) are set in this pieces:
+
+1. If the audience distance is <= 30cm and the light has not Flickered = The function flicker( ) is called and the lights flicker
+2. If the audience distance is <= 30cm and the light has flickered already = The lights turn off (The value for off is 0)
+3. If f the audience’s distance from the piece is more than 30 Cm = The lights turn back on (The value for on is 255)
+
+(image: 6a1a9678.jpg)
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-06-22 01:15:00
+
+----
+
+Og-type-article-modified-time: 2022-06-22 01:15:00
+
+----
+
+Og-type-article-expiration-time: 2022-06-22 01:15:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

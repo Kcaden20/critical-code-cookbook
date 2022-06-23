@@ -1,0 +1,45 @@
+Title: A Note on the Recipe
+
+----
+
+Layouttog: false
+
+----
+
+Bodycont:
+
+To be perfectly clear, not every programming language features English. We have a variety of programming languages written in and representing a large swath of spoken languages such as Arabic, Bengali, Chinese, Dutch, French, German, Greek, Hebrew, Hindi, Indonesian, Japanese, Korean, Latvian, Persian, Portuguese, Russian, Spanish, Tagalog, and Urdu, to name a few. In fact, a number of programming languages invented in non-English speaking countries boast a fair level of recognition on the international stage of coding, such as Python (Dutch), Ruby (Japanese), and Lua (Brazilian). So why aren’t Python keywords in Dutch, for example?
+
+Part of the issue is that many programming languages developed in non-English speaking countries are commercialized in English to appeal to an international audience. For example, PASCAL is a language which was developed in Switzerland by the Swiss computer scientist Niklaus Wirth. Instead of using any of the four national languages of Switzerland at the time, English was chosen as the premiere language to support the project. Given the present commercial and cultural dominance of English, this is unsurprising. Even before industrialization, British colonies used English as a tool of imperialism and colonization, with this legacy reaching deep into the history of the United States. By the end of WWII, English was established as the bridge language for all diplomatic, economic, and scientific affairs. Of course this influence has continued into present-day technology, where English-based programming languages quickly became the norm. According to the HOPL online database of languages, English programming languages account for roughly 3,235 of all 8,500 programming languages recorded [^1]. Knowing this, how does one begin to imagine an alternative to English based programming languages?
+
+I offer this quote by Kimberle Crenshaw, where she describes intersectional feminism as, “*a prism for seeing the way in which various forms of inequality often operate together and exacerbate each other*”. If we apply intersectional feminism to the issue of linguistic inequality in computer programming, we are able to take a step back and digest the whole. The first thing to recognize is that we are already deeply mired in a capitalist system that perpetuates the use of English in programming languages to access commerce, higher education, and a livelihood in the wealthiest nations. While this is inherently colonial and classist at its core, it stands at odds with the simplest definition of a lingua franca, which aims to act as a common language between nations for the benefit of exchanging diplomacy and research. Is it even possible to maintain the ideals of a lingua franca without soft-imperialism threatening to undermine it?
+
+As we sit with that thought, I invite you to entertain two possible alternatives to English-based programming languages:
+
+1) The development of a work culture that centers the localization of programming languages to support native-language character encoding and built-in operations (e.g. Chinese Python [^2]).
+
+OR
+
+2) The abolition of English as the lingua franca of coding and the installment of an esoteric programming language in its place.
+
+Are these the only two possible alternatives to our problem? Of course not! I am merely pausing on these possibilities because they serve to decentralize English-based programming languages while suggesting that the task of language acquisition be evenly distributed across different nationalities. This is an ongoing conversation and I urge you to add your thoughts to this list.
+
+Moving forward, I’d like to introduce esoteric programming languages (a.k.a. esolangs) to the mix. In essence, they are a type of programming language designed to be Turing-complete [^3] while simultaneously testing the boundaries of programming language design itself, as either a proof of concept, software art, or meme. Most esolang creators don’t intend for their languages to be adopted by working software developers; the endeavor of esolangs concern themselves with less utilitarian goals.
+
+According to Geoff Cox, esolangs are experiments that seek to “shift attention from command and control toward cultural expression and refusal" [^4]. Take for example Brainfuck, an esolang designed for extreme minimalism with only 8 usable characters. Brainfuck has been described by Daniel Temkin as “refusing to ease the boundary between human expression and assembly code and thereby taking us on a ludicrous journey of logic” [^5]. These statements are indicative of esolang culture as a whole, which concerns itself with the inherent conflict between computer logic and human thinking. In our attempts to translate machine code into human readable code, we abstract a numerical language into common linguistic typologies to help human programmers read code as if they were reading a sentence or book. However, there are many possible ways to abstract this machine language into human readable signifiers that do not even necessitate the ability to read, let alone being able to read English. We already use systems of abstraction such as visual programming languages to code elements graphically rather than textually; and when looking at esolangs that push the boundary of Turing-complete thinking, it really does feel that technically any system is possible, or at least possesses the freedom to be arbitrary.
+
+So what is keeping us from inventing esoteric programming languages that democratize the task of language acquisition for all? With the right tools and creativity, it feels very possible to design a unique coding language standard that does not rely on the syntax of English. I believe it is in our hands (and well within our ability) to reimagine an equitable future for the lingua franca of code.
+
+[^1]: Pigott, Diarmuid (2011). “HOPL: an Interactive Roster of Programming Languages”. Via (link: https://web.archive.org/web/20110220044217/http://hopl.murdoch.edu.au/ text: Wayback Machine).
+[^2]: More info available on the (link: http://www.chinesepython.org/english/english.html text: Chinese Python official website).
+[^3]: According to Google software engineer Mark Harrison, the term Turing-complete may be defined as, “a system in which a program can be written that will find an answer...so, if somebody says ‘my new thing is Turing-complete’ that means in principle (although often not in practice) it could be used to solve any computation problem”.
+[^4]: Cox, Geoff (2013). Speaking Code: Coding as Aesthetic and Political Expression. MIT Press.
+[^5]: Temkin, Daniel (15 January 2014). "Glitch && Human/Computer Interaction". NOOART: The Journal of Objectless Art.
+
+----
+
+Images: 
+
+----
+
+Layout: 

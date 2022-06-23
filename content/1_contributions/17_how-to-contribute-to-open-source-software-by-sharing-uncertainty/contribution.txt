@@ -1,0 +1,237 @@
+Title: How to contribute to open source software by sharing uncertainty
+
+----
+
+Author: evelyn masso
+
+----
+
+Keywords: opensSource, collectiveLearning, feedback
+
+----
+
+Category: breakfast
+
+----
+
+Language: p5
+
+----
+
+Gallery: 
+
+----
+
+Contextone: This recipe was inspired from workshops about contributing to open source I have facilitated at UCLA and Write/Speak/Code LA. These workshops were attended by almost exclusively people of marginalized genders. This was one of the key reasons I taught these workshops in the first place, to encourage more women, non-binary, and gender nonconforming folks to have access to open source.
+
+----
+
+Contexttwo: This recipe is an offering to all newcomers and beginners in open source, but especially people whose skills are undervalued because of their gender.
+
+----
+
+Contextthree: My submission describes a practice of challenging hierarchies between project maintainers and newcomers in open source by empowering and valuing the knowledge of newcomers. More established project maintainers are by and large people who also hold structural power and privilege, so newcomers and beginners who aren't able bodied cis white men are almost always dealing with structural power dynamics while learning how to get involved in open source.
+
+----
+
+Shortdesctext:
+
+This is a recipe for teaching new coders how to contribute with open source projects. It also serves as a practice for validating feelings of uncertainty that learners often have and shows them how these feelings can be fertile ground for improvements to the open source project and prompting larger conversations amongst other community members of the project.
+
+In open source projects there is often a power dynamic between maintainers and newcomers where maintainers decide what is important and newcomers obey. Open source doesn’t have to be like this. As someone who helps maintain p5.js, I learn from newcomers often! Newcomers are experts on how easy it is to learn a tool and often have other unique and valuable perspectives to share.
+
+This recipe was adapted from an assignment I created for the p5.js Approachability Lab, which took place in 2019 at UCLA under the advisement of (link: https://lauren-mccarthy.com/ text: Lauren Lee McCarthy) and was based on prior workshops I facilitated with (link: https://www.writespeakcode.com/ text: Write/Speak/Code) around 2016. In both contexts, all participants were women or non-binary individuals. Based on the (link: https://opensourcesurvey.org/2017/#insights text: Open Source Survey (2017)) conducted by Github, open source maintainers are predominantly white cis men, this activity was also created to specifically validate and empower the voices of women and people of other marginalized genders in public spaces where software is made.
+
+This recipe is an offering to all beginners, newcomers, and first-timers. You have valuable insights to offer. We can all learn and work together.
+
+----
+
+Bodycont:
+
+####A Note on the Recipe####
+
+This is designed as an add-on for another coding-based activity because it hinges on the participants having direct experience learning how to use at least a couple parts of the library.
+
+I’ve written this recipe for p5.js because that is the open source library I use in my teaching, but this can be adapted for any open source creative coding tool that has a publicly accessible forum for feedback. This could also work with UI-based tools like (link: https://www.wickeditor.com/ text: Wick Editor).
+
+####Activity Prompt####
+
+Think back to the last project you made with p5.js. What was confusing about the commands you used? Did you encounter any bugs? What would have made it easier? For this assignment, you will document one of these moments and share it in the p5.js GitHub repository. Please include one idea for how you might change the commands, behaviors, or documentation to help future learners.
+
+Your suggestion can be a small change or a large one, and it’s okay if you don’t know how to make it yourself. The feedback and ideas you have are valuable input for the continued development of p5.js.
+
+Please share your submission with your facilitator before posting it to the p5.js GitHub repository.
+
+####Format####
+
+The (link: https://github.com/processing/p5.js/issues/new/choose text: issue templates for p5.js) are meant to provide a guiding structure to share feedback about the library. You can use those to structure your submission. Here are some things to include:
+
+- what they were trying to accomplish
+- what you expected to happen that didn’t or what was missing that would have been helpful
+- screenshots or animated GIFs to help illustrate are very helpful
+
+####Submitting####
+
+Navigate to the (link: https://github.com/processing/p5.js/issues/new/choose text: p5.js GitHub issue creation page) and submit your issue. If you don’t have a GitHub account, you will need to sign up for one.
+
+####What to Expect Next ####
+
+It is likely you will get questions or comments on your issue, either from the maintainers or other community members. You should respond to these in a timely manner (think of it like email), but remember that it’s okay to say you don’t know or ask clarifying questions before sharing more information.
+
+####For the Facilitator####
+
+A few notes on what I usually do as a facilitator for this activity.
+
+#####Submission Feedback#####
+I will have participants share their submission with me before they post it on GitHub, primarily so I can reassure them that their idea is valid and worth sharing. I sometimes offer feedback on how they might communicate their ideas more clearly, or of other issues I’ve seen related to theirs.
+
+#####After Submission are Made#####
+Once students have submitted their issues, I will occasionally check in on their issues to see how the conversation is going. If I see miscommunication in the conversation, I will comment to try and clarify from my own point of view. I usually don’t publicly weigh in on whether the idea is “good” or not because I think it’s important for them to get feedback (and validation) from the wider community at this point.
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-06-21 21:05:00
+
+----
+
+Og-type-article-modified-time: 2022-06-21 21:05:00
+
+----
+
+Og-type-article-expiration-time: 2022-06-21 21:05:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default
