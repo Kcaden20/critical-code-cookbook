@@ -1,6 +1,10 @@
 .filter a:hover {
     text-decoration: line-through;
 }
+
+body.dark-theme .details p {
+    color: var(--fontColor) !important;
+}
 .details p {margin: var(--scaFactor) 0;}
 section h4 {
     margin-bottom: 0;
