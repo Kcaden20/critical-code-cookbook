@@ -13,21 +13,24 @@ Resources:
   url: https://aesthetic-programming.net/
   image:
     - ap_covergraph.jpg
-  description: Winnie Soon, Geoff Cox.
+  author: Winnie Soon, Geoff Cox.
+  description: ""
 - 
   title: CQDE
   url: https://www.cqdelab.com/
   image:
     - cqde-1.gif
-  description: alejandro t. acierto, KT Duffy
+  author: alejandro t. acierto, KT Duffy
+  description: ""
 - 
   title: codexdesign
   url: https://www.codexdesign.org/
   image:
     - codexdesign01.jpg
-  description: >
+  author: >
     Jess Parris Westbrook, Paige Yes
     Treebridge
+  description: ""
 
 ----
 

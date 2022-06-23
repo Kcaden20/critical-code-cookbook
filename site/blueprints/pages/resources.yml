@@ -43,8 +43,11 @@ tabs:
             width: 1
             uploads: 
               template: image
+          author: 
+            type: text
+            width: 1/2
           description: 
             type: text 
-            width: 1
+            width: 1/2
             maxlength: 140
   seotab: seo

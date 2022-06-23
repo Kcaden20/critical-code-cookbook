@@ -9,14 +9,14 @@ body {
     background-color: var(--bgColor);
     color: var(--fontColor);
     font-family: var(--fBody);
+    text-rendering: geometricPrecision;
     margin: 0;
-    padding-bottom: 80px;
+    padding-bottom: var(--gradHeight);
 
 }
 
 main {
     padding-top: 11rem;
-    max-width: var(--monitorSize);
     margin: 0 auto;
     min-height: 100vh;
     position: relative;
@@ -233,8 +233,11 @@ h3, header {font-size: var(--fixThree);}
 h4{font-size: var(--fixFour);}
 h5, header nav a, details summary, details[open] a{font-size: var(--fixFive);}
 p, li {font-size: 1.25rem;}
-body.dark-theme main p:not(.filter p), body.dark-theme main li { color: white;} 
-
+p {margin-top: 0; margin-bottom: var(--scaFactor)}
+p a {font-weight: bold; padding: .1em;}
+p a:hover { background-color: var(--fontColor); color: var(--bgColor); text-decoration: none;}
+body.dark-theme main p, body.dark-theme main li { color: white;} 
+main .filter a p {color: var(--fontColor)}
 header article p {font-size: 1rem}
 
 details {
@@ -252,16 +255,17 @@ details summary:hover {
   color: var(--bgColor);
 }
 
+
+body.dark-theme summary:hover {
+  color: var(--fontColor);
+}
+
 .icon {
   font-size: calc(var(--fixOne) * 2);
   text-align: center;
   color: var(--fontColor) !important;
   font-family: 'MP Tools';
   margin: 0 auto;
-}
-
-body.dark-theme summary:hover {
-  color: var(--fontColor);
 }
 
 details summary:focus {
@@ -282,15 +286,35 @@ details[open] a:first-of-type {
   margin-top: calc(var(--scaFactor));
 }
 
+p.callout {
+  padding: var(--scaOne);
+  margin: var(--scaOne);
+  background-color: white;
+  border-radius:var(--fixOne);
+  border: var(--borderStroke);
+}
+
+section.blocks p.callout {
+  margin: var(--scaOne); 
+}
+
+body.dark-theme main p.callout {
+  color: black;
+}
+
 /* Visual Elements */
 figure {
   margin: var(--scaThree);
+  max-width: var(--tabletMax); 
+  display: block; 
+  margin: 0 auto
 }
 
 figcaption {
   text-align: center;
   font-style: italic;
-  margin-bottom: var(--scaThree);
+  padding: var(--scaThree) var(--scaOne);
+  padding-top: var(--scaFactor);
 }
 svg {display: block;}
 
@@ -311,7 +335,7 @@ svg {display: block;}
   stroke: var(--fontColor);
 }
 
-img {width: 100%; max-width: var(--tabletMax); display: block; margin: 0 auto}
+img {width: 100%;}
 
 
 .video,
@@ -339,15 +363,12 @@ img {width: 100%; max-width: var(--tabletMax); display: block; margin: 0 auto}
 .img[data-contain] img {
   object-fit: contain;
 }
-.img-caption,
+
 .video-caption {
   padding-top: .75rem;
   line-height: 1.5em;
 }
 
-img + figcaption {
-  margin-top: var(--scaFactor);
-}
 /* 2.0 CLASSES */
 /* 2.1 Gradients */
 
@@ -360,7 +381,7 @@ footer .gradient {
     left: 0px !important;
     bottom: 0px;
     width: 100%;
-    height: 80px;
+    height: var(--gradHeight);
     pointer-events: none;
 
     /* Gradient Compatability */
@@ -430,7 +451,6 @@ body.dark-theme figure {
   grid-gap: var(--scaFour);
   margin-bottom: var(--scaThree);
   justify-content: center;
-  text-transform: capitalize;
 }
 
 .project-grid h5 {
@@ -499,17 +519,22 @@ section.blocks {
 
 section.blocks p {
   margin: 0;
+  margin-bottom: var(--scaFactor);
 }
 /* 3.0 KIRBY */
 .grid {
   --columns: 12;
-  --gutter: 1rem;
+  --gutter: 2em;
   display: grid;
   grid-gap: var(--gutter);
   grid-template-columns: 1fr;
 }
 .grid > .column {
   margin-bottom: var(--gutter);
+}
+
+section.column {
+  padding: 0;
 }
 
 .autogrid {

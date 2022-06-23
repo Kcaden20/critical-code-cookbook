@@ -51,7 +51,7 @@ $attrs = attr([
   </a>
 
   <?php if ($caption->isNotEmpty()): ?>
-  <figcaption class="img-caption">
+  <figcaption>
     <?= $caption ?>
   </figcaption>
   <?php endif ?>

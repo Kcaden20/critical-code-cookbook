@@ -7,6 +7,10 @@
     grid-column: span var(--columns);
   }
 
+  main {
+    max-width: var(--mainSize);
+  }
+
   .filter, .project-grid {
     grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   }
@@ -15,6 +19,10 @@
 @media screen and (min-width: 1200px) {   
   .filter, .project-grid {
     grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  }
+
+  main {
+    max-width: var(--deskSize);
   }
   }
 
@@ -29,8 +37,6 @@
          --fixFactor: .45rem; 
          --scaFactor: .45em;
     }
-
-
 
     .filter, .project-grid {
       grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));

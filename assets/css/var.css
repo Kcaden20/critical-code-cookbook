@@ -35,11 +35,10 @@ body {
     /* 1.2.0 FONT VARIABLES */
     /* 1.2.1 Fonts */
     --fHeading: 'Avara Bold';
-    --fhItalic: 'Avara Bold Italic';
     --fBody: 'Tiresias PC Font'; 
-    --fbItalic: 'Tiresias PC Font Italic';
     --fCode: 'Inconsolata';
-    --fIcon: 'MP Tools';
+
+    --gradHeight: 80px;
 
     /* 1.2.2 Font Sizes */
     --fixFactor: .5rem; 
