@@ -53,8 +53,9 @@
         <section> 
         <h3 id="<?= $child->uid() ?>"> <?= $child->title() ?></h3>
         <?php snippet('bodyCont', ['page' => $child]) ?>
+        </section> 
     <?php endforeach ?>
-    </section> 
+
 <?php endif ?> 
 <?php snippet('prevnext') ?>
 <?php snippet('footer') ?>

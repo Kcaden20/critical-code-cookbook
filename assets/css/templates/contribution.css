@@ -40,6 +40,9 @@ h1 + p, .keywords p {
 
 h1 + p {font-size: var(--fixFour);}
 
+section h4 {
+    margin-bottom: 0;
+}
 article h4 {
     margin-bottom: calc(var(--scaFactor) / 2);
 }

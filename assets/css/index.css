@@ -26,199 +26,65 @@ main {
 main section {
   padding: var(--scaOne);
 }
-section + section {
-  padding-top: 0;
+
+main article {
+  padding: var(--scaOne);
 }
 
-ol, ul {
-  padding-left: var(--scaFive);
-  padding-bottom: var(--scaFive);
-  margin-left: var(--scaFive)
+main section article {
+  padding: 0;
 }
+
+
+
 
 
 a {color: var(--fontColor);}
+
+a:hover, main figure figcaption a:hover { 
+  background-color: var(--fontColor); 
+  color: var(--bgColor); 
+  text-decoration: none;
+}
+
+main a {
+  padding: 0 .1em;
+}
+
+nav a:hover {
+  background-color: transparent;
+}
+
+ol, ul {
+  padding-left: var(--scaThree);
+  padding-bottom: var(--scaThree);
+  margin-left: var(--scaFive)
+}
+ol li {
+  margin-bottom: var(--scaFactor);
+}
+
+li ul li {
+  margin-bottom: 0;
+}
+li ul:last-child, li ol:last-child {
+  padding-bottom: 0;
+}
+
 
 code {
   padding: 0 var(--scaFactor);
   font-size: var(--fixFive);
   font-family: var(--fCode);
   color: var(--colorCode);
-  font-weight: strong;
+  font-weight: bold;
   
 }
-/* 1.1.2 Header & Navigation */
-header {
-    background-color: var(--navColor);
-    padding: var(--pxSix) var(--pxFive);
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-    position: fixed;
-    width: calc(100% - calc(var(--pxFive) * 2));
-    z-index: 1000;
-}
-
-/* // Navigation Items */
-header nav {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-
-}
-
-nav.mobile {
-  display: none;
-}
-header nav a {
-    color: black;
-    margin-right: var(--fixFive);
-    text-decoration: none;
-}
-
-
-header nav a:hover {
-    cursor: pointer;
-    text-decoration: line-through;
-    color: var(--bgColor);
-
-
-}
-
-body.dark-theme header nav a:hover, body.dark-theme code {
-  color: var(--fontColor);
-}
-
-footer {
-  text-align: center;
-}
-
-hr {
-  height: 3px;
-  background: var(--fontColor);
-  border: none;
-  outline: none;
-  margin: 3em 2em;
-  position: relative;
-}
-
-
-hr::before, hr::after {
-  content: '◆';
-  font-size: 24px;
-  position: absolute;
-  top: -16px;
-}
-
-hr::before {
-  left: -10px;
-}
-
-hr::after {
-  right: -10px;
-}
-
-section hr {
-  width: 50%;
-  margin: 3em auto;
-}
-
-
-/* 1.1.3 Toggles */
-/* Wrapper */
-header section {
-    display: flex;
-    justify-content: flex-end;
-    flex-wrap: wrap;
-}
-
-/* Toggle Wrapper */
-header section article {
-    display: flex; 
-    align-items: center;
-    justify-self: flex-end;
-    margin-left: var(--scaFive);
-}
-
-header section article:first-of-type, header nav a:last-of-type {
-    margin-left: 0;
-    margin-right: 0; 
-}
-
-/* Toggle Label */
-header section article p {
-    display: inline-block;
-    color: black;
-    margin: 0 0 0 var(--scaFactor);
-}
-
-.switch {
-    position: relative;
-    display: block;
-    width: 60px;
-    height: calc(var(--pxFactor) * 4);
-    flex-shrink: 0;
-  }
-
-  .switch p {
-      color: black;
-  }
-  
-  .switch input { 
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: var(--colorWhite);
-    border: 1px solid black; 
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: calc(var(--pxFactor) * 3);
-    width: calc(var(--pxFactor) * 3);
-    left: calc(var(--pxFactor) /2);
-    bottom: 2px;
-    background-color: var(--colorPink);
-    border: 1px solid black; 
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: var(--colorBlack);
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px var(--colorBlack);;
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
-  }
-  
-/* Making Sliders Round */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
 
 /* 1.2 Text */
+h1, h2, h3, h4, h5, figcaption, ul, ol {
+  color: var(--fontColor);
+}
 h1, h2, h3, h4, h5, header nav a, header nav p, header details summary {
     font-family: var(--fHeading);
 }
@@ -232,14 +98,13 @@ h2 {font-size: var(--fixTwo);}
 h3, header {font-size: var(--fixThree);}
 h4{font-size: var(--fixFour);}
 h5, header nav a, details summary, details[open] a{font-size: var(--fixFive);}
-p, li {font-size: 1.25rem;}
-p {margin-top: 0; margin-bottom: var(--scaFactor)}
+p {margin-top: 1em; margin-bottom: var(--scaFactor)}
 p a {font-weight: bold; padding: .1em;}
-p a:hover { background-color: var(--fontColor); color: var(--bgColor); text-decoration: none;}
-body.dark-theme main section p, body.dark-theme main li { color: white;} 
-main .filter a p {color: var(--fontColor)}
 header article p {font-size: 1rem}
 
+article {
+
+}
 details {
   width: 100%; ;
 }
@@ -255,25 +120,8 @@ details summary:hover {
   color: var(--bgColor);
 }
 
-
-body.dark-theme summary:hover {
-  color: var(--fontColor);
-}
-
-.icon {
-  font-size: calc(var(--fixOne) * 2);
-  text-align: center;
-  color: var(--fontColor) !important;
-  font-family: 'MP Tools';
-  margin: 0 auto;
-}
-
 details summary:focus {
   outline: 3px solid var(--bgColor);
-}
-
-body.dark-theme details summary:focus {
-  outline-color: var(--fontColor);
 }
 
 details[open] a {
@@ -298,16 +146,48 @@ section.blocks p.callout {
   margin: var(--scaOne); 
 }
 
-body.dark-theme main p.callout {
-  color: black;
-}
+hr {
+  height: 3px;
+  background: var(--fontColor);
+  border: none;
+  outline: none;
+  margin: var(--scaOne);
+  position: relative;
+  overflow: visible;
+  }
+  
+  
+  hr::before, hr::after {
+  content: '◆';
+  font-size: 24px;
+  position: absolute;
+  top: -16px;
+  color: var(--fontColor);
+  }
+  
+  hr::before {
+  left: -10px;
+  }
+  
+  hr::after {
+  right: -10px;
+  }
 
 /* Visual Elements */
 figure {
-  margin: var(--scaThree);
   max-width: var(--tabletMax); 
   display: block; 
-  margin: 0 auto
+  margin: var(--scaOne) auto
+}
+
+figure a {
+  padding: 0em;
+}
+figure a:hover {
+    background-color: transparent;
+   border-bottom: var(--borderStroke); 
+   border-width: 1px;
+
 }
 
 figcaption {
@@ -369,6 +249,142 @@ img {width: 100%;}
   line-height: 1.5em;
 }
 
+/* 1.1.2 Header & Navigation */
+header {
+  background-color: var(--navColor);
+  padding: var(--pxSix) var(--pxFive);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+  position: fixed;
+  width: calc(100% - calc(var(--pxFive) * 2));
+  z-index: 1000;
+}
+
+/* // Navigation Items */
+header nav {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+
+nav.mobile {
+display: none;
+}
+header nav a {
+  color: black;
+  margin-right: var(--fixFive);
+  text-decoration: none;
+}
+
+
+header nav a:hover {
+  cursor: pointer;
+  text-decoration: line-through;
+  color: var(--bgColor);
+
+
+}
+
+footer {
+text-align: center;
+}
+
+/* 1.1.3 Toggles */
+/* Wrapper */
+header section {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+/* Toggle Wrapper */
+header section article {
+  display: flex; 
+  align-items: center;
+  justify-self: flex-end;
+  margin-left: var(--scaFive);
+}
+
+header section article:first-of-type, header nav a:last-of-type {
+  margin-left: 0;
+  margin-right: 0; 
+}
+
+/* Toggle Label */
+header section article p {
+  display: inline-block;
+  color: black;
+  margin: 0 0 0 var(--scaFactor);
+}
+
+.switch {
+  position: relative;
+  display: block;
+  width: 60px;
+  height: calc(var(--pxFactor) * 4);
+  flex-shrink: 0;
+}
+
+.switch p {
+    color: black;
+}
+
+.switch input { 
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: var(--colorWhite);
+  border: 1px solid black; 
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: calc(var(--pxFactor) * 3);
+  width: calc(var(--pxFactor) * 3);
+  left: calc(var(--pxFactor) /2);
+  bottom: 2px;
+  background-color: var(--colorPink);
+  border: 1px solid black; 
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: var(--colorBlack);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px var(--colorBlack);;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Making Sliders Round */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
 /* 2.0 CLASSES */
 /* 2.1 Gradients */
 
@@ -405,13 +421,21 @@ footer .gradient {
   text-decoration: none;
 }
 
-
-
 .button:hover , .filter a:hover, .project-grid a:hover { 
   background-color: var(--fontColor); 
   color: var(--bgColor);
   text-decoration: line-through;
 }
+
+
+.filter a {
+  margin: 0;
+  text-transform: capitalize;
+}
+.filter a:hover p, .project-grid a:hover h5 {
+  color: var(--bgColor) !important;
+}
+
 
 .filter a .svg-container {
   padding: calc(var(--scaOne) * 2) 0;
@@ -425,10 +449,6 @@ footer .gradient {
   stroke: var(--bgColor);
 }
 
-.project-grid a:hover {
-  text-decoration: none;
-}
-
 .prevnext {
   display: flex;
   justify-content: space-between;
@@ -440,9 +460,31 @@ body.dark-theme .button:hover p, body.dark-theme .filter a:hover p, body.dark-th
   color: black !important;
 }
 
+/* Navigation */
+body.dark-theme header nav a:hover, body.dark-theme code {
+  color: var(--fontColor);
+}
+
+
+/* Type Elements */
+body.dark-theme { color: white;} 
+body.dark-theme summary:hover {
+  color: var(--fontColor);
+}
+
+body.dark-theme details summary:focus {
+  outline-color: var(--fontColor);
+}
+
+/* Visual Elements */
 body.dark-theme figure {
   border: var(--borderStroke);
   border-width: 1px;
+}
+
+/* Classes  */
+body.dark-theme main p.callout {
+  color: black;
 }
 
 /* 2.2 Grids */
@@ -453,8 +495,19 @@ body.dark-theme figure {
   justify-content: center;
 }
 
+
 .project-grid h5 {
-  margin-bottom: 0;
+  margin: 0 auto;
+}
+
+.project-grid a:hover {
+  text-decoration: none;
+}
+
+.project-grid a {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 
@@ -507,6 +560,7 @@ body.dark-theme figure {
 
 .project-grid a figure {
   margin: 0;
+  margin-bottom: var(--scaThree);
 }
 
 .project-grid a figure img {

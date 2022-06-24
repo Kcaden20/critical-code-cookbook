@@ -38,11 +38,11 @@
         </article>
         <article class="keywords">
             <?php foreach ($contribution->keywords()->split() as $category): ?>
-            <p><?= $category ?></p>
+            <p>#<?= $category ?></p>
             <?php endforeach ?>
         </article>
         <article class="description">
-            <?= kt($contribution->shortDescText()->excerpt(140)) ?>
+            <?= kt($contribution->shortDescText()->excerpt(100)) ?>
         </article>
     </a>
     <?php endforeach ?>
