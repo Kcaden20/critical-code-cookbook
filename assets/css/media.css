@@ -82,7 +82,7 @@
     font-size: var(--fixFive) !important;
   }
 
-  p, li, h5 {
+  p, li {
     font-size: 1rem;
   }
 }

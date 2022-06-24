@@ -183,8 +183,7 @@ figure a {
 }
 figure a:hover {
     background-color: transparent;
-   border-bottom: var(--borderStroke); 
-   border-width: 1px;
+    opacity: .8;
 
 }
 
