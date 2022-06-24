@@ -19,7 +19,7 @@ body {
     --mobileSize: 32rem;
 
     /* 0.0.3 Elements */
-    --borderStroke: .25rem solid var(--fontColor);
+    --borderStroke: .2rem solid var(--fontColor);
 /* ________________________________________ */
 
     /* 1.0 LIGHT THEME */
@@ -42,22 +42,22 @@ body {
 
     /* 1.2.2 Font Sizes */
     --fixFactor: .5rem; 
-    --fixOne: calc(var(--fixFactor) * 6);
-    --fixTwo: calc(var(--fixFactor) * 5);
-    --fixThree: calc(var(--fixFactor) * 4);
-    --fixFour: calc(var(--fixFactor) * 3.5);
-    --fixFive: calc(var(--fixFactor) * 3);
+    --fixOne: calc(var(--fixFactor) * 5);
+    --fixTwo: calc(var(--fixFactor) * 4);
+    --fixThree: calc(var(--fixFactor) * 3.5);
+    --fixFour: calc(var(--fixFactor) * 3);
+    --fixFive: calc(var(--fixFactor) * 2);
 
 /* ________________________________________ */
 
     /* 1.3.0 LAYOUT */
     /* Absolute Sizes */
     --pxFactor: 8px; 
-    --pxOne: calc(var(--pxFactor) * 6);
-    --pxTwo: calc(var(--pxFactor) * 5);
-    --pxThree: calc(var(--pxFactor) * 4);
-    --pxFour: calc(var(--pxFactor) * 3.5);
-    --pxFive: calc(var(--pxFactor) * 3);
+    --pxOne: calc(var(--pxFactor) * 5);
+    --pxTwo: calc(var(--pxFactor) * 4);
+    --pxThree: calc(var(--pxFactor) * 3.5);
+    --pxFour: calc(var(--pxFactor) * 3);
+    --pxFive: calc(var(--pxFactor) * 2);
     --pxSix: calc(var(--pxFactor) * 1.5);
 
     /* 1.3.1 Scaling Sizes */
