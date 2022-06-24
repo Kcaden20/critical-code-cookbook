@@ -9,16 +9,16 @@ Contributiontext: Recipes are published digitally under the (link: https://creat
 Catoptions:
 
 - 
-  category: Dinner
-  select: paper
+  category: Breakfast
+  select: sun
   svgupload: ""
 - 
   category: Lunch
   select: create
   svgupload: ""
 - 
-  category: Breakfast
-  select: sun
+  category: Dinner
+  select: paper
   svgupload: ""
 
 ----

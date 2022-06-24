@@ -46,7 +46,7 @@ The recipe below is for all those who want to move away from patriarchal, hegemo
 - Raspberry Pi
 - TV with HDMI
 - Keyboard, Mouse, 
-- [optional] Microphone OR ASPi
+- Microphone OR ASPi (optional)
 - Different cables
 
 ####Software Ingredients####

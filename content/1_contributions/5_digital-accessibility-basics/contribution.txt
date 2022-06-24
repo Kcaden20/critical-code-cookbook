@@ -64,10 +64,11 @@ Like me, many people with disabilities repurpose the technology in their environ
 
 Access to digital technologies, including to the Internet, is a basic human right [^1], according to the United Nations Convention on the Rights of Persons with Disabilities. Most of the international community has adopted this UN convention and other binding policies.
 
-The World Wide Web Consortium (W3C) has created international standards for digital creations, in addition, the W3C Web Accessibility Initiative (WAI) has further developed standards and support materials to help designers, developers, content creators, designers and others in the field understand and implement accessibility. 
-"The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect," says Tim Berners-Lee, W3C Director and inventor of the World Wide Web W3C. 
+(callout: "The power of the Web is in its universality. Access by everyone regardless of disability is an essential aspect" – Tim Berners-Lee, director and inventor of the World Wide Web Consortium (W3C))
 
-The standards set by W3C are as follows:
+The World Wide Web Consortium (W3C) has created international standards for digital creations, in addition, the W3C Web Accessibility Initiative (WAI) has further developed standards and support materials to help designers, developers, content creators, designers and others in the field understand and implement accessibility. 
+
+####W3C Standard Guidelines[^2]####
 
 #####Perceivable#####
 - Provide text alternatives for non-text content (such as alt-text).
@@ -89,13 +90,12 @@ The standards set by W3C are as follows:
 #####Robust#####
 - Maximize compatibility with current and future user tools.
 
-This set of guidelines reference (link: https://www.w3.org/WAI/standards-guidelines/wcag/glance/  text: *WCAG 2.1 at a Glance*). 
+####Universal Design####
+The practice of digital accessibility is deeply rooted in principles of Universal Design.
 
-The practice of digital accessibility is deeply rooted in principles of Universal Design:
->>*Universal Design is the design and composition of an environment so that it can be accessed, understood, and used to the greatest extent possible by all people regardless of their age, size, ability, or disability. An environment (or any building, product, or service in that environment) should be designed to meet the needs of all people who wish to use it. This is not a special requirement, for the benefit of only a minority of the population. It is a fundamental condition of good design*.<br/> 
-– The Centre for Excellence in Universal Design
+(callout: "Universal Design is the design and composition of an environment so that it can be accessed, understood, and used to the greatest extent possible by all people regardless of their age, size, ability, or disability. An environment (or any building, product, or service in that environment) should be designed to meet the needs of all people who wish to use it. This is not a special requirement, for the benefit of only a minority of the population. It is a fundamental condition of good design." – The Centre for Excellence in Universal Design)
 
-There is increasing social justice awareness to accessibility in general, and although this is not the scope of this course, it benefits us to be aware of these paradigms to guide our critical thinking behind the products we intend to design. Particularly principles of Design Justice and Disability Justice. I urge you to go through the readings below. I propose we begin by thinking about accessibility as a social issue.
+There is increasing social justice awareness to accessibility in general, and although this is not the scope of this course, it benefits us to be aware of these paradigms to guide our critical thinking behind the products we intend to design. Particularly principles of Design Justice and Disability Justice. I urge you to go through the (link: https://criticalcode.recipes/contributions/digital-accessibility-basics#further-readings text: further readings) below. I propose we begin by thinking about accessibility as a social issue.
 
 ####Guiding Questions####
 - Who benefits from accessible websites? Identify those in your network that could benefit from universal design.
@@ -103,6 +103,7 @@ There is increasing social justice awareness to accessibility in general, and al
 - What is disability justice?
 
 [^1]: See the (link: https://www.article19.org/data/files/Internet_Statement_Adopted.pdf  text: Human Rights Council).
+[^2]: This set of guidelines reference (link: https://www.w3.org/WAI/standards-guidelines/wcag/glance/  text: *WCAG 2.1 at a Glance*).
 
 ----
 

@@ -1,0 +1,39 @@
+Title: Freewriting Prompts
+
+----
+
+Layouttog: false
+
+----
+
+Bodycont:
+
+1. How would you describe your relationship with technology?
+*What do you use technology for in your own work? How do you identify as a coder, programmer, developer, or technical designer? What are your technical contributions to this ecosystem, and how do you see yourself integrating into it?*
+
+1. What, as you see it in your own work, is the technological status quo?
+*What are the norms and defaults? What is taken for granted? Here you should make an effort to
+think about the things that you do in your technical practice that operate subconsciously or on
+autopilot. What don’t you ask questions about? What is assumed to be “normal”?*
+
+1. Where do you attempt to break the status quo?
+*What do you do in your practice to oppose the rules and structures that you feel to be problematic? How do you see yourself already moving towards a more equitable programming
+practice?*
+
+1. Where do you uphold the status quo?
+*This gets a little trickier. Take an honest look at the ways in which you might actively be supporting existing systems, or systems that perpetuate power inequalities, bias, and social hierarchy in technology. Where might your privileges be blinding you? Where might you be benefiting from pre-existing structures? If you feel yourself getting defensive or uncomfortable, try to check in with those feelings and ask yourself why you might be experiencing them so intensely.*
+
+1. Who do I want my work to be for? Who is my work really for?
+*Who is actually engaging with the work you are doing? How does this match up with who you
+envision your work for? Do your ideal audience and your actual audience line up?*
+
+1. What is my vision for a more utopian technological future?
+*What is your goal for a more equitable technical practice? What would be ideal, and what work do you personally need to do to help get there?*
+
+----
+
+Images: 
+
+----
+
+Layout: 

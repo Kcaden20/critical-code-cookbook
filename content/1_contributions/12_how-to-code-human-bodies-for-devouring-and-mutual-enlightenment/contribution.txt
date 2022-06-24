@@ -59,7 +59,7 @@ According to anthropologist Viveiros de Castro, the Amazonian cosmogonies identi
 
 This recipe is about the act of devouring and assimilating Otherness. It is also an attempt to organize a reflection about the perception of our community's identity development and the creative relationship with our body's transmutation as part of a critical swallowing perspective.
 
-Can devouring become a gesture of creativity, a way of inhabiting the differences through bodily transformations? As Gloria E. Anzaldúa puts it: "The body is the ground of thought. The body is a text. Writing is not about being in your head; it's about being in your body."
+Can devouring become a gesture of creativity, a way of inhabiting the differences through bodily transformations? As Gloria E. Anzaldúa puts it: "*The body is the ground of thought. The body is a text. Writing is not about being in your head; it's about being in your body.*"
 
 ----
 
@@ -71,7 +71,7 @@ On the Amerindian perspectivism, the interior/exterior social dichotomy dissolve
 
 In the Latin American realm, identity is constantly in tension. Sometimes imposed by colonizing definitions, and sometimes by a mandate to decolonize ourselves. 
 
-How can we simultaneously experiment with our past and critically swallow new codes to shapeshift and extend our community body's boundaries? Do we need to define ourselves in order to have a community? 
+(callout: How can we simultaneously experiment with our past and critically swallow new codes to shapeshift and extend our community body's boundaries? Do we need to define ourselves in order to have a community?)
 
 ####The ritual: hyper-coding bodies####
 
@@ -79,7 +79,9 @@ The human body can be placed on a confronting structure: human/animal, exterior/
 
 In Amazonian cannibalism, what is sought is incorporating the subjective aspect of the Other, which is, therefore, hyper-subjectivized, and not de-subjectivized, as is the case with animal bodies. Animals are inhuman; we are all connected. 
 
-To eat a body, you need to code it; but to eat a human body, you need to ritualize it, spiritualize it: hyper-code it. Cannibalism is never just about eating. It focuses much more on the ritual that hyper-subjectivizes alterity. It's only within this system where the act of eating human flesh acquires meaning; flesh is the meaning.
+(callout: To eat a body, you need to code it; but to eat a human body, you need to ritualize it, spiritualize it: hyper-code it. Cannibalism is never just about eating.)
+
+It focuses much more on the ritual that hyper-subjectivizes alterity. It's only within this system where the act of eating human flesh acquires meaning; flesh is the meaning.
 
 ####void( ) {eating( )};####
 
@@ -87,9 +89,7 @@ From a cannibal perspective, eating is part of a predatory cosmovision: the nigh
 
 Eating a human body is about absorbing relational universes. Expansion from incorporation. Devouring energy, galaxies, black holes. All that can not be satiated. It's about turning matter into electrified particles. Engulfing as mutation precipitation. There is nothing to satiate. Shapeshifting into a jaguar's body, into a jaguar's eyes. The eye of the flesh looks for a dissolution of the human/animal boundary and the radical spiritualization of the world. Eating allows the continuity of the symbolic universe and the divinization of the body. 
 
-What does it mean to eat a hyper-coded body?
-
-To multiply a trans-dialogical hunger, to demand the cosmic cycle's continuation. 
+(callout: What does it mean to eat a hyper-coded body? To multiply a trans-dialogical hunger, to demand the cosmic cycle's continuation.)
 
 ####Transcending through engulfing flesh####
 
@@ -97,7 +97,9 @@ Guarani's anthropophagy fundamental principle states that a body accumulates ene
 
 In Amazonian shamanism, this kind of state can also be portrayed as the ability to deliberately cross bodily barriers and adopt the perspective of allospecific subjectivities. Shamans are able to assume the role of active interlocutors in the trans-species dialogue. But above all, they are able to return to tell the community's story and narrate the engulfing cosmic process as an encounter/ exchange of perspectives.
 
-Cannibalism is not an absorption of the Other, meaning incorporating it as part of a self-identity. On the contrary, it is a way of going out of oneself, of transforming oneself into the Other. The anthropophagous act does not annul the difference or the radical alterity it confronts; it repositions it in a simultaneously modified interiority. The exterior difference does not disappear when it is devoured; it survives in an interior that becomes *something Other*.
+(callout: Cannibalism is not an absorption of the Other, meaning incorporating it as part of a self-identity. On the contrary, it is a way of going out of oneself, of transforming oneself into the Other.)
+
+The anthropophagous act does not annul the difference or the radical alterity it confronts; it repositions it in a simultaneously modified interiority. The exterior difference does not disappear when it is devoured; it survives in an interior that becomes *something Other*.
 
 As this *something Other*, What elements should we highlight to build a narrative that recognizes community as a trans-species dialogical multiplicity? How can we build multicultural cosmic politics and an insatiable economy of Otherness?
 
