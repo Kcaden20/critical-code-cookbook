@@ -95,7 +95,7 @@ header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
 }
 @media screen and (max-width: 500px) { 
     main {
-        padding-top: 12em;
+        padding-top: 10em;
     }
 
     header nav {padding-left: var(--pxFactor); padding-bottom:var(--pxFactor); }

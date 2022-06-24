@@ -97,17 +97,51 @@
   header section article p {
     margin-top: calc(var(--pxFactor) / 2); 
   }
-
-  .filter, .project-grid {
-    grid-template-columns: 1fr;
+  .details p {
+    font-size: 1rem;
   }
 
   .filter a, .project-grid a {
     border-radius: 25px;
   }
-
-  p, li, h5 {
-    font-size: 1.25rem;
+  .project-grid {
+    display: block;
   }
 
+  .project-grid a {
+    margin-bottom: var(--scaOne);
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  body {
+    --multOne: 3;
+    --multTwo: 2.75;
+    --multThree: 2.5;
+    --multFour: 2.25;
+    --multFive: 2;
+  }
+
+  main #splash h1 {
+    font-size: 2rem !important;
+  }
+
+  header section article p {
+    font-size: .75rem;
+  }
+
+  main #splash p {
+    font-size: var(--multThree) !important;
+  }
+
+  .prevnext {
+    display: block;
+    margin-top: var(--scaOne);
+  }
+
+  .filter a .svg-container svg {
+    --maxW: 150px;
+  }
 }

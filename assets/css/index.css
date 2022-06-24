@@ -7,7 +7,6 @@
 body {
     position: relative;
     background-color: var(--bgColor);
-    color: var(--fontColor);
     font-family: var(--fBody);
     text-rendering: geometricPrecision;
     margin: 0;
@@ -420,6 +419,7 @@ input:checked + .slider:before {
     border-radius: 50px;
     position: relative;
     margin-top: calc(var(--scaOne) * 3);
+    text-align: center;
 }
 
 .button, .filter a, .project-grid a {
@@ -457,7 +457,13 @@ input:checked + .slider:before {
 .prevnext {
   display: flex;
   justify-content: space-between;
-  padding-top:  var(--scaThree)
+  align-items: center;
+  padding-top:  var(--scaThree);
+  text-align: center
+}
+
+.prevnext a {
+  display: block;
 }
 
 .box-shadow {
@@ -514,6 +520,7 @@ footer .gradient {
   display: grid;
   grid-template-columns: 1fr 1fr;
   text-align: center;
+  text-transform: capitalize;
 }
 
 .description {
@@ -627,3 +634,9 @@ body.dark-theme figure {
 body.dark-theme main p.callout {
   color: black;
 }
+
+
+body.dark-theme .project-grid a .description, body.dark-theme .project-grid a .details article p  {
+  color: white;
+}
+

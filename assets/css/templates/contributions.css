@@ -10,7 +10,3 @@ section h4 {
 }
 .details p {margin: var(--scaFactor) 0;}
 
-body.dark-theme .details p {
-    color: var(--fontColor) !important;
-}
-

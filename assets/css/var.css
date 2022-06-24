@@ -40,23 +40,31 @@ body {
 
     --gradHeight: 80px;
 
+    /* multipliers */
+    --multOne: 5;
+    --multTwo: 4;
+    --multThree: 3.5;
+    --multFour: 3; 
+    --multFive: 2.75; 
+
     /* 1.2.2 Font Sizes */
     --fixFactor: .5rem; 
-    --fixOne: calc(var(--fixFactor) * 5);
-    --fixTwo: calc(var(--fixFactor) * 4);
-    --fixThree: calc(var(--fixFactor) * 3.5);
-    --fixFour: calc(var(--fixFactor) * 3);
-    --fixFive: calc(var(--fixFactor) * 2.75);
+
+    --fixOne: calc(var(--fixFactor) * var(--multOne));
+    --fixTwo: calc(var(--fixFactor) * var(--multTwo));
+    --fixThree: calc(var(--fixFactor) * var(--multThree));
+    --fixFour: calc(var(--fixFactor) * var(--multFour));
+    --fixFive: calc(var(--fixFactor) * var(--multFive));
 
 /* ________________________________________ */
 
     /* 1.3.0 LAYOUT */
     /* Absolute Sizes */
     --pxFactor: 8px; 
-    --pxOne: calc(var(--pxFactor) * 5);
-    --pxTwo: calc(var(--pxFactor) * 4);
-    --pxThree: calc(var(--pxFactor) * 3.5);
-    --pxFour: calc(var(--pxFactor) * 3);
+    --pxOne: calc(var(--pxFactor) *  var(--multOne));
+    --pxTwo: calc(var(--pxFactor) * var(--multTwo));
+    --pxThree: calc(var(--pxFactor) * var(--multThree));
+    --pxFour: calc(var(--pxFactor) * var(--multFour));
     --pxFive: calc(var(--pxFactor) * 2);
     --pxSix: calc(var(--pxFactor) * 1.5);
 
