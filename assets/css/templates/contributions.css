@@ -1,13 +1,16 @@
-.filter a:hover {
-    text-decoration: line-through;
-}
-
-body.dark-theme .details p {
-    color: var(--fontColor) !important;
-}
-.details p {margin: var(--scaFactor) 0;}
+/* ELEMENTS */
 section h4 {
     margin: 0;
     text-align: center;
+}
+
+/* CLASSES */
+.filter a:hover {
+    text-decoration: line-through;
+}
+.details p {margin: var(--scaFactor) 0;}
+
+body.dark-theme .details p {
+    color: var(--fontColor) !important;
 }
 

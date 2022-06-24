@@ -36,11 +36,38 @@ main section article {
 }
 
 
+/* 1.2 Text */
+h1, h2, h3, h4, h5, figcaption {
+  color: var(--fontColor);
+}
+h1, h2, h3, h4, h5, header nav a, header nav p, header details summary {
+    font-family: var(--fHeading);
+}
 
+h1, h2, h3 {
+  text-align: center;
+}
+/* Font Sizes */
+h1 {font-size: var(--fixOne);}
+h2 {font-size: var(--fixTwo);}
+h3, header {font-size: var(--fixThree);}
 
+h4{font-size: var(--fixFour);}
+h4 + h5 {margin-top: 0}
+
+h5 {font-size: var(--fixFive);}
+h5 + * {margin-top: 0;}
+
+p {margin-top: 1em; margin-bottom: var(--scaFactor)}
+p a {font-weight: bold; padding: .1em;}
+p + ol, p + ul {
+  margin-top: 0;
+}
+
+header nav a, details summary, details[open] a{font-size: var(--fixFour);}
+header article p {font-size: 1rem}
 
 a {color: var(--fontColor);}
-
 a:hover, main figure figcaption a:hover { 
   background-color: var(--fontColor); 
   color: var(--bgColor); 
@@ -58,10 +85,23 @@ nav a:hover {
 ol, ul {
   padding-left: var(--scaThree);
   padding-bottom: var(--scaThree);
-  margin-left: var(--scaFive)
+  margin-left: var(--scaFive);
 }
-ol li {
-  margin-bottom: var(--scaFactor);
+
+ul li {
+  padding-left: .2em;
+}
+ul li::marker {
+  color: var(--fontColor);
+  content: "❖";
+}
+
+li ul li::marker {
+  content: "◈";
+}
+
+li p {
+  margin: 0;
 }
 
 li ul li {
@@ -80,28 +120,6 @@ code {
   font-weight: bold;
   
 }
-
-/* 1.2 Text */
-h1, h2, h3, h4, h5, figcaption, ul, ol {
-  color: var(--fontColor);
-}
-h1, h2, h3, h4, h5, header nav a, header nav p, header details summary {
-    font-family: var(--fHeading);
-}
-
-h1, h2, h3 {
-  text-align: center;
-}
-/* Font Sizes */
-h1 {font-size: var(--fixOne);}
-h2 {font-size: var(--fixTwo);}
-h3, header {font-size: var(--fixThree);}
-h4{font-size: var(--fixFour);}
-h5 {font-size: var(--fixFive);}
-header nav a, details summary, details[open] a{font-size: var(--fixFour);}
-p {margin-top: 1em; margin-bottom: var(--scaFactor)}
-p a {font-weight: bold; padding: .1em;}
-header article p {font-size: 1rem}
 
 details {
   width: 100%; ;
@@ -172,10 +190,18 @@ hr {
   }
 
 /* Visual Elements */
+img {
+  width: 100%;
+}
+
 figure {
   max-width: var(--tabletMax); 
   display: block; 
   margin: var(--scaOne) auto
+}
+
+figure.portrait, figure.square {
+  max-width: 28rem;
 }
 
 figure a {
@@ -183,7 +209,6 @@ figure a {
 }
 figure a:hover {
     background-color: transparent;
-    opacity: .8;
 
 }
 
@@ -212,9 +237,12 @@ svg {display: block;}
   stroke: var(--fontColor);
 }
 
-img {width: 100%;}
+/* BLOCKS */
+section.blocks figure {
+  --w: 1;
+  --h: 1;
 
-
+}
 .video,
 .img {
   position: relative;
@@ -234,11 +262,11 @@ img {width: 100%;}
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;
   border: 0;
 }
+
 .img[data-contain] img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .video-caption {
@@ -385,26 +413,6 @@ input:checked + .slider:before {
 /* 2.0 CLASSES */
 /* 2.1 Gradients */
 
-.box-shadow {
-    box-shadow: 0px 2px 15px #ccc;
-}
-
-footer .gradient {
-    position: fixed;
-    left: 0px !important;
-    bottom: 0px;
-    width: 100%;
-    height: var(--gradHeight);
-    pointer-events: none;
-
-    /* Gradient Compatability */
-    background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
-    background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
-    background: -ms-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
-    background: linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
-    
-}
-
 /* 2.1 Link Buttons */
 .button {
     border: var(--borderStroke);
@@ -452,38 +460,25 @@ footer .gradient {
   padding-top:  var(--scaThree)
 }
 
-/* DARK THEME */
-body.dark-theme .button:hover p, body.dark-theme .filter a:hover p, body.dark-theme .project-grid a:hover p {
-  color: black !important;
+.box-shadow {
+  box-shadow: 0px 2px 15px #ccc;
 }
 
-/* Navigation */
-body.dark-theme header nav a:hover, body.dark-theme code {
-  color: var(--fontColor);
+footer .gradient {
+  position: fixed;
+  left: 0px !important;
+  bottom: 0px;
+  width: 100%;
+  height: var(--gradHeight);
+  pointer-events: none;
+
+  /* Gradient Compatability */
+  background: -webkit-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
+  background: -moz-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
+  background: -ms-linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
+  background: linear-gradient(bottom, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 62.39%, rgba(255,255,255,0) 100%);
+  
 }
-
-
-/* Type Elements */
-body.dark-theme { color: white;} 
-body.dark-theme summary:hover {
-  color: var(--fontColor);
-}
-
-body.dark-theme details summary:focus {
-  outline-color: var(--fontColor);
-}
-
-/* Visual Elements */
-body.dark-theme figure {
-  border: var(--borderStroke);
-  border-width: 1px;
-}
-
-/* Classes  */
-body.dark-theme main p.callout {
-  color: black;
-}
-
 /* 2.2 Grids */
 .filter, .project-grid {
   display:grid;
@@ -595,4 +590,40 @@ section.column {
   grid-gap: var(--gutter);
   grid-template-columns: repeat(auto-fit, minmax(var(--min), 1fr));
   grid-auto-flow: dense;
+}
+
+/* DARK THEME */
+body.dark-theme .container {
+  opacity: .4;
+}
+
+/* DARK THEME */
+body.dark-theme .button:hover p, body.dark-theme .filter a:hover p, body.dark-theme .project-grid a:hover p {
+  color: black !important;
+}
+
+/* Navigation */
+body.dark-theme header nav a:hover, body.dark-theme code {
+  color: var(--fontColor);
+}
+
+
+/* Type Elements */
+body.dark-theme summary:hover {
+  color: var(--fontColor);
+}
+
+body.dark-theme details summary:focus {
+  outline-color: var(--fontColor);
+}
+
+/* Visual Elements */
+body.dark-theme figure {
+  border: var(--borderStroke);
+  border-width: 1px;
+}
+
+/* Classes  */
+body.dark-theme main p.callout {
+  color: black;
 }

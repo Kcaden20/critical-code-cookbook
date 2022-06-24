@@ -12,6 +12,7 @@
             'assets/css/fonts.css', 
             'assets/css/var.css',
             'assets/css/index.css',
+            'assets/css/dark-theme.css',
             'assets/css/media.css',
             'assets/css/lightbox.css',
             'assets/css/background.css',

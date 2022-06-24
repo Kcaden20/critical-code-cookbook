@@ -46,7 +46,7 @@ body {
     --fixTwo: calc(var(--fixFactor) * 4);
     --fixThree: calc(var(--fixFactor) * 3.5);
     --fixFour: calc(var(--fixFactor) * 3);
-    --fixFive: calc(var(--fixFactor) * 2.5);
+    --fixFive: calc(var(--fixFactor) * 2.75);
 
 /* ________________________________________ */
 
@@ -74,7 +74,7 @@ body.dark-theme {
     /* 2.1.0 Dark Theme Variables */
     --bgColor: var(--colorBlack);
     --fontColor: var(--colorPink);
-    --colorCode: white;
+    color: white;
 }
 
 /* 3.0 Display-P3 COLOR SUPPORT  */

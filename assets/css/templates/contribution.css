@@ -1,3 +1,37 @@
+/* ELEMENTS */
+h1 + p, .keywords p {
+    font-size: var(--fixFive);
+    font-family: var(--fHeading);
+    text-align: center;
+}
+
+h1 + p {font-size: var(--fixFour);}
+
+h1::before, h3::before{ 
+    display: block; 
+    content: " "; 
+    margin-top: -11rem; 
+    height: 11rem; 
+    visibility: hidden; 
+    pointer-events: none;
+}
+
+h3:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+article h4 {
+    margin-bottom: calc(var(--scaFactor) / 2);
+}
+
+.context article h4, .context article:last-child p { margin-bottom: 0;}
+
+section h4, section h5 {
+    margin-bottom: 0;
+}
+
+/* CONTAINERS */
 /* 1.0 HEADER  */
 header {
     padding: 0;
@@ -5,14 +39,6 @@ header {
     padding-top: var(--pxSix);
     width: 100%;
 }
-
-.subnav {padding-bottom: var(--pxFactor);}
-
-h3:first-child {
-    padding-top: 0;
-    margin-top: 0;
-}
-
 
 header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);}
 header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
@@ -24,42 +50,19 @@ header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
     width: 100vw;
 }
 
+.subnav {padding-bottom: var(--pxFactor);}
+
 .subnav a {
     color: white; 
     font-size: 1rem;
 }
 
+
+/* DARK THEME */
 .dark-theme .subnav {border-bottom: 1px solid var(--fontColor);}
 
-/* ELEMENTS */
-h1 + p, .keywords p {
-    font-size: var(--fixFive);
-    font-family: var(--fHeading);
-    text-align: center;
-}
 
-h1 + p {font-size: var(--fixFour);}
-
-section h4 {
-    margin-bottom: 0;
-}
-article h4 {
-    margin-bottom: calc(var(--scaFactor) / 2);
-}
-
-
-.context article h4, .context article:last-child p { margin-bottom: 0;}
-
-
-h3::before, h1::before { 
-    display: block; 
-    content: " "; 
-    margin-top: -11rem; 
-    height: 11rem; 
-    visibility: hidden; 
-    pointer-events: none;
-}
-
+/* MEDIA QUERIES */
 @supports (background-clip: content-box) {
     sup, .footnotes ol li  { 
         padding-top: 9rem;

@@ -37,7 +37,9 @@
             </article>
         </article>
         <article class="keywords">
-            <?php foreach ($contribution->keywords()->split() as $category): ?>
+            <?php 
+            $categories = array_slice($contribution->keywords()->split(), 0, 3);
+            foreach ($categories as $category): ?>
             <p>#<?= $category ?></p>
             <?php endforeach ?>
         </article>

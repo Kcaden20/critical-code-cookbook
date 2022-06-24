@@ -1,0 +1,35 @@
+body.dark-theme .container {
+    opacity: .4;
+  }
+
+  /* DARK THEME */
+body.dark-theme .button:hover p, body.dark-theme .filter a:hover p, body.dark-theme .project-grid a:hover p {
+    color: black !important;
+  }
+  
+  /* Navigation */
+  body.dark-theme header nav a:hover, body.dark-theme code {
+    color: var(--fontColor);
+  }
+  
+  
+  /* Type Elements */
+  body.dark-theme summary:hover {
+    color: var(--fontColor);
+  }
+  
+  body.dark-theme details summary:focus {
+    outline-color: var(--fontColor);
+  }
+  
+  /* Visual Elements */
+  body.dark-theme figure {
+    border: var(--borderStroke);
+    border-width: 1px;
+  }
+  
+  /* Classes  */
+  body.dark-theme main p.callout {
+    color: black;
+  }
+  
