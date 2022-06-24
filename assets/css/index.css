@@ -97,7 +97,8 @@ h1 {font-size: var(--fixOne);}
 h2 {font-size: var(--fixTwo);}
 h3, header {font-size: var(--fixThree);}
 h4{font-size: var(--fixFour);}
-h5, header nav a, details summary, details[open] a{font-size: var(--fixFour);}
+h5 {font-size: var(--fixFive);}
+header nav a, details summary, details[open] a{font-size: var(--fixFour);}
 p {margin-top: 1em; margin-bottom: var(--scaFactor)}
 p a {font-weight: bold; padding: .1em;}
 header article p {font-size: 1rem}
