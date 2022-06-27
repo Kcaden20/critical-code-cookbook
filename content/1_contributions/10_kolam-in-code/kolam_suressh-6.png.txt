@@ -1,0 +1,17 @@
+Proportion: Portrait
+
+----
+
+Caption: Figure 6. Image credit: Lavannya Suressh.
+
+----
+
+Alt: 4 examples of Kolams following the loop array method of making them with the first two Kolams on the top being a design with a 3x3 grid and the next two designs on the row below it being Kolams in a 5x5 grid with a blue line showing how to draw the forward loop of a Kolam and a dotted orange line to show how you loop back a Kolam forming the design.
+
+----
+
+Credits: 
+
+----
+
+Template: image

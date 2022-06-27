@@ -1,0 +1,17 @@
+Proportion: landscape
+
+----
+
+Caption: Image credit: Teachable Machine.
+
+----
+
+Alt: Screenshot of the interface of Teachable Machine’s Image Project.
+
+----
+
+Credits: 
+
+----
+
+Template: image

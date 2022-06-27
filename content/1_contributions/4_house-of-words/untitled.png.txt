@@ -1,0 +1,17 @@
+Proportion: Portrait
+
+----
+
+Caption: A diagram explaining the syntax for template strings in computer programming. Image credit: Morgan Green.
+
+----
+
+Alt: The line of code `words words ${var} words` is annotated by three separate comments. The annotation for the green colored "$" is "the value of variable gets embedded in the string, because it is preceded by a dollar sign". The annotation for the blue colored "{ }" is "the variable is wrapped with curly braces on either side". The annotation for the rest of the line of code is "Wrap the whole phrase in backtick, so the computer knows how to look for embedded variables."
+
+----
+
+Credits: 
+
+----
+
+Template: image

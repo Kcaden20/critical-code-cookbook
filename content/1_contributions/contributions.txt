@@ -2,7 +2,7 @@ Title: Contributions
 
 ----
 
-Contributiontext: Recipes are published digitally under the (link: https://creativecommons.org/licenses/by-nc-sa/4.0/ text: Creative Commons Attribution-Non-Commercial-Share-A-like 4.0 (CC BY-NC-SA 4.0) license), which allows for adaptations of work to be shared with attribution as long as others share alike, and non-commercial (profit-driven) use of the work.
+Contributiontext: 
 
 ----
 
@@ -36,10 +36,6 @@ Langoptions:
 - 
   category: p5
   select: five
-  svgupload: ""
-- 
-  category: Babylon.js
-  select: ""
   svgupload: ""
 - 
   category: Python

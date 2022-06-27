@@ -1,0 +1,17 @@
+Title: Licensing Information
+
+----
+
+Layouttog: false
+
+----
+
+Bodycont: This recipe is licensed under (link: https://creativecommons.org/licenses/by-nc-sa/4.0/ text: Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0))
+
+----
+
+Images: 
+
+----
+
+Layout: 

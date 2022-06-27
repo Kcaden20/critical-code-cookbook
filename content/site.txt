@@ -9,7 +9,14 @@ Socialplatforms:
 
 ----
 
-Socialmedia: 
+Socialmedia:
+
+- 
+  platform: discord
+  emailtoggle: 'false'
+  link: https://discord.gg/ZSZuR94jWm
+  emaillink: ""
+  displaytext: ""
 
 ----
 
@@ -21,7 +28,7 @@ Meta-title:
 
 ----
 
-Meta-description: 
+Meta-description: Intersectional Feminist Approaches to Teaching and Learning
 
 ----
 
