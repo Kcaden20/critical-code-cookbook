@@ -105,27 +105,27 @@ Read on for more use cases and an explanation of template strings.
 Consider again this example, in which pet is assigned as a simple string variable, and sentence is assigned as a template string:
 
 `var pet = "cat";`
-`var sentence =`<code style ="color: #ff7e0d;">\`</code>`My`<code style="color: #38761d;">$</code><code style="color: #4a86e8;">{</code>`pet`<code style="color: #4a86e8;">}</code>`eats twice a day.`<code  style ="color: #ff7e0d;">\`</code>`;`
+`` var sentence = `My ${pet} eats twice a day.`; ``
 `//the above line assigns the variable called ‘sentence’ the value “My cat eats twice a day.”`
 
-Three important symbols are colored for emphasis. The **backticks** <code style ="color: #ff7e0d;">``</code> that establish the variable as a template string, and the **dollar sign** <code style="color: #38761d;">$</code> and **curly braces** <code style="color: #4a86e8;">{}</code> that surround the variable, allowing it to embed into the template string.
+Three important symbols are colored for emphasis. The **backticks** `` ` ` `` that establish the variable as a template string, and the **dollar sign** `$` and **curly braces** `{}` that surround the variable, allowing it to embed into the template string.
 
 (image: untitled.png)
 
-This formatting allows the code interpreter to sub in any string value where <code style="color: #38761d;">$</code><code style="color: #4a86e8;">{</code>`pet`<code style="color: #4a86e8;">}</code> appears in the sentence. So if you change the value of pet, the sentence changes accordingly:
+This formatting allows the code interpreter to sub in any string value where ${pet} appears in the sentence. So if you change the value of pet, the sentence changes accordingly:
 
 `var pet = "dog";`
-<code  style ="padding: 0 0 auto 0;">var sentence =</code><code style ="color: #ff7e0d; padding: 0 0;">\`</code><code  style ="padding: 0 0;">My </code><code style="color: #38761d; padding: 0 0;">$</code><code style="color: #4a86e8; padding: 0 0;">{</code><code  style ="padding: 0 0;">pet</code><code style="color: #4a86e8; padding: 0 0;">}</code><code  style ="padding: 0 0;"> eats twice a day.</code><code  style ="color: #ff7e0d; padding: 0 0;">\`</code><code  style ="padding: 0 0;">;</code>
+``var sentence = `My ${pet} eats twice a day.`;``
 `//the above line assigns the variable called ‘sentence’ the value "My dog eats twice a day."`
 
 `var pet = "toaster";`
-`var sentence =`<code style ="color: #ff7e0d;">\`</code>`My`<code style="color: #38761d;">$</code><code style="color: #4a86e8;">{</code>`pet`<code style="color: #4a86e8;">}</code>`eats twice a day.`<code  style ="color: #ff7e0d;">\`</code>`;`
+``var sentence = `My ${pet} eats twice a day.`;``
 `//the above line assigns the variable called ‘sentence’ the value "My toaster eats twice a day."`
 
 Here’s a different example:
 
 `var fav_color = "purple";`
-`var phrase =`<code style ="color: #ff7e0d;">\`</code>`My favorite color is`<code style="color: #38761d;">$</code><code style="color: #4a86e8;">{</code>`fav_color`<code style="color: #4a86e8;">}</code>`.`<code  style ="color: #ff7e0d;">\`</code>`;`
+``var phrase = `My favorite color is ${fav_color}.`;``
 `//the above line assigns the variable called ‘phrase’ the value "My favorite color is purple."`
 
 Note that our variable names don’t really make a difference to the code interpreter. We could get the same results with the following: 
