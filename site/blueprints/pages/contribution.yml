@@ -25,7 +25,7 @@ tabs:
             options: query
             query: 
               fetch: page.parent.catOptions.toStructure
-              text: "{{ structureItem.category }}"
+              text: "{{ structureItem.category.lower }}"
               value: "{{ structureItem.category.slug }}"
             help: The options for this category are selected from the **Works** page.
           language: 
@@ -34,7 +34,7 @@ tabs:
             options: query
             query:
               fetch: page.parent.langOptions.toStructure 
-              text: "{{ structureItem.category }}"
+              text: "{{ structureItem.category.lower }}"
               value: "{{ structureItem.category.slug }}"
       - width: 1
         sections: 

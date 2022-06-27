@@ -9,7 +9,7 @@
     <h4>Filter By</h4>
     </section>
     <section class="filter">
-        <a class="button" href="<?= $page->url() ?>">All</a>
+        <a class="button" href="<?= $page->url() ?>">all</a>
         <?php foreach($filters as $filter):?>
             <?php if($filter == ''): ?>
             <?php else: ?>
