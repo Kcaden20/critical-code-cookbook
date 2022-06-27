@@ -23,6 +23,11 @@
                 if($introText->isNotEmpty()): ?>
                     <article><?= $introText->kt() ?></article>
                 <?php endif ?>
+
+                <!-- About Link Conditional -->
+                <?php if($page->introLink()):?>
+                    <a class="button" href="<?= $about->url() ?>"><?= $page->introLink() ?></a>
+                <?php endif ?>    
             </section>
             
             <!-- CONTRIBUTIONS  -->
@@ -38,8 +43,15 @@
                     <?php if($page->contributionText()):?>
                         <article><?= $page->contributionText()->kt() ?></article>
                     <?php endif ?>
-                    
 
+                    <!-- Contributions Link Conditional -->
+                    <?php if($page->contributionLink()):?>
+                        <a class="button" href="<?= $contributions->url() ?>"><?= $page->contributionLink() ?></a>
+                    <?php endif ?>  
+                    
+                    <?php if($page->filterText()):?>
+                        <article><h3><?= $page->filterText() ?></h3></article>
+                    <?php endif ?>
                     <!-- Access Categories from Home Page -->
                     <article class="filter">
                             <?php foreach($filters as $filter):?>
@@ -75,12 +87,7 @@
                                     </a>
                                 <?php endif ?>
                             <?php endforeach ?>
-                    </article>
-
-                    <!-- Contributions Link Conditional -->
-                    <?php if($page->contributionLink()):?>
-                        <a class="button" href="<?= $contributions->url() ?>"><?= $page->contributionLink() ?></a>
-                    <?php endif ?>    
+                    </article>  
             </section>
 
             <!-- RESOURCES -->

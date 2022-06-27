@@ -14,11 +14,19 @@ Introtext: Oh is this working? Testing...
 
 ----
 
+Introlink: Learn More About Our Project
+
+----
+
 Contributiontext: Contributions Copy
 
 ----
 
 Contributionlink: See The Full Selection of Projects
+
+----
+
+Filtertext: Or see our projects by category!
 
 ----
 

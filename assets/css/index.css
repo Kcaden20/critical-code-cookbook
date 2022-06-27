@@ -23,11 +23,15 @@ main {
 }
 
 main section {
-  padding: var(--scaOne);
+  padding: var(--scaThree);
+}
+
+section section {
+  padding: 0;
 }
 
 main article {
-  padding: var(--scaOne);
+  padding: var(--scaThree);
 }
 
 main section article {
@@ -57,7 +61,7 @@ h4 + h5 {margin-top: 0}
 h5 {font-size: var(--fixFive);}
 h5 + * {margin-top: 0;}
 
-p {margin-top: 1em; margin-bottom: var(--scaFactor)}
+p {margin: var(--scaThree) auto}
 p a {font-weight: bold; padding: .1em;}
 p + ol, p + ul {
   margin-top: 0;
@@ -113,10 +117,10 @@ li ul:last-child, li ol:last-child {
 
 code {
   padding: 0 var(--scaFactor);
-  font-size: var(--fixFive);
   font-family: var(--fCode);
   color: var(--colorCode);
   font-weight: bold;
+  word-break: break-word;
   
 }
 
@@ -152,7 +156,7 @@ details[open] a:first-of-type {
 p.callout {
   padding: var(--scaOne);
   margin: var(--scaOne);
-  background-color: white;
+  background-color: var(--colorWhite);
   border-radius:var(--fixOne);
   border: var(--borderStroke);
 }
@@ -196,7 +200,7 @@ img {
 figure {
   max-width: var(--tabletMax); 
   display: block; 
-  margin: var(--scaOne) auto
+  margin: var(--scaThree) auto
 }
 
 figure.portrait, figure.square {
@@ -208,7 +212,6 @@ figure a {
 }
 figure a:hover {
     background-color: transparent;
-
 }
 
 figcaption {
@@ -227,8 +230,7 @@ svg {display: block;}
 }
 
 .svg-container svg {
-  --svgSize: 30%;
-  --maxW: 200px;
+  --maxW: 300px;
   max-width: var(--maxW) !important;
   min-width: calc(var(--maxW) / 2);
   height: var(--svgSize);
@@ -418,7 +420,7 @@ input:checked + .slider:before {
     padding: var(--scaFive) var(--scaThree);
     border-radius: 50px;
     position: relative;
-    margin-top: calc(var(--scaOne) * 3);
+    margin-top: var(--scaOne);
     text-align: center;
 }
 
@@ -435,7 +437,6 @@ input:checked + .slider:before {
 
 .filter a {
   margin: 0;
-  text-transform: capitalize;
 }
 .filter a:hover p, .project-grid a:hover h5 {
   color: var(--bgColor) !important;
@@ -488,8 +489,8 @@ footer .gradient {
 /* 2.2 Grids */
 .filter, .project-grid {
   display:grid;
-  grid-gap: var(--scaOne);
-  margin-bottom: var(--scaThree);
+  grid-gap: var(--scaThree);
+  margin: var(--scaOne) auto;
   justify-content: center;
 }
 
@@ -534,20 +535,14 @@ footer .gradient {
 }
 
 .keywords p {
-  margin-right: var(--scaFactor);
+  margin: var(--scaFactor);
   font-size: 1rem;
+
 }
 
 .filter {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  grid-template-columns: repeat(5, minmax(10px, 1fr));
   text-align: center;
-  align-items: center;
-}
-
-.filter a {
-  flex: 0 0 7%;
 }
 
 .filter a, .project-grid a {
@@ -563,7 +558,7 @@ footer .gradient {
 }
 
 .project-grid a figure img {
-  object-fit: contain;
+  object-fit: cover;
 }
 
 section.blocks {
@@ -637,6 +632,6 @@ body.dark-theme main p.callout {
 
 
 body.dark-theme .project-grid a .description, body.dark-theme .project-grid a .details article p  {
-  color: white;
+  color: var(--colorWhite);
 }
 

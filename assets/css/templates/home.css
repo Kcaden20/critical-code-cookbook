@@ -5,7 +5,7 @@ h1, h2, h3, main #splash p {
 
 /* 1.1 CONTAINERS */
 main section > * {
-  max-width: calc(var(--monitorSize));
+  max-width: calc(var(--deskSize));
   margin-left: auto;
   margin-right: auto;
 }
@@ -21,11 +21,14 @@ main section {
 }
 
 .filter a {
+    display: flex;
+    flex-direction: column;
     flex: 0 0 20%;
   }
 
+  
+
 .filter a p {
-    text-transform: capitalize;
     font-size: var(--fixThree);
     margin: 0;
 }
@@ -260,7 +263,7 @@ font-size: calc(var(--fixFactor) * 4);
 /* 4.0 DARK THEME */
 body.dark-theme #about {
     --fontColor: var(--colorYell);
-    color: var(--fontColor);
+    --borderStroke: .25rem solid var(--fontColor);
 }
 
 body.dark-theme #splash h1, body.dark-theme #splash p {
@@ -269,11 +272,11 @@ body.dark-theme #splash h1, body.dark-theme #splash p {
 
 body.dark-theme #resources {
     --fontColor: var(--colorPurp) !important;
-    color: var(--fontColor);
     --borderStroke: .25rem solid var(--fontColor);
 }
 
 body.dark-theme #about, body.dark-theme #contributions, body.dark-theme #resources {
     --bgColor: black;
     background-color: var(--bgColor);
+    border-bottom: .25rem solid var(--fontColor);
 }

@@ -21,6 +21,10 @@ sections:
         size: medium
         width: 1
         help: Addinformation about CCC here to go underneath the splash!
+      introLink:
+        label: Introduction Link Text
+        type: text
+        width: 1
       contributionHD:
         type: headline
         label: Contributions
@@ -31,6 +35,10 @@ sections:
         width: 1 
       contributionLink:
         label: Contribution Link Text
+        type: text
+        width: 1
+      filterText: 
+        label: Filter Copy
         type: text
         width: 1
       resourcesHD: 

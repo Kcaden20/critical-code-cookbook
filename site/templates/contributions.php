@@ -44,7 +44,7 @@
             <?php endforeach ?>
         </article>
         <article class="description">
-            <?= kt($contribution->shortDescText()->excerpt(100)) ?>
+            <p><?= getExcerpt(kt($contribution->shortDescText())) ?></p>
         </article>
     </a>
     <?php endforeach ?>
