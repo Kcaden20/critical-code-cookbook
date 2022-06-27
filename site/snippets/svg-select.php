@@ -45,7 +45,7 @@ switch ($svgSel) {
     <?php break;
     case "snake":
     ?>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="-25 -20  350 350" fill="none" stroke="#231f20" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="154.53" cy="63.47" rx="129.61" ry="63.47"/><ellipse cx="153.09" cy="148.28" rx="158.47" ry="39.05" transform="matrix(.818451 -.574577 .574577 .818451 -57.4 114.9)"/><circle cx="54.05" cy="243.53" r="39.05"/><circle cx="245.1" cy="63.47" r="39.05"/><circle cx="67.2" cy="63.9" r="39.05"/><ellipse cx="155.39" cy="263.75" rx="129.61" ry="33.37"/></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="180.63" cy="54.65" rx="70.4" ry="24.68"/><ellipse cx="180.63" cy="247.81" rx="70.4" ry="24.68"/><ellipse cx="180.63" cy="299.81" rx="31.31" ry="24.68"/><ellipse cx="251.03" cy="152.77" rx="70.4" ry="24.68"/><ellipse cx="245.4" cy="100.67" rx="70.4" ry="24.68"/><ellipse cx="104.6" cy="155.03" rx="70.4" ry="24.68"/><ellipse cx="104.6" cy="203.98" rx="70.4" ry="24.68"/></svg>
     <?php break;
     case "custom":
        echo $cusSel
