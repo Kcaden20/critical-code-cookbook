@@ -79,7 +79,7 @@
                                             <?php $langCompFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", strval($langOption->category())); 
                                                 if(strcasecmp($cleanFilter, $langCompFilter) === 0): ?>
                                                 <?php $langString = preg_replace("/[^a-zA-Z0-9]+/", " ", str_replace(" ", "", $langOption->select())) ?>
-                                                    <?php snippet('svg-select', ['svgSel' => $langString ]); ?>
+                                                    <?php snippet('svg-select', ['svgSel' => $langString, 'cusSel' => $langOption->svgUpload() ]); ?>
                                                 <?php endif ?>
                                         <?php endforeach ?>
                                     <?php endif ?>

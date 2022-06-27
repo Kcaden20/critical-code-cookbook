@@ -1,2 +1,6 @@
 body {--bgColor: var(--colorPurp);}
 body.dark-theme {--fontColor: var(--colorPurp);}
+
+.project-grid a {
+    justify-content: flex-start;
+}

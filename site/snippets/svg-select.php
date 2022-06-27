@@ -48,7 +48,7 @@ switch ($svgSel) {
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="-25 -20  350 350" fill="none" stroke="#231f20" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="154.53" cy="63.47" rx="129.61" ry="63.47"/><ellipse cx="153.09" cy="148.28" rx="158.47" ry="39.05" transform="matrix(.818451 -.574577 .574577 .818451 -57.4 114.9)"/><circle cx="54.05" cy="243.53" r="39.05"/><circle cx="245.1" cy="63.47" r="39.05"/><circle cx="67.2" cy="63.9" r="39.05"/><ellipse cx="155.39" cy="263.75" rx="129.61" ry="33.37"/></svg>
     <?php break;
     case "custom":
-       $cusSel->kt()
+       echo $cusSel
     ?>
 <?php break;
     } ?>
