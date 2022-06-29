@@ -224,8 +224,6 @@ figcaption {
 svg {display: block;}
 
 .svg-container {
-  display: flex;
-  justify-content: center;
   padding: 0;
   margin: 0 auto;
 }
