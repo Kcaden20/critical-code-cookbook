@@ -11,8 +11,8 @@ main section > * {
 }
 
 main section {
-  padding: calc(var(--scaOne) * 2) var(--scaOne);
-  margin: calc(var(--scaOne) * 3) 0;
+  padding: calc(var(--scaOne) * 3);
+  margin: var(--scaOne) 0;
 }
 
 /* 2.0 CLASSES */
@@ -38,7 +38,6 @@ main section {
     --bgColor: var(--colorYell);
     background-color: var(--bgColor);
     margin-top: 0;
-    padding-top: calc(var(--scaOne) * 5);
 }
 
 #resources {

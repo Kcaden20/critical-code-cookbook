@@ -110,8 +110,12 @@
   }
   .project-grid {
     display: block;
-  }
 
+  }
+  .svg-container svg  {
+    --maxW: 150px;
+  }
+  
   .project-grid a {
     margin-bottom: var(--scaOne);
   }
