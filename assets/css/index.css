@@ -235,6 +235,7 @@ svg {display: block;}
   height: var(--svgSize);
   width: var(--svgSize);
   stroke: var(--fontColor);
+  margin: 0 auto;
 }
 
 /* BLOCKS */
