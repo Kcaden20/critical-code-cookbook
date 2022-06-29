@@ -2,7 +2,7 @@ Title: Resources
 
 ----
 
-Resourcestext: Test. Test. Test. Test.
+Resourcestext: 
 
 ----
 
@@ -14,14 +14,14 @@ Resources:
   image:
     - ap_covergraph.jpg
   author: Winnie Soon, Geoff Cox.
-  description: ""
+  description: A Handbook of Software Studies.
 - 
   title: CQDE
   url: https://www.cqdelab.com/
   image:
     - cqde-1.gif
   author: alejandro t. acierto, KT Duffy
-  description: ""
+  description: A feminist manifestx of code-ing.
 - 
   title: codexdesign
   url: https://www.codexdesign.org/
@@ -30,7 +30,9 @@ Resources:
   author: >
     Jess Parris Westbrook, Paige Yes
     Treebridge
-  description: ""
+  description: >
+    code and design experiences for
+    beginners.
 
 ----
 

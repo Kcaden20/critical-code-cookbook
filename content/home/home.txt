@@ -10,7 +10,7 @@ Introtitle: About Our Work
 
 ----
 
-Introtext: Oh is this working? Testing...
+Introtext: 
 
 ----
 
@@ -18,7 +18,7 @@ Introlink: Learn More About Our Project
 
 ----
 
-Contributiontext: Contributions Copy
+Contributiontext: 
 
 ----
 
@@ -26,11 +26,11 @@ Contributionlink: See The Full Selection of Projects
 
 ----
 
-Filtertext: Or see our projects by category!
+Filtertext: Filter Projects by Category
 
 ----
 
-Resourcestext: Resources Copy
+Resourcestext: 
 
 ----
 
