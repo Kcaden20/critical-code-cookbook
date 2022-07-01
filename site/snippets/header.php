@@ -21,7 +21,7 @@
 
         <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
     </head>
-    <body class="<?php if($page->template() == 'default' || $page->template() == 'downloads'): ?> <?= $page->color() ?><?php endif ?>">
+    <body id="<?= $page->uid() ?>" class="<?php if($page->template() == 'default' || $page->template() == 'downloads'): ?> <?= $page->color() ?><?php endif ?>">
         <?php $count = count($site->children->listed()); if($page->isHomePage()) {$thresh = 6;} else {$thresh = 7;} ?> 
         <header class="box-shadow <?php if($count >= $thresh): ?> align-top <?php endif ?>">
             <?php

@@ -6,7 +6,7 @@ Byline: Intersectional Feminist Approaches to Teaching and Learning
 
 ----
 
-Introtitle: About Our Work
+Introtitle: What Is The Critical Coding Cookbook?
 
 ----
 
@@ -22,11 +22,11 @@ Contributiontext:
 
 ----
 
-Contributionlink: See The Full Selection of Projects
+Contributionlink: See The Full Selection of Contributions!
 
 ----
 
-Filtertext: Filter Projects by Category
+Filtertext: ..Or Filter Projects by Category
 
 ----
 

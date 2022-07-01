@@ -6,11 +6,20 @@ Gallery:
 
 ----
 
-Svgupload: <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><title>An abstract line drawing of a barrel</title><ellipse cx="180.78" cy="73.78" rx="140.51" ry="23.88"/><ellipse cx="180.78" cy="269.66" rx="140.51" ry="23.88"/><ellipse cx="46.67" cy="173.5" rx="23.88" ry="106.87"/><ellipse cx="310.7" cy="173.5" rx="23.88" ry="106.87"/></svg>
+Svgupload:
+
+<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 350 350" stroke-width="8" stroke="#231f20" fill="none" xmlns:v="https://vecta.io/nano">
+   <title>An abstract line drawing of an atom with the lines of neutrons floating around it</title>
+   <ellipse cx="175" cy="174.23" rx="160.97" ry="45.01" transform="matrix(.707107 -.707107 .707107 .707107 -71.95 174.78)"/>
+   <ellipse cx="175" cy="174.23" rx="160.97" ry="45.01"/>
+   <path d="M14.03 173.09c0-24.86 72.07-45.01 160.97-45.01s160.97 20.15 160.97 45.01S263.9 218.1 175 218.1 14.03 197.95 14.03 173.09z" stroke-miterlimit="10"/>
+   <ellipse cx="175" cy="174.23" rx="45.01" ry="160.97" transform="matrix(.707107 -.707107 .707107 .707107 -71.95 174.78)"/>
+   <circle cx="175" cy="173.09" r="23.83"/>
+</svg>
 
 ----
 
-Color: yellow
+Color: purple
 
 ----
 

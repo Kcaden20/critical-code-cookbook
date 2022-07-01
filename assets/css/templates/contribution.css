@@ -31,6 +31,11 @@ h4 + p {margin-top: 0}
 .context article h4, .context article:last-child p, h4, h5 { margin-bottom: 0;}
 
 
+
+/* IDS */
+#kolam-in-code figure a img {
+    background-color: var(--colorWhite);
+}
 /* CONTAINERS */
 /* 1.0 HEADER  */
 header {
