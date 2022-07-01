@@ -10,6 +10,15 @@ tabs:
     icon: text
     label: Downloads
     fields: 
+      color:
+        label: Theme Select
+        type: select
+        default: Pink
+        required: true
+        options:
+          pink: Pink
+          purple: Purple
+          yellow: Yellow 
       downloadText:
         label: Download Text
         type: textarea

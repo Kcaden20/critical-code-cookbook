@@ -1,4 +1,5 @@
-  <!-- Initial Code by Alvaro Trigo -->
+  <!-- CSS Animation by Alvaro Trigo -->
+  <!-- See Initial Animation Here: https://codepen.io/alvarotrigo -->
   <div id="background" class="container" aria-hidden="true">
     <svg class="shape" viewBox="0 0 100 115" preserveAspectRatio="xMidYMin slice">
       <polygon points="">

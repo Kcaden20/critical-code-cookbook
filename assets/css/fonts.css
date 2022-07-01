@@ -12,12 +12,11 @@
             url('../fonts/Avara/Avara-Bold.woff2') format('woff2'),
             url('../fonts/Avara/Avara-Bold.ttf') format('truetype'),
             url('../fonts/Avara/Avara-Bold.svg#svgFontName') format('svg');
-    font-weight: normal;
-    font-style: normal;
 }
 
 @font-face {
-    font-family: 'Avara Bold Italic';
+    font-family: 'Avara Bold';
+    font-style: italic;
     src:    url('../fonts/Avara/BoldItalic/Avara-BoldItalic.eot');
     src:    url('../fonts/Avara/BoldItalic/Avara-BoldItalic.eot?#iefix') format('embedded-opentype'),
             url('../fonts/Avara/BoldItalic/Avara-BoldItalic.woff') format('woff'),
@@ -40,18 +39,20 @@
 
 /* 2.2 TPC Font Bold */
 @font-face {
-    font-family: 'Tiresias PC Font Bold';
+    font-family: 'Tiresias PC Font';
     src: url('../fonts/Tiresias/Bold/tiresias_pcfont_bold.woff2') format('woff2'),
          url('../fonts/Tiresias/Bold/tiresias_pcfont_bold.woff') format('woff');
     font-weight: bold;
+    font-style: normal;
 }
 
 /* 2.3 TPC Font Italics */
 @font-face {
-    font-family: 'Tiresias PC Font Italic';
+    font-family: 'Tiresias PC Font';
     src: url('../fonts/Tiresias/Italics/tiresias_pcfont_italic.woff2') format('woff2'),
          url('../fonts/Tiresias/Italics/tiresias_pcfont_italic.woff') format('woff');
-    font-style: italic, oblique;
+    font-weight: normal; 
+    font-style: italic;
 
 }
 

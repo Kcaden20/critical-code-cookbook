@@ -1,0 +1,17 @@
+Proportion: landscape
+
+----
+
+Caption: Image credit: Anuradha Reddy.
+
+----
+
+Alt: Screenshot of testing key-recognition via the preview window of Teachable Machine.
+
+----
+
+Credits: 
+
+----
+
+Template: image

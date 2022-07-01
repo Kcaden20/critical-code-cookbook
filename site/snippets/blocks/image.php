@@ -21,6 +21,8 @@ $ratio    = $block->ratio()->or('auto');
 $class    = $ratio != 'auto' ? 'img' : 'auto';
 $src      = null;
 $lightbox = $link->isEmpty();
+$proportion = $block->proportion()->lower();
+$figClass = !$proportion->isEmpty() ? $proportion : 'landscape';
 
 if ($block->location() == 'web') {
     $src = $block->src();
@@ -35,6 +37,11 @@ if ($ratio !== 'auto') {
   $h = $ratio[1] ?? 1;
 }
 
+$figAttrs = attr([
+  'style' => '--w:' . $w. '; --h:' . $h,
+  'class' => $figClass
+]);
+
 $attrs = attr([
   'class'         => $class,
   'data-contain'  => $contain,
@@ -45,13 +52,13 @@ $attrs = attr([
 
 ?>
 <?php if ($src): ?>
-<figure>
+<figure <?= $figAttrs ?>>
   <a <?= $attrs ?>>
     <img src="<?= $src ?>" alt="<?= $alt ?>">
   </a>
 
   <?php if ($caption->isNotEmpty()): ?>
-  <figcaption class="img-caption">
+  <figcaption>
     <?= $caption ?>
   </figcaption>
   <?php endif ?>

@@ -10,11 +10,40 @@
 <?php endif ?>
 </section>
 
+
+<!-- Contribution Abstract  -->
+<?php if($page->shortDesc() == 'true'):?>
+    <hr>
+<section id="abstract">
+    <h3>Introduction</h3>
+    <?= $page->shortDescText()->kt() ?>
+</section>
+
+<hr>
+<?php endif ?>
+
+<!-- Contribution Body -->
+<section>
+    <h3 id="body">The Recipe</h3>
+    <?php snippet('bodyCont') ?>
+</section>
+
+<?php if($page->hasChildren()):?> 
+    <?php foreach($page->children() as $child): ?>
+        <hr> 
+        <section> 
+        <h3 id="<?= $child->uid() ?>"> <?= $child->title() ?></h3>
+        <?php snippet('bodyCont', ['page' => $child]) ?>
+        </section> 
+    <?php endforeach ?>
+
+<?php endif ?> 
+
 <!-- Contribution Context -->
 <?php if($page->context() == 'true'):?>
     <hr>
-<section id="context">
-    <h3>Context</h3>
+<section>
+    <h3 id="context">Q&A</h3>
     <article>
         <h4>What is the context or background that inspired your recipe?</h4>
         <?= $page->contextOne()->kt() ?>
@@ -28,33 +57,6 @@
         <?= $page->contextThree()->kt() ?>
     </article>
 </section>
-<?php endif ?> 
-
-<!-- Contribution Abstract  -->
-<?php if($page->shortDesc() == 'true'):?>
-    <hr>
-<section id="abstract">
-    <h3>Abstract</h3>
-    <?= $page->shortDescText()->kt() ?>
-</section>
-
-<hr>
-<?php endif ?>
-
-<!-- Contribution Body -->
-<section>
-    <h3 id="body">Body</h3>
-    <?php snippet('bodyCont') ?>
-</section>
-
-<?php if($page->hasChildren()):?> 
-    <?php foreach($page->children() as $child): ?>
-        <hr> 
-        <section> 
-        <h3 id="<?= $child->uid() ?>"> <?= $child->title() ?></h3>
-        <?php snippet('bodyCont', ['page' => $child]) ?>
-    <?php endforeach ?>
-    </section> 
 <?php endif ?> 
 <?php snippet('prevnext') ?>
 <?php snippet('footer') ?>

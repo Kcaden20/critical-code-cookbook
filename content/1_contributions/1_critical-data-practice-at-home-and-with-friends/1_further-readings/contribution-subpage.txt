@@ -8,9 +8,8 @@ Layouttog: false
 
 Bodycont:
 
-(link: https://medium.com/the-slice-blog/how-to-work-and-play-with-imperfect-sleep-data-3135bf562f31 text: “How to Work and Play with Sleep Data” (2021))
-
-(link: https://2021.xcoax.org/data/pdf/xCoAx2021-Kuksenok.pdf text: “Know thy Flesh: What Multi-disciplinary Contemporary Art Teaches Us about Building Body Knowledge” (2021)). Co-authored with Marisa Satsia and presented at xCoAx2021.
+1. “(link: https://medium.com/the-slice-blog/how-to-work-and-play-with-imperfect-sleep-data-3135bf562f31 text: How to Work and Play with Sleep Data)”(2021)
+2. “(link: https://2021.xcoax.org/data/pdf/xCoAx2021-Kuksenok.pdf text: Know thy Flesh: What Multi-disciplinary Contemporary Art Teaches Us about Building Body Knowledge)”(2021). Co-authored with Marisa Satsia and presented at xCoAx2021.
 
 ----
 

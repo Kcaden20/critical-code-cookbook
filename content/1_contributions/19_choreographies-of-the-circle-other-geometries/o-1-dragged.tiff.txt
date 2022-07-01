@@ -1,0 +1,13 @@
+Proportion: landscape
+
+----
+
+Caption: 
+
+----
+
+Alt: 
+
+----
+
+Template: image

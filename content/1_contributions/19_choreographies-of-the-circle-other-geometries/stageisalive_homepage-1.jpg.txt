@@ -1,0 +1,13 @@
+Proportion: landscape
+
+----
+
+Caption: *(link: https://www.geometries.xyz/theStageIsAlive/ text: The Stage is (a)Live)* (2021). Image credit: Joana Chicau and Renick Bell. Photo credit: Hugo Sousa.
+
+----
+
+Alt: 
+
+----
+
+Template: image

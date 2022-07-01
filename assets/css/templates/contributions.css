@@ -1,9 +1,15 @@
+/* ELEMENTS */
+section h4 {
+    margin: 0;
+    text-align: center;
+}
+
+/* CLASSES */
+.filter {
+    margin-top: 0;
+}
 .filter a:hover {
     text-decoration: line-through;
 }
 .details p {margin: var(--scaFactor) 0;}
-section h4 {
-    margin-bottom: 0;
-    text-align: center;
-}
 

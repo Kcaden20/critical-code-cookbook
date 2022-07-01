@@ -10,10 +10,17 @@
 foreach ($items as $item): ?>
     <a class="link" href="<?= $item->url()?>">    
         <figure class="img" style="--w: 16; --h:9"><?= $item->image()->toFile() ?></figure>
-        <h5> <?= $item->title() ?></h5>     
-        <article class="description">
-            <?= $item->description()->kt() ?>
-        </article>  
+        <h5> <?= $item->title() ?></h5> 
+        <?php if(!$item->author()->isEmpty()): ?>
+            <article class="details">
+                <?= $item->author()->kt() ?>
+            </article>
+        <?php endif ?>
+        <?php if(!$item->description()->isEmpty()): ?>
+            <article class="description">
+                <?= $item->description()->kt() ?>
+            </article>  
+        <?php endif ?>
         </a>
 <?php endforeach ?>
 </section>

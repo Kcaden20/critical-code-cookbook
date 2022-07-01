@@ -1,0 +1,25 @@
+Title: Further Readings
+
+----
+
+Layouttog: false
+
+----
+
+Bodycont:
+
+1. (link: http://lac.linuxaudio.org/2011/papers/35.pdf  text: An Interface for Realtime Music Using Interpreted Haskell) (2011), Renick Bell. 
+2. (link: http://2017.xcoax.org/pdf/xCoAx2017-Chicau.pdf  text: A Webpage in Two Acts) (2017), Joana Chicau.
+3. (link: https://esoteric.codes/blog/body-building-the-code-performance-of-joana-chicau  text: <body> Building: the code performance of Joana Chicau) (2019), Daniel Temkin. 
+4. (link: https://possiblebodies.constantvzw.org/geometries/othergeometries.pdf text: Other Geometries) (2019), Femke Snelting. 
+5. (link: http://ultranoise.es/papers/paper_PoliticsofMusicalInterfaces.pdf text: Politics of Musical Interfaces: Ideologies and Digital Disenchantment) (2016), Enrique Tomás. 
+6. On Choreographic Languages, Kate Sicchio.
+7. (link: https://gitlab.com/OtherGeometries/othergeometries-workshop/-/blob/main/references.md  text: Other Geometries Workshop: Collection of References), Joana Chicau & Renick Bell.
+
+----
+
+Images: 
+
+----
+
+Layout: 

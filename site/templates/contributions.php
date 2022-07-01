@@ -1,15 +1,14 @@
 <?php snippet('header') ?>
-
+<?php if($page->contributionText()->isNotEmpty()):?>
 <section id="contributions-introduction">
-    <?php if($page->contributionText()->isNotEmpty()):?>
         <?= $page->contributionText()->kt() ?> 
-    <?php endif ?>
     </section>
+    <?php endif ?>
     <section>
     <h4>Filter By</h4>
     </section>
     <section class="filter">
-        <a class="button" href="<?= $page->url() ?>">All</a>
+        <a class="button" href="<?= $page->url() ?>">all</a>
         <?php foreach($filters as $filter):?>
             <?php if($filter == ''): ?>
             <?php else: ?>
@@ -37,12 +36,14 @@
             </article>
         </article>
         <article class="keywords">
-            <?php foreach ($contribution->keywords()->split() as $category): ?>
-            <p><?= $category ?></p>
+            <?php 
+            $categories = array_slice($contribution->keywords()->split(), 0, 3);
+            foreach ($categories as $category): ?>
+            <p>#<?= $category ?></p>
             <?php endforeach ?>
         </article>
         <article class="description">
-            <?= kt($contribution->shortDescText()->excerpt(140)) ?>
+            <p><?= getExcerpt(kt($contribution->shortDescText())) ?></p>
         </article>
     </a>
     <?php endforeach ?>

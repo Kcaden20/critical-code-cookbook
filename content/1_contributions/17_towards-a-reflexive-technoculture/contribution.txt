@@ -1,0 +1,258 @@
+Title: Towards a Reflexive Technoculture
+
+----
+
+Author: Roopa Vasudevan
+
+----
+
+Keywords: positionality, ethics, collaboration
+
+----
+
+Category: dinner
+
+----
+
+Language: code-agnostic
+
+----
+
+Gallery: 
+
+----
+
+Contextone: This recipe stems from a realization that as much as we, as individual technologists, want to make our systems better and more just, the reality is that we build on top of practices that sometimes prevent us from moving in that direction. Often, the things we do by “default” keep us from implementing changes and making work that truly upends the status quo. In order to understand where avenues for agency and change exist, we need to work together to orient ourselves in relation to entities that control our relationships with technology—and to align our values in service of the outcomes that we want for the future.
+
+----
+
+Contexttwo: This recipe is for anyone who makes with technology—whether you call yourself a programmer, a coder, a new media artist, a creative technologist, a hacker, an engineer, or a developer; who strongly believes in moving toward a more just and equitable technological ecosystem; and who is committed to closely and critically re-evaluating their own daily practices in service of making them align with their personal values, and with the values of their colleagues and peers.
+
+----
+
+Contextthree: This activity draws heavily from feminist standpoint theory, particularly in its focus on subject position and self-reflexivity. Through an active insistence that participants center their own relationships with technology—and the ways in which they might be unintentionally reinforcing or upholding the status quo despite better intentions—the workshop asks them to orient themselves within dominant power structures and systems in an effort to surface their influences on unconscious, default decisions. By understanding the ways in which we are guided by power, we can better begin to understand how to consciously change our behavior toward more liberatory ends.
+
+----
+
+Shortdesctext:
+
+Developed from two workshop series and a class I led/taught in 2019 and 2020, this activity asks participants to consider their own actions and default practices when it comes to code and technology. This activity uses the concept of self-reflexivity, or an active and critical engagement with one’s own practices and subject position, to surface the ways in which we are embedded within the systems we critique and may thus unintentionally reinforce them with our work. 
+
+Through a series of freewriting exercises and discussions, responding to prompts about positionality, technological processes and visions for the future, participants will interrogate their own complicity in hierarchical and socially rigid technical structures, and begin to unpack what needs to change in order to shift their personal practices to become more in line with their own values. Participants will then work together to build a contract containing both long-term goals and visions, along with the tangible, actionable commitments that they are willing to make immediately to reach that destination.
+
+----
+
+Bodycont:
+
+In a critical approach to coding, it is easy to look outward to pre-established practices and models, and examine where they might fall short or reinforce oppressive and hierarchical social norms. It is much harder to take a look inward, at what you do by default or take for granted, and acknowledge how you might be passively or unconsciously reinforcing belief systems that you purport to oppose.
+
+(callout: To truly interrogate technological practice and its social implications, we need self-reflexivity: the ability to look at one’s own practices, evaluate where one’s own biases or privileges might come into play, and to make choices that actively recognize and work from one’s current social position.)
+
+Drawing from feminist standpoint theory, which in part advocates assessing the production of everyday accepted knowledge, objectivity and authority by considering the social and political standing of those making the rules—alongside the notion that those living in raced, gendered and working-class bodies, where these identity markers intersect in different ways, should be considered the experts of their own existences—the idea of self-reflexivity as used here asks us to actively take stock of our own place within a social hierarchy, and consider how we might be adhering to or perpetuating that hierarchy through the things we have come to see as default as a result. Within the technology and digital design space, notions of self-reflexivity afford an opportunity to rethink the goals of the tools we build and systems we design; to question whose defaults we are accepting as our own; and to consider opportunities to develop new practices that more closely adhere to our stated values.
+
+Self-reflexivity is hard to come by alone; and, while in its ideal form, coding is a collective, open-source activity—where each contribution adds to an ever-growing, shifting and evolving whole— the day-to-day reality of tech-based practice tends to get very isolating if you’re not careful. Think of the stereotype of the lone hacker, hunched over their computer in the dark, not speaking to or interacting with anyone for days in order to sprint to the finish. Notions of success in technological practices also overwhelmingly emphasize the end contributions of the individual over a reflective evaluation of process; as Ruha Benjamin (2019) notes, radically reimagining technological systems “*...takes time and intention, which runs against the rush to innovate that pervades the ethos of tech marketing campaigns*” (p. 183). 
+
+The quickness of technological practice, as established by the “move fast and break things” mantra espoused by the dominant players, precludes an intentional, deliberate, conversational interrogation of benefits, costs, and harms. The question, then, becomes the following: how can we, as technologists, be more reflexive and aware of these issues as we work? How do we acknowledge the problems inherent in our medium—and in the subconscious decisions we make on a day to day basis—while simultaneously trying to use code and technology for a greater good?
+
+This group activity refuses individualistic models of tech usage and productivity in favor of a collective, collaborative approach to interrogating our own connections to the processes, tools and practices we use. 
+
+(callout: It is through this truly self-reflexive approach that we can examine our own embeddedness within the structures we are hoping to dismantle—and look for alternatives or opportunities to reject, refuse or rethink them, beginning with the ways in which we work every single day.)
+
+The workshop can be conducted either virtually (over a video conferencing platform which enables real-time discussion) or in-person. It can be as low-tech or as high-tech as you wish to make it, and the prompts can be tweaked to the specifics of your group; there is flexibility in this recipe that encourages you to make it your own, and adapt it as you see fit. The important thing is that you are able to create a space for practitioners to come together and openly consider their place within established technological systems and structures, and commit to ways they can immediately begin shifting to more equitable practices.
+
+####Materials####
+- 8-16 participants (if possible, all participants should be compensated in some way for their time and labor, financially or otherwise).
+- 2 to 3 hours of undisturbed, focused time.
+- Collaborative writing tool (digital or physical; this can range from online collaborative writing software to Post-Its on a wall. The important thing is that people are able to create some kind of shared space together, where ideas can actively build on and connect to each other).
+- (link: https://criticalcode.recipes/contributions/towards-a-reflexive-technoculture#freewriting-prompts text: Freewriting prompts).
+
+####Steps####
+1. **Open the workshop with a land acknowledgement.** As we think about constructing more liberatory futures for ourselves and our work, it is important to note that the first step towards undoing systems of oppression is to understand the ways in which we are inextricably linked to settler colonialist practices. While a small gesture, a land acknowledgement is the first step in examining questions of embeddedness and complicity, which are the major themes running through this workshop.
+
+1. **Have everyone go around the room and introduce themselves.** In addition to their names, participants should include the following information:
+    - Preferred pronouns
+    - Current location (if a virtual workshop)
+    - Any important designations that they feel contribute to how they see themselves in the world, e.g. hometown, age, gender identity, ethnicity, etc.
+Participants can use any, all, or none of these categories, but the important thing is that they spend some time grounding the group in how they see themselves within the world, and what social and identity markers are crucial for that positioning.
+Please ask participants to refrain from talking about their job, experience working with code or technology, or anything else related to these ideas, as they will be probed in-depth throughout the workshop.
+1. **Freewriting.** Read (link: https://criticalcode.recipes/contributions/towards-a-reflexive-technoculture#freewriting-prompts text: prompt 1) aloud to the group, and allow for 10-15 minutes of individual freewriting time in response. The facilitator should participate in this freewriting as well. Be sure to emphasize that there should be no filter on what is written; encourage participants to write thoughts down in response to these prompts as they come, and to let themselves be directed wherever the exercise takes them. If this is done in a large group, the freewriting stage can be done in pairs.
+
+1. **Discussion.** Bring everyone back to the larger group, and ask for volunteers to share selections from what they wrote (in a smaller group you might go around the room and have everyone read something). Tell the group to make note of things that people say that resonate with them, that feel familiar, or that spark ideas.
+After the group is finished sharing, allow time for responses from the group, in which these resonant ideas can be brought to the surface and shared with everyone else. Allow this to go on in an organic fashion, and transition to the next step when it feels good to do so.
+
+1. **Repeat** the freewriting and discussion steps for (link: https://criticalcode.recipes/contributions/towards-a-reflexive-technoculture#freewriting-prompts text: prompts 2-6).
+
+1. **Contract building.** Direct participants to the collaborative writing tool you have selected for this workshop, whatever that might be. The writing surface should be split into four spaces, according to the following prompts:
+
+    - “We uphold the status quo by...”
+    - “We want to change the status quo because...”
+    - “Our ideal vision of the future is...”
+    - “To reach our future vision, we commit to ...”
+
+####Tips####
+- Have participants work together to finish these statements. This can be done in one large group, in smaller groups, or individually with participants actively building off of others’ contributions.
+- When the contract is done, have all of the participants sign and date it, document it, and make a copy for everyone who has participated to take with them. If everyone feels comfortable, exchange contact information or set up an email listserv to help foster accountability and support as everyone attempts to stick to these goals going forward.
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: 
+
+----
+
+Og-type-article-published-time: 
+
+----
+
+Og-type-article-modified-time: 
+
+----
+
+Og-type-article-expiration-time: 
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: 
+
+----
+
+Robots-nofollow: 
+
+----
+
+Robots-noarchive: 
+
+----
+
+Robots-noimageindex: 
+
+----
+
+Robots-nosnippet: 
+
+----
+
+Context-one: This recipe stems from a realization that as much as we, as individual technologists, want to make our systems better and more just, the reality is that we build on top of practices that sometimes prevent us from moving in that direction. Often, the things we do by “default” keep us from implementing changes and making work that truly upends the status quo. In order to understand where avenues for agency and change exist, we need to work together to orient ourselves in relation to entities that control our relationships with technology—and to align our values in service of the outcomes that we want for the future.
+
+----
+
+Context-two: This recipe is for anyone who makes with technology—whether you call yourself a programmer, a coder, a new media artist, a creative technologist, a hacker, an engineer, or a developer; who strongly believes in moving toward a more just and equitable technological ecosystem; and who is committed to closely and critically re-evaluating their own daily practices in service of making them align with their personal values, and with the values of their colleagues and peers.
+
+----
+
+Context-three: This activity draws heavily from feminist standpoint theory, particularly in its focus on subject position and self-reflexivity. Through an active insistence that participants center their own relationships with technology—and the ways in which they might be unintentionally reinforcing or upholding the status quo despite better intentions—the workshop asks them to orient themselves within dominant power structures and systems in an effort to surface their influences on unconscious, default decisions. By understanding the ways in which we are guided by power, we can better begin to understand how to consciously change our behavior toward more liberatory ends.
+
+----
+
+Text: 

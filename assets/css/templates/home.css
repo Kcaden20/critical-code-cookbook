@@ -1,63 +1,22 @@
-/* 1.0 HTML ELEMENTS */
-main {
-    padding-top: 0;
-    max-width: 100%;
-    overflow-x: hidden;
-
-}
-main #splash {
-    width:100vw;
-    position: relative;
-    padding: 0;
-    min-height: 99vh;
-    display: flex;
-    flex-direction: column; 
-    justify-content: center;
-    overflow: hidden;
-    margin: 0;
-    border-bottom: 6px solid var(--fontColor);
-    pointer-events: none !important;
-
+/* 1.0 ELEMEMTS */
+h1, h2, h3, main #splash p {
+    text-align: center;
 }
 
-#splash h1, #splash p {
-    padding: var(--pxFive);
-    border: var(--borderStroke);
-    border-radius: 100px;
-    background-color: white;
-    margin: 0 auto; 
-    position: relative;
-    z-index: 1;
-}
-
-body.dark-theme #splash h1, body.dark-theme #splash p {
-  background-color: black;
-}
-
-main #splash h1 {
-    font-size: calc(var(--fixFactor) * 8);
-    margin-bottom: var(--pxFive);
-}
-
-main #splash p {
-  font-size: calc(var(--fixFactor) * 4);
-    font-family: var(--fHeading);
-}
-/* 1.1 Containers */
+/* 1.1 CONTAINERS */
 main section > * {
-    max-width: calc(var(--monitorSize));
-    margin-left: auto;
-    margin-right: auto;
+  max-width: calc(var(--deskSize));
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  min-height: 100vh;
+  padding-bottom: 0;
 }
 
 main section {
-    padding: calc(var(--scaOne) * 2) var(--scaOne);
-    margin: calc(var(--scaOne) * 3) 0;
-  }
-
-/* 1.2 Tags */
-h1, h2, h3, main #splash p {
-    text-align: center;
+  padding: calc(var(--scaOne) * 3);
 }
 
 /* 2.0 CLASSES */
@@ -66,11 +25,14 @@ h1, h2, h3, main #splash p {
 }
 
 .filter a {
+    display: flex;
+    flex-direction: column;
     flex: 0 0 20%;
   }
 
+  
+
 .filter a p {
-    text-transform: capitalize;
     font-size: var(--fixThree);
     margin: 0;
 }
@@ -80,7 +42,6 @@ h1, h2, h3, main #splash p {
     --bgColor: var(--colorYell);
     background-color: var(--bgColor);
     margin-top: 0;
-    padding-top: calc(var(--scaOne) * 5);
 }
 
 #resources {
@@ -88,6 +49,52 @@ h1, h2, h3, main #splash p {
     background-color: var(--bgColor);
 }
 
+footer {
+  border-top: none;
+}
+/* SPLASH PAGE */
+main {
+  padding-top: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+main #splash {
+  width:100vw;
+  position: relative;
+  padding: 0;
+  min-height: 99vh;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  overflow: hidden;
+  margin: 0;
+  border-bottom: 6px solid var(--fontColor);
+  pointer-events: none !important;
+
+}
+
+#splash h1, #splash p {
+  padding: var(--pxFive);
+  border: var(--borderStroke);
+  border-radius: 100px;
+  background-color: white;
+  margin: 0 auto; 
+  position: relative;
+  z-index: 1;
+}
+
+main #splash h1 {
+  font-size: calc(var(--fixFactor) * 8);
+  margin-bottom: var(--pxFive);
+}
+
+main #splash p {
+font-size: calc(var(--fixFactor) * 4);
+  font-family: var(--fHeading);
+}
+
+/* ANIMATION */
 .container {
     width: 100%;
     top: 60%;
@@ -261,16 +268,20 @@ h1, h2, h3, main #splash p {
 /* 4.0 DARK THEME */
 body.dark-theme #about {
     --fontColor: var(--colorYell);
-    color: var(--fontColor);
+    --borderStroke: .25rem solid var(--fontColor);
+}
+
+body.dark-theme #splash h1, body.dark-theme #splash p {
+  background-color: black;
 }
 
 body.dark-theme #resources {
     --fontColor: var(--colorPurp) !important;
-    color: var(--fontColor);
     --borderStroke: .25rem solid var(--fontColor);
 }
 
 body.dark-theme #about, body.dark-theme #contributions, body.dark-theme #resources {
     --bgColor: black;
     background-color: var(--bgColor);
+    border-bottom: .25rem solid var(--fontColor);
 }

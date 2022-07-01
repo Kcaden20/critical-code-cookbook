@@ -39,6 +39,15 @@ fields:
     label: field.blocks.image.link
     type: text
     icon: url
+  proportion:
+    label: Proportion
+    type: select
+    options: 
+     landscape: Landscape
+     Portrait: Portrait 
+     Square: Square 
+    default: landscape
+    width: 1
   ratio:
     label: field.blocks.image.ratio
     type: select

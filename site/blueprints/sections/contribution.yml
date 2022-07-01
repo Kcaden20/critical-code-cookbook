@@ -3,5 +3,5 @@ headline: Contributions
 parent: kirby.page("contributions")
 size: tiny 
 template: contribution
-info: "{{ page.author }} | {{ page.category.titlecase }} | {{ page.language.titlecase }}"
+info: "{{ page.author }} | {{ page.category.lower }} | {{ page.language.lower }}"
 empty: No Contributions yet!

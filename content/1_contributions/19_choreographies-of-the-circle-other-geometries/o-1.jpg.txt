@@ -1,0 +1,13 @@
+Proportion: landscape
+
+----
+
+Caption: *(link: https://www.geometries.xyz/performances.html text: Círculo e Meio | Circle & Half)*, an audio-visual live coding performance combining choreographic thinking and algorithmic improvisation. Image credit: Joana Chicau, Renick Bell. Photo credit: Henrique Palazzo.
+
+----
+
+Alt: 
+
+----
+
+Template: image

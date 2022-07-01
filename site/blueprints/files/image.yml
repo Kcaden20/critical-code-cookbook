@@ -4,6 +4,19 @@ accept:
   type: image
 
 columns:
+  - width: 1
+    sections:
+      proportions:
+        type: fields
+        fields:
+          proportion:
+            label: Proportion
+            type: select
+            options: 
+              landscape: Landscape
+              Portrait: Portrait 
+              Square: Square 
+            default: landscape
   - width: 1/2
     sections:
       content:
@@ -13,10 +26,6 @@ columns:
             label: Caption
             type: textarea
             size: medium
-          toggleCreds:
-            extends: fields/ToggleOps
-            label: Add Credits to Website? 
-            default: off
   - width: 1/2
     sections:
       meta:
@@ -26,16 +35,4 @@ columns:
             label: Alternative Text
             type: textarea
             size: medium
-          credits:
-            label: Credits
-            type: structure
-            fields: 
-              occupation:
-                label: Occupation
-                type: text
-                width: 1/2
-              name:
-                label: Name
-                type: text
-                width: 1/2
 

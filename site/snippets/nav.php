@@ -1,5 +1,5 @@
 <?php if(!$page->isHomePage()): ?> 
-                <a href="<?= $site->url() ?>"> Home </a> 
+            <a href="<?= $site->url() ?>"> Home </a> 
             <?php endif ?>
             <?php 
             $pages = $site->children()->listed();

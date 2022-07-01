@@ -22,6 +22,7 @@ tabs:
           pages:
             headline: Other Pages
             type: pages
+            create: default
             templates:
               - about
               - home
@@ -29,7 +30,7 @@ tabs:
               - resources
               - downloads
   site:
-    label: Site Information
+    label: Footer Information
     icon: globe
     columns:
       - width: 1
@@ -109,17 +110,9 @@ tabs:
           credits:
             type: fields
             fields: 
-              creditsStruct:
-                label: Credits Information
-                type: structure
-                max: 4
-                help: Add a new field to allow for credits
-                fields: 
-                  creditText:
-                    label: Credit Line
-                    type: text
-                    required: yes
-                  creditUrl:
-                    label: Credit URL
-                    type: url
+              creditsText: 
+                label: Other Text
+                type: textarea
+                size: small
+                help: Any Other Information You Might Want To Put
   seotab: seo

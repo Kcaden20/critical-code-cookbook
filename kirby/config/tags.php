@@ -100,7 +100,8 @@ return [
             'rel',
             'target',
             'title',
-            'width'
+            'width',
+            'proportion'
         ],
         'html' => function ($tag) {
             if ($tag->file = $tag->file($tag->value)) {
@@ -108,6 +109,7 @@ return [
                 $tag->alt     = $tag->alt     ?? $tag->file->alt()->or(' ')->value();
                 $tag->title   = $tag->title   ?? $tag->file->title()->value();
                 $tag->caption = $tag->caption ?? $tag->file->caption()->value();
+                $tag->proportion = $tag->proportion ?? $tag->file->proportion()->lower()->value();
             } else {
                 $tag->src = Url::to($tag->value);
             }
@@ -148,7 +150,7 @@ return [
             }
 
             return Html::figure([ $link($image) ], $tag->caption, [
-                'class' => $tag->class
+                'class' => $tag->class . '' . $tag->proportion ?? ''
             ]);
         }
     ],

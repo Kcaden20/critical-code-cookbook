@@ -1,0 +1,206 @@
+Title: The Console Log and Ways of Being
+
+----
+
+Author: Dorothy R. Santos
+
+----
+
+Keywords: experimentalProse, docu-poetics, creativeCode
+
+----
+
+Category: breakfast
+
+----
+
+Language: p5
+
+----
+
+Gallery: 
+
+----
+
+Contextone: The development and creation of The Console Log and Ways of Being exercise stems from several sources of inspiration. From reading the book 10 PRINT, which is about the cultural relevance of one line of BASIC programming language for the Commodore 64 to learning how to code for the first time, this recipe was written to examine why certain lines of code are named the way they are. I wanted to create an exercise that has helped me learn lines of code when I was developing a text generator as one of my first projects using code as a medium.
+
+----
+
+Contexttwo: I offer this recipe to artists, poets, writers, and educators with a strong desire to incorporate creative writing strategies to help expand and understand how code might be subverted and flipped. It is an offering to create something that expands and stretches the imagination into crafting and coding a different way of writing, both written text and code. The recipe is an alternate path for learning code in a much more holistic way that allows spaciousness for dialogue.
+
+----
+
+Contextthree: The Console Log and Ways of Being exercise is meant to draw in from the practices of feminist media histories, electronic literature, computational media, tech, race, and ethics. This work is meant to be world building in its scope and encourage intervention into technological spaces oftentimes devoid of ethics. It’s meant to slow down the acceleration and proliferation of tools for the sake of techno solutionism. It is meant to be a meditation of words, speech, utterances, and spoken language not included in the code in the hopes of creating a new codex for future generations of artists, writers, and educators teaching and engaging in creative code as a medium.
+
+----
+
+Shortdesctext: The title of the exercise, The Console Log and Ways of Being, was inspired by Bay Area-based artist Elizabeth Travelslight. Over the 2021 summer, I facilitated a Yerba Buena Center for the Arts (YBCA) Community Conversation. I posed the question to the group* about the creation of new tools for the future. Travelslight suggested that tools be replaced with “ways of being” since the idea of tools felt reductive and prescriptive. As an homage to this important dialogue, this recipe suggests creating and writing new ways of being with code that upend the need for finite, productive, and useful outcomes. It entails thoughtful reflection and intention with the objective to go beyond a line of code and its functions towards revealing how the artist/creative coder implicates themselves in the execution of the code for another human being. This recipe seeks to have the student understand the relationship between themselves, the code, and the person who will experience the after effects of the code they write. For non-coders or beginning coders, it will allow a look into the way code works and expand one’s relationship with how code operates beyond the console, the device, or machine.
+
+----
+
+Bodycont:
+
+The objective of this assignment encourages the student or participant to engage in experimental prose or poetry that facilitate writing about code, functions, variables, and other key terms found in coding and programming to form a relationship with the concepts. The ideal participant for this exercise is geared for beginning coders that learn best through drawing upon connections and concepts in preparation for understanding technical aspects of code. However, advanced coders are encouraged to engage in this exercise as a way of thinking about various aspects of code through creating and envisioning new meanings and, perhaps, a more accessible and inclusive language and/or project.
+
+As someone who best understands technical terms and concepts through storytelling and seeks to the *whys* and *hows* of code, I offer this recipe to students and artists that need a creative intervention that allows them to draw throughways between the code and how they might use it. I want educators stepping into teaching code within their classrooms an alternate pedagogical approach that allows both students and educators to be in dialogue about coding terms and functions to see the various ways code is understood, perceived, and learned because every student learns in a different way. As a young student, I was often told that I did not have the aptitude for mathematics, engineering, and the “hard” sciences. 
+
+This contribution is dedicated to young QTBIPOC, immigrant, and disabled artists, makers, students, and educators delving into a new-found relationship with code and desire to envision and center their aspirations and dreams of what code can and ought to be! I wanted to conclude with the literary inspirations for this recipe. The Shell Game edited by Kim Adrian and Lillian-Yvonne Bertram’s book Travesty Generator were instrumental in understanding how creative writing has a much deserved place in creative coding and the world of programming. Both texts have been influential in my own pedagogical approaches to teaching creative writing and have enlightened me on the impact of learning code by connecting functions to my lived experiences and understanding code through the modality of storytelling, experimental prose, and docu-poetics. In particular, the poem #miscarriage.exe by Ingrid Jendrzejewski takes the appearance of code through typography and format yet creates a textual trompe l'oeil by giving her reader the appearance of code. Bertram’s Travesty Generator is an extraordinary literary text that shows how race, gender, and class (re)generate historical, cultural, and societal patterns through computational means.
+
+####Steps####
+1. First, an educator or facilitator of the exercise leads a group of students or participants by first looking at a specific programming language of choice. (link: https://p5js.org/ text: p5.js) is a great place to start! 
+
+1. Second, have each student select a library they would like to work with based on their related interests. For instance, (link: https://p5js.org/reference/#/libraries/p5.sound text: p5.sound) expands the web functionality of audio input, playback, etc. 
+
+1. Third, the student will select between 5-10 functions within their library of choice and create experimental prose or poetry based on selection. For example, a student might be interested in how the sound of a piece of music changes over time, therefore, they might choose p5.Envelope and its respective functions. Based on the descriptions provided for each chosen function, they might create a description of a song they love or might have created using the code itself to understand the connection between the code, intention, and output.
+
+The Console Log and Ways of Being suggests to students, educators, and artists using code that poetic gestures may result in understanding one’s purpose and reason for learning code and how they might take part in the creation of new ways of being with code as a language for expression of social change and intersectional feminist practice and praxis.
+
+Note: Participants of 2021 YBCA Community Conversation include Adrian Jones, Lauren Lee McCarthy, Joanne Rondilla, Ph.D., Elizabeth Travelslight and Xiaowei R. Wang. Facilitated by Dorothy R. Santos
+
+----
+
+Bodylayout: 
+
+----
+
+Context: true
+
+----
+
+Shortdesc: true
+
+----
+
+Bodycontent: true
+
+----
+
+Layouttog: false
+
+----
+
+Meta-title: 
+
+----
+
+Meta-description: 
+
+----
+
+Meta-canonical-url: 
+
+----
+
+Meta-author: 
+
+----
+
+Meta-image: 
+
+----
+
+Meta-phone-number: 
+
+----
+
+Og-title: 
+
+----
+
+Og-description: 
+
+----
+
+Og-image: 
+
+----
+
+Og-site-name: 
+
+----
+
+Og-url: 
+
+----
+
+Og-audio: 
+
+----
+
+Og-video: 
+
+----
+
+Og-determiner: 
+
+----
+
+Og-type: website
+
+----
+
+Og-type-article-published-time: 2022-06-21 21:00:00
+
+----
+
+Og-type-article-modified-time: 2022-06-21 21:00:00
+
+----
+
+Og-type-article-expiration-time: 2022-06-21 21:00:00
+
+----
+
+Og-type-article-author: 
+
+----
+
+Og-type-article-section: 
+
+----
+
+Og-type-article-tag: 
+
+----
+
+Twitter-title: 
+
+----
+
+Twitter-description: 
+
+----
+
+Twitter-image: 
+
+----
+
+Twitter-card-type: 
+
+----
+
+Twitter-site: 
+
+----
+
+Twitter-creator: 
+
+----
+
+Robots-noindex: default
+
+----
+
+Robots-nofollow: default
+
+----
+
+Robots-noarchive: default
+
+----
+
+Robots-noimageindex: default
+
+----
+
+Robots-nosnippet: default

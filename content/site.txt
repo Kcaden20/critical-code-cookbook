@@ -13,7 +13,7 @@ Socialmedia:
 
 ----
 
-Creditsstruct: 
+Creditstext: Interested in discussing a Critical Coding recipe or sharing your own? Join our [Discord](https://discord.gg/ZSZuR94jWm)!
 
 ----
 
@@ -21,7 +21,7 @@ Meta-title:
 
 ----
 
-Meta-description: 
+Meta-description: Intersectional Feminist Approaches to Teaching and Learning
 
 ----
 
@@ -29,11 +29,13 @@ Meta-canonical-url:
 
 ----
 
-Meta-author: 
+Meta-author: Xin Xin, Katherine Moriwaki, Kit Kuksenok, Lauren Lee McCarthy, Noam Youngrak Son, Morgan Green, Kathy Wu, evelyn masso, Dorothy R. Santos, Sara Rivera, Tegan Bristow, Lavannya Suressh, Shafali J, Micah A, Sanketh K, Echo Theohar, Kevin Lee, Shayna Robinson, Anuradha Reddy, Nancy Mauro-Flude (sister0.tv), Roopya Vasudevan, Kemi Sijuwade-Ukadike, Joana Chicau, Renick Bell, Becca Rose, Mario Guzman, Winnie Yoe, Annina Rüst, Tamara Moura Costa, Kevin Cadena, Munush Shih
 
 ----
 
-Meta-image: 
+Meta-image:
+
+- critical_coding_cookbook_coverpage_6.png
 
 ----
 
@@ -49,7 +51,9 @@ Og-description:
 
 ----
 
-Og-image: 
+Og-image:
+
+- critical_coding_cookbook_coverpage_8.png
 
 ----
 
@@ -73,7 +77,7 @@ Og-determiner:
 
 ----
 
-Og-type: 
+Og-type: website
 
 ----
 
@@ -109,11 +113,13 @@ Twitter-description:
 
 ----
 
-Twitter-image: 
+Twitter-image:
+
+- critical_coding_cookbook_coverpage_8.png
 
 ----
 
-Twitter-card-type: 
+Twitter-card-type: summary_large_image
 
 ----
 
@@ -137,8 +143,12 @@ Robots-noarchive:
 
 ----
 
-Robots-noimageindex: 
+Robots-noimageindex: enabled
 
 ----
 
 Robots-nosnippet: 
+
+----
+
+Creditsstruct: 

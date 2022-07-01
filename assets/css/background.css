@@ -19,9 +19,6 @@
 .display-none {
   display: none;
 }
-body.dark-theme .container {
-  opacity: .4;
-}
 
 svg polygon {
   stroke-width: 2;

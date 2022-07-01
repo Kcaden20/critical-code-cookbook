@@ -1,0 +1,17 @@
+Proportion: 
+
+----
+
+Caption: Image credit: Anuradha Reddy.
+
+----
+
+Alt: Screenshot of feeding images of a key via Webcam to Teachable Machine.
+
+----
+
+Credits: 
+
+----
+
+Template: image

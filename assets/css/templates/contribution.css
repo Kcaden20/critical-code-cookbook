@@ -1,36 +1,3 @@
-/* 1.0 HEADER  */
-header {
-    padding: 0;
-    padding-top: var(--pxSix);
-    padding-top: var(--pxSix);
-    width: 100%;
-}
-
-.subnav {padding-bottom: var(--pxFactor);}
-
-h3:first-child {
-    padding-top: 0;
-    margin-top: 0;
-}
-
-
-header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);}
-header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
-
-/* 2.0 SUBNAV */
-.subnav {
-    background-color: black;
-    padding-top: 12px;
-    width: 100vw;
-}
-
-.subnav a {
-    color: white; 
-    font-size: 1rem;
-}
-
-.dark-theme .subnav {border-bottom: 1px solid var(--fontColor);}
-
 /* ELEMENTS */
 h1 + p, .keywords p {
     font-size: var(--fixFive);
@@ -38,20 +5,13 @@ h1 + p, .keywords p {
     text-align: center;
 }
 
+section .blocks h5:first-child {
+    margin-top: 0;
+}
+
 h1 + p {font-size: var(--fixFour);}
 
-#context article h4 {
-    margin-bottom: 0 !important;
-}
-#context article h4 + p {
-    margin-top: .5em;
-    margin-bottom: 3em;
-}
-
-.context article h4, .context article:last-child p { margin-bottom: 0;}
-
-
-h3::before, h1::before { 
+h1::before, h3::before{ 
     display: block; 
     content: " "; 
     margin-top: -11rem; 
@@ -60,6 +20,54 @@ h3::before, h1::before {
     pointer-events: none;
 }
 
+h3:first-child {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+article h4 {margin-bottom: calc(var(--scaFactor) / 2);}
+h4 + p {margin-top: 0}
+
+.context article h4, .context article:last-child p, h4, h5 { margin-bottom: 0;}
+
+
+
+/* IDS */
+#kolam-in-code figure a img {
+    background-color: var(--colorWhite);
+}
+/* CONTAINERS */
+/* 1.0 HEADER  */
+header {
+    padding: 0;
+    padding-top: var(--pxSix);
+    padding-top: var(--pxSix);
+    width: 100%;
+}
+
+header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);}
+header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
+
+/* 2.0 SUBNAV */
+.subnav {
+    background-color: black;
+    padding-top: 12px;
+    width: calc(100vw - var(--pxFive));
+}
+
+.subnav {padding-bottom: var(--pxFactor);}
+
+.subnav a {
+    color: var(--colorWhite); 
+    font-size: 1.15rem;
+}
+
+
+/* DARK THEME */
+.dark-theme .subnav {border-bottom: 1px solid var(--fontColor);}
+
+
+/* MEDIA QUERIES */
 @supports (background-clip: content-box) {
     sup, .footnotes ol li  { 
         padding-top: 9rem;
@@ -92,11 +100,22 @@ h3::before, h1::before {
 }
 @media screen and (max-width: 500px) { 
     main {
-        padding-top: 12em;
+        padding-top: 10em;
     }
 
     header nav {padding-left: var(--pxFactor); padding-bottom:var(--pxFactor); }
     header section {padding-right: var(--pxFactor); padding-bottom:var(--pxFactor); }
+    .subnav a {
+        font-size: .85rem;
+    }
+
+    .subnav {
+        width: calc(100vw - var(--pxFactor));
+    }
+
+    .subnav details {
+        width: calc(100% - var(--pxFactor));
+    }
 }
 
 

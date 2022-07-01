@@ -1,0 +1,17 @@
+Title: Licensing Information
+
+----
+
+Layouttog: false
+
+----
+
+Bodycont: This tutorial is licensed under the (link: https://creativecommons.org/publicdomain/zero/1.0/ text: Creative Commons Zero v1 (CC0 1.0) Universal license).
+
+----
+
+Images: 
+
+----
+
+Layout: 

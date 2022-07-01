@@ -1,2 +1,14 @@
-body {--bgColor: var(--colorPurp);}body.dark-theme {--fontColor: var(--colorPurp);}
+body {--bgColor: var(--colorPurp);}
+body.dark-theme {--fontColor: var(--colorPurp);}
 
+.project-grid a {
+    justify-content: flex-start;
+}
+
+.details p {
+    margin: var(--scaFactor) 0;
+}
+
+.description p {
+    margin-top: var(--scaFactor);
+}

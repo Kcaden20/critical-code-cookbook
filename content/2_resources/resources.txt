@@ -2,32 +2,37 @@ Title: Resources
 
 ----
 
-Resourcestext: Test. Test. Test. Test.
+Resourcestext: 
 
 ----
 
 Resources:
 
 - 
-  title: CCC
-  url: https://duckduckgo.com
+  title: Aesthetic Programming
+  url: https://aesthetic-programming.net/
   image:
-    - screen-shot-2022-05-16-at-9.12.11-pm.png
-  description: Another Awesome Website!
+    - ap_covergraph.jpg
+  author: Winnie Soon, Geoff Cox.
+  description: A Handbook of Software Studies.
 - 
-  title: Crit Co Coo
-  url: https://www.yahoo.com
+  title: CQDE
+  url: https://www.cqdelab.com/
   image:
-    - screen-shot-2022-05-20-at-2.57.03-pm.png
-  description: 'A final cool website '
+    - cqde-1.gif
+  author: alejandro t. acierto, KT Duffy
+  description: A feminist manifestx of code-ing.
 - 
-  title: 'Critical Code Cookbook Website '
-  url: >
-    https://parsonsdt.github.io/critical-coding-cookbook/
+  title: codexdesign
+  url: https://www.codexdesign.org/
   image:
-    - >
-      screen_shot_2022-05-05_at_10.47.46_pm.png
-  description: An amazing book!
+    - codexdesign01.jpg
+  author: >
+    Jess Parris Westbrook, Paige Yes
+    Treebridge
+  description: >
+    code and design experiences for
+    beginners.
 
 ----
 
