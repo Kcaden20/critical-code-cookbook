@@ -7,7 +7,7 @@
     grid-column: span var(--columns);
   }
 
-  main {
+  main, footer{
     max-width: var(--mainSize);
   }
 
@@ -26,7 +26,7 @@
     grid-template-columns: repeat(5, minmax(10rem, 1fr));
   }
 
-  main {
+  main, footer{
     max-width: var(--deskSize);
   }
   }
@@ -84,7 +84,7 @@
   }
 
   .subnav a {
-    font-size: var(--fixFive) !important;
+    font-size: 1.15rem !important;
   }
 
   p, li {
@@ -100,7 +100,22 @@
 
   header section article p {
     margin-top: calc(var(--pxFactor) / 2); 
+    font-size: .75rem;
   }
+
+  .grid .column {
+    margin-bottom: 0;
+  }
+
+  .grid .column section.blocks:last-child figure {
+    margin-bottom: 0;
+  }
+
+  .grid .column section.blocks:last-child ul,  .grid .column section.blocks:last-child ol {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
   .details p {
     font-size: 1rem;
   }
@@ -133,6 +148,9 @@
     --multThree: 2.66;
     --multFour: 2.33;
     --multFive: 2.25;
+  }
+  .footnote-backref {
+    text-decoration: none;
   }
 
   main #splash h1 {

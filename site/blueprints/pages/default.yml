@@ -1,8 +1,57 @@
 title: Default Page
-preset: page
-fields:
-  text:
-    label: Text
-    type: textarea
-    size: large
+tabs: 
+  content: 
+    label: Content 
+    icon: document 
+    columns:
+      - width: 1
+        sections: 
+          subpages:
+            type: pages
+            headline: Subpages
+            size: tiny
+            template: contribution-subpage
+            empty: No Subpages Yet!
+            num: zero
+          images: 
+            type: fields
+            fields:             
+              gallery:
+                type: files
+                label: Images
+                query: page.images.template('image')
+                uploads:
+                  template: image
+      - width: 1 
+        fields: 
+          bodyHeadline:
+            label: Body 
+            type: headline
+          bodyCont:
+            label: Body of Content
+            type: textarea
+            size: large
+            when:
+              layoutTog: off 
+          bodyLayout:
+            extends: fields/layout
+            label: Layout Content
+            when: 
+              layoutTog: on
+  layoutOptions:
+    label: Settings 
+    icon: bars
+    columns: 
+      - width: 1
+        fields: 
+          overrideSettings:
+            label: Override Settings 
+            type: headline 
+          layoutTog:
+            extends: fields/toggleOps
+            label: Add Layout Block? 
+            default: off
+  seotab: seo
+          
+
 

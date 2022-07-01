@@ -5,6 +5,10 @@ h1 + p, .keywords p {
     text-align: center;
 }
 
+section .blocks h5:first-child {
+    margin-top: 0;
+}
+
 h1 + p {font-size: var(--fixFour);}
 
 h1::before, h3::before{ 

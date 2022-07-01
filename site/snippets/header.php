@@ -22,16 +22,29 @@
         <link rel="shortcut icon" type="image/x-icon" href="<?= url('favicon.ico') ?>">
     </head>
     <body>
-        <header class="box-shadow">
+        <?php $count = count($site->children->listed()); if($page->isHomePage()) {$thresh = 6;} else {$thresh = 7;} ?> 
+        <header class="box-shadow <?php if($count >= $thresh): ?> align-top <?php endif ?>">
+            <?php
+            if($count >= $thresh): ?>
+             <nav>
+                <details>
+                    <summary> Menu </summary>
+                    <?php snippet('nav') ?>
+                </details>
+            </nav> 
+
+            <?php else: ?> 
              <nav class="mobile">
                 <details>
                     <summary> Menu </summary>
                     <?php snippet('nav') ?>
                 </details>
             </nav> 
+
             <nav class="desktop">
                 <?php snippet('nav') ?>
             </nav>
+            <?php endif ?>
         <section>
             <article class="toggle" aria-label="Toggle Gradient">
                 <label id="gradients" class="switch">

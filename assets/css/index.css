@@ -17,7 +17,6 @@ body {
 main {
     padding-top: 11rem;
     margin: 0 auto;
-    min-height: 100vh;
     position: relative;
     overflow-x: hidden;
 }
@@ -67,9 +66,13 @@ p + ol, p + ul {
   margin-top: 0;
 }
 
+.align-top {align-items: flex-start;}
+.align-top section {padding-top: 3px;}
 
-header nav a, details summary, details[open] a{font-size: var(--fixFour);}
+details summary, details[open] a{font-size: var(--fixFour);}
+header nav a {font-size: 1.2rem;}
 header article p {font-size: 1rem}
+
 
 a {color: var(--fontColor);}
 a:hover, main figure figcaption a:hover { 
@@ -171,7 +174,7 @@ hr {
   background: var(--fontColor);
   border: none;
   outline: none;
-  margin: var(--scaOne);
+  margin: var(--scaOne) var(--scaThree);
   position: relative;
   overflow: visible;
   }
@@ -202,6 +205,11 @@ figure {
   max-width: var(--tabletMax); 
   display: block; 
   margin: var(--scaThree) auto
+}
+
+figure a:hover img {
+  opacity: .8;
+  background: var(--fontColor);
 }
 
 figure.portrait, figure.square {
@@ -314,8 +322,20 @@ header nav a:hover {
 
 footer {
 text-align: center;
+margin: 0 auto;
 }
 
+.links {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: var(--scaThree);
+}
+
+
+.footnotes hr {
+  margin: var(--scaOne) auto;
+}
 /* 1.1.3 Toggles */
 /* Wrapper */
 header section {
@@ -583,6 +603,7 @@ section.blocks p {
 
 section.column {
   padding: 0;
+  margin: 0;
 }
 
 .autogrid {

@@ -10,6 +10,10 @@ main section > * {
   margin-right: auto;
 }
 
+main {
+  min-height: 100vh;
+}
+
 main section {
   padding: calc(var(--scaOne) * 3);
   margin: var(--scaOne) 0;

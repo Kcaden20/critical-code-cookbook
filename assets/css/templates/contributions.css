@@ -5,6 +5,9 @@ section h4 {
 }
 
 /* CLASSES */
+.filter {
+    margin-top: 0;
+}
 .filter a:hover {
     text-decoration: line-through;
 }

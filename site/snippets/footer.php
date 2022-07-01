@@ -4,7 +4,14 @@
         Copyright / Social / Etc
         -->
         <section id='bottom' class="gradient"></section>
-        <p> License Information or Social Media or Something Else </p>
+        <section class="links">
+            <?php snippet('social') ?>
+        </section>
+        <?php if($site->creditsText()->isNotEmpty()):?>
+            <section class="other-info">
+                <?= $site->creditsText()->kt() ?>
+            </section>
+        <?php endif ?>
         </footer>
 
         <?= js([

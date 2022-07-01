@@ -32,7 +32,7 @@ Langoptions:
 - 
   category: JavaScript
   select: custom
-  svgupload: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="218.2" cy="163.88" rx="29.11" ry="141.91"/><ellipse cx="127.31" cy="295.83" rx="96.62" ry="29.88"/><circle cx="51.52" cy="287.95" r="23.89"/><circle cx="206.25" cy="284.91" r="23.89"/><ellipse cx="265.37" cy="88.46" rx="17.45" ry="70.8" transform="matrix(.574577 -.818451 .818451 .574577 40.49 254.81)"/><ellipse cx="257.23" cy="127.94" rx="67.15" ry="17.45" transform="matrix(.99889 -.047106 .047106 .99889 -5.74 12.25)"/><ellipse cx="266.4" cy="36.87" rx="57.91" ry="14.91"/></svg>'
+  svgupload: '<svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><title>An abstract line drawing of the letter J</title><ellipse cx="218.2" cy="163.88" rx="29.11" ry="141.91"/><ellipse cx="127.31" cy="295.83" rx="96.62" ry="29.88"/><circle cx="51.52" cy="287.95" r="23.89"/><circle cx="206.25" cy="284.91" r="23.89"/><ellipse cx="265.37" cy="88.46" rx="17.45" ry="70.8" transform="matrix(.574577 -.818451 .818451 .574577 40.49 254.81)"/><ellipse cx="257.23" cy="127.94" rx="67.15" ry="17.45" transform="matrix(.99889 -.047106 .047106 .99889 -5.74 12.25)"/><ellipse cx="266.4" cy="36.87" rx="57.91" ry="14.91"/></svg>'
 - 
   category: p5
   select: five
@@ -44,8 +44,8 @@ Langoptions:
 - 
   category: Processing
   select: custom
-  svgupload: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="71.94" cy="190.31" rx="34.97" ry="141.91"/><ellipse cx="184.35" cy="75.56" rx="129.61" ry="63.47"/><ellipse cx="187.36" cy="121.87" rx="129.61" ry="63.47"/><circle cx="93.36" cy="76.57" r="39.05"/><circle cx="97.49" cy="121.87" r="39.05"/></svg>'
+  svgupload: '<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><title>An abstract line drawing of the letter P</title><ellipse cx="71.94" cy="190.31" rx="34.97" ry="141.91"/><ellipse cx="184.35" cy="75.56" rx="129.61" ry="63.47"/><ellipse cx="187.36" cy="121.87" rx="129.61" ry="63.47"/><circle cx="93.36" cy="76.57" r="39.05"/><circle cx="97.49" cy="121.87" r="39.05"/></svg>'
 - 
   category: SQL
   select: custom
-  svgupload: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><ellipse cx="180.78" cy="73.78" rx="140.51" ry="23.88"/><ellipse cx="180.78" cy="269.66" rx="140.51" ry="23.88"/><ellipse cx="46.67" cy="173.5" rx="23.88" ry="106.87"/><ellipse cx="310.7" cy="173.5" rx="23.88" ry="106.87"/></svg>'
+  svgupload: '<svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><title>An abstract line drawing of a barrel</title><ellipse cx="180.78" cy="73.78" rx="140.51" ry="23.88"/><ellipse cx="180.78" cy="269.66" rx="140.51" ry="23.88"/><ellipse cx="46.67" cy="173.5" rx="23.88" ry="106.87"/><ellipse cx="310.7" cy="173.5" rx="23.88" ry="106.87"/></svg>'

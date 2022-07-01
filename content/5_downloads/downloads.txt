@@ -6,13 +6,7 @@ Downloadtext: The PDF version of the Critical Coding Cookbook will be released i
 
 ----
 
-Download:
-
-- 
-  title: Test-Download
-  file:
-    - inclusive_toolkit_activities.pdf
-  description: This is a test download
+Download: 
 
 ----
 

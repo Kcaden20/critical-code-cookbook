@@ -1,10 +1,9 @@
 <?php snippet('header') ?>
-
+<?php if($page->contributionText()->isNotEmpty()):?>
 <section id="contributions-introduction">
-    <?php if($page->contributionText()->isNotEmpty()):?>
         <?= $page->contributionText()->kt() ?> 
-    <?php endif ?>
     </section>
+    <?php endif ?>
     <section>
     <h4>Filter By</h4>
     </section>
