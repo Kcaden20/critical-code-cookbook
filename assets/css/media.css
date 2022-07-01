@@ -59,15 +59,16 @@
     flex-wrap: nowrap;
   }
 
+
+
+  p.callout {
+    margin: var(--scaOne) 0;
+  }
+
   h1 {
     padding: 0 var(--scaFive);
   }
 
-  header section article {
-    display: grid;
-    justify-items: center;
-    text-align: center;
-  }
 
   header details summary {
     margin: 3px 0;
@@ -75,7 +76,7 @@
     padding-top: 6px;
   }
 
-  nav.desktop {
+.desktop {
     display: none; 
   }
 
@@ -84,7 +85,7 @@
   }
 
   .subnav a {
-    font-size: 1.15rem !important;
+    font-size: 1.15rem;
   }
 
   p, li {
@@ -96,11 +97,42 @@
   header {
     padding: var(--pxFactor);
     width: calc(100% - calc(var(--pxFactor) * 2));
+    display: block;
   }
 
+  .filter a .svg-container svg {
+    --maxW: 150px;
+    min-width: 0;
+    width: 100%;
+  }
   header section article p {
     margin-top: calc(var(--pxFactor) / 2); 
     font-size: .75rem;
+  }
+
+  nav details summary {
+    padding-left: 0;
+    margin: 0;
+    height: auto;
+  }
+
+  header section {
+    margin-top: var(--pxFive);
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+  }
+
+  header section article {
+    padding: var(--scaFactor) 0;
+  }
+
+  .toggle-desktop {
+    display: none;
+  }
+
+  .toggle-mobile {
+    display: flex;
+    justify-content: center;
   }
 
   .grid .column {
@@ -167,10 +199,6 @@
     font-size: var(--multThree) !important;
   }
 
-  p.callout {
-    margin: var(--scaOne) 0;
-  }
-
   .prevnext {
     display: block;
     margin-top: var(--scaOne);
@@ -181,8 +209,9 @@
   }
 
   .filter a .svg-container svg {
-    --maxW: 250px;
+    --maxW: 100px;
   }
+
 
   .filter {
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));

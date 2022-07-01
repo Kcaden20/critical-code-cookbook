@@ -33,9 +33,11 @@ h4 + p {margin-top: 0}
 
 
 /* IDS */
-#kolam-in-code figure a img {
+#kolam-in-code figure a img, #kolam-in-code .basicLightbox .basicLightbox__placeholder img {
     background-color: var(--colorWhite);
 }
+
+ 
 /* CONTAINERS */
 /* 1.0 HEADER  */
 header {
@@ -52,6 +54,8 @@ header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
 .subnav {
     background-color: black;
     padding-top: 12px;
+}
+.mobile details, .subnav {
     width: calc(100vw - var(--pxFive));
 }
 
@@ -104,10 +108,7 @@ header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
     }
 
     header nav {padding-left: var(--pxFactor); padding-bottom:var(--pxFactor); }
-    header section {padding-right: var(--pxFactor); padding-bottom:var(--pxFactor); }
-    .subnav a {
-        font-size: .85rem;
-    }
+    header section {padding-right: var(--pxFactor); padding-bottom: 0; }
 
     .subnav {
         width: calc(100vw - var(--pxFactor));

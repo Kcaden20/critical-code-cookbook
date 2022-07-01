@@ -323,6 +323,10 @@ header nav {
 nav.mobile {
 display: none;
 }
+
+.toggle-mobile {
+  display: none;
+}
 header nav a {
   color: black;
   margin-right: var(--fixFive);

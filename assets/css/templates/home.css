@@ -97,8 +97,8 @@ font-size: calc(var(--fixFactor) * 4);
 /* ANIMATION */
 .container {
     width: 100%;
-    top: 60%;
-    left: 40%;
+    top: 70%;
+    left: 35%;
     position: absolute;
     z-index: -1;
     transform: translate(-50%, -50%);

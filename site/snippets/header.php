@@ -29,14 +29,17 @@
              <nav>
                 <details>
                     <summary> Menu </summary>
+                    <section class="toggle-mobile"><?php snippet('toggles') ?></section>
                     <?php snippet('nav') ?>
                 </details>
             </nav> 
+            <section class="toggle-desktop"><?php snippet('toggles') ?></section>
 
             <?php else: ?> 
              <nav class="mobile">
                 <details>
                     <summary> Menu </summary>
+                    <section class="toggle-mobile"><?php snippet('toggles') ?></section>
                     <?php snippet('nav') ?>
                 </details>
             </nav> 
@@ -44,23 +47,8 @@
             <nav class="desktop">
                 <?php snippet('nav') ?>
             </nav>
+            <section class="toggle-desktop"><?php snippet('toggles') ?></section>
             <?php endif ?>
-        <section>
-            <article class="toggle" aria-label="Toggle Gradient">
-                <label id="gradients" class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider round"></span>
-                </label>
-                <p>Effects On</p>
-            </article>
-            <article class="toggle" aria-label="Toggle Theme">
-                <label id="theme" class="switch">
-                    <input type="checkbox" checked>
-                    <span class="slider round"></span>
-                </label>
-                <p>Light</p>
-            </article>
-            </section>
 
             <!-- CONTRIBUTION SUBNAV -->
             <?php if($page->template() == 'contribution'):?>
