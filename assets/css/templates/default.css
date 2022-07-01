@@ -1,0 +1,25 @@
+/* CONTAINERS */
+/* 1.0 HEADER  */
+header {
+    padding: 0;
+    padding-top: var(--pxSix);
+    padding-top: var(--pxSix);
+    width: 100%;
+}
+
+header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);}
+header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
+
+/* 2.0 SUBNAV */
+.subnav {
+    background-color: black;
+    padding-top: 12px;
+    width: 100vw;
+}
+
+.subnav {padding-bottom: var(--pxFactor);}
+
+.subnav a {
+    color: var(--colorWhite); 
+    font-size: 1.15rem;
+}

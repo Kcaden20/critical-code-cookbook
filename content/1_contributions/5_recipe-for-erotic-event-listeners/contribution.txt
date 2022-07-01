@@ -84,7 +84,7 @@ Here is the basic example:
 (image: 129781977-b13910d1-3627-4ebb-89bb-2d19fd9af964.gif)
 
 ####Instructions####
-(image: 129765294-ec1810ae-6a91-4700-99fe-305bd52a1060.jpg)
+
 1. Write a love poem:
     - If it’s easier, write it not as a poem, but as a list.
     - If you'd like structure, consider traditional poetry formats, e.g. 14 lines in the rough structure of a sonnet. Or 5 lines for a haiku.
@@ -101,6 +101,8 @@ Here is the basic example:
     - On line 16: If you would like, you can change the event listener “click” to other kinds of events. mouseover, mousedown… here is a full list of all event listeners: (link: https://www.w3schools.com/jsref/dom_obj_event.asp text: HTML DOM Event Object Reference).
     - In index.html: On line 15, between the `<h1>` brackets, replace the title of the poem with your own. What instructions might you give to someone reading this poem?
     - In index.css: On line 3, change the background image to be the name of your own image file. Maybe it’s something that reminds you about the person/idea you are writing to, or maybe it’s something completely random and meant to disguise the website from your intended audience.
+
+(image: 129765294-ec1810ae-6a91-4700-99fe-305bd52a1060.jpg)
 
 (image: 129765868-a3a1ea06-b78d-4f28-8af0-382b845cde2a.png)
 

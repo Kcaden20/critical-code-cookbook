@@ -1,12 +1,11 @@
         </main>
         <footer>
-        <!-- TODO: Speak with XXKM about what should go in the footer? 
-        Copyright / Social / Etc
-        -->
         <section id='bottom' class="gradient"></section>
+            <?php if($site->socialMedia()->isNotEmpty()):?>
         <section class="links">
             <?php snippet('social') ?>
         </section>
+        <?php endif ?>
         <?php if($site->creditsText()->isNotEmpty()):?>
             <section class="other-info">
                 <?= $site->creditsText()->kt() ?>

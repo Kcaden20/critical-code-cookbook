@@ -2,6 +2,10 @@ Title: Downloads
 
 ----
 
+Color: purple
+
+----
+
 Downloadtext: The print (PDF) version of the Critical Code Cookbook will be released in Summer 2022.
 
 ----

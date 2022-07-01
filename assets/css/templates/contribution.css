@@ -47,14 +47,14 @@ header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
 .subnav {
     background-color: black;
     padding-top: 12px;
-    width: 100vw;
+    width: calc(100vw - var(--pxFive));
 }
 
 .subnav {padding-bottom: var(--pxFactor);}
 
 .subnav a {
     color: var(--colorWhite); 
-    font-size: 1rem;
+    font-size: 1.15rem;
 }
 
 
@@ -100,6 +100,17 @@ header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
 
     header nav {padding-left: var(--pxFactor); padding-bottom:var(--pxFactor); }
     header section {padding-right: var(--pxFactor); padding-bottom:var(--pxFactor); }
+    .subnav a {
+        font-size: .85rem;
+    }
+
+    .subnav {
+        width: calc(100vw - var(--pxFactor));
+    }
+
+    .subnav details {
+        width: calc(100% - var(--pxFactor));
+    }
 }
 
 

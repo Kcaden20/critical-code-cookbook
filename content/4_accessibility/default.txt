@@ -6,6 +6,14 @@ Gallery:
 
 ----
 
+Svgupload: <svg xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 350 350" fill="none" stroke-width="8" xmlns:v="https://vecta.io/nano"><title>An abstract line drawing of a barrel</title><ellipse cx="180.78" cy="73.78" rx="140.51" ry="23.88"/><ellipse cx="180.78" cy="269.66" rx="140.51" ry="23.88"/><ellipse cx="46.67" cy="173.5" rx="23.88" ry="106.87"/><ellipse cx="310.7" cy="173.5" rx="23.88" ry="106.87"/></svg>
+
+----
+
+Color: yellow
+
+----
+
 Bodycont: 
 
 ----
@@ -143,6 +151,10 @@ Robots-noimageindex:
 ----
 
 Robots-nosnippet: 
+
+----
+
+Icon: 
 
 ----
 

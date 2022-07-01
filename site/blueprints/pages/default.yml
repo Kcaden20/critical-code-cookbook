@@ -4,7 +4,7 @@ tabs:
     label: Content 
     icon: document 
     columns:
-      - width: 1
+      - width: 1/2
         sections: 
           subpages:
             type: pages
@@ -22,8 +22,23 @@ tabs:
                 query: page.images.template('image')
                 uploads:
                   template: image
-      - width: 1 
+      - width: 1/2
         fields: 
+          svgUpload:
+            label: SVG Icon
+            type: textarea
+            size: small
+          color:
+            label: Theme Select
+            type: select
+            default: Pink
+            required: true
+            options:
+              pink: Pink
+              purple: Purple
+              yellow: Yellow 
+      - width: 1 
+        fields:
           bodyHeadline:
             label: Body 
             type: headline

@@ -9,21 +9,11 @@ Socialplatforms:
 
 ----
 
-Socialmedia:
-
-- 
-  platform: discord
-  emailtoggle: 'false'
-  link: https://discord.gg/ZSZuR94jWm
-  emaillink: ""
-  displaytext: >
-    Interested in discussing a Critical
-    Coding recipe or sharing your own? Join
-    our Discord
+Socialmedia: 
 
 ----
 
-Creditstext: 
+Creditstext: Interested in discussing a Critical Coding recipe or sharing your own? Join our [Discord](https://discord.gg/ZSZuR94jWm)!
 
 ----
 
