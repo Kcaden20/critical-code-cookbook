@@ -2,7 +2,7 @@ Title: Downloads
 
 ----
 
-Downloadtext: The PDF version of the Critical Coding Cookbook will be released in Summer, 2022!
+Downloadtext: The print (PDF) version of the Critical Code Cookbook will be released in Summer 2022.
 
 ----
 
