@@ -23,15 +23,62 @@ Color: purple
 
 ----
 
-Bodycont: 
+Bodycont:
+
+This is an accessibility statement for the Critical Coding Cookbook website. The statement was created on July 12, 2022 using the [W3C Accessibility Statement Generator Tool](https://www.w3.org/WAI/planning/statements/).
+
+##Measures to Support Accessibility##
+
+Our team takes the following measures to ensure accessibility of the Critical Coding Cookbook website:
+- Include accessibility as part of our mission statement
+- Assign clear accessibility goals and responsibilities
+- Employ formal accessibility quality assurance methods
+
+##Conformance Status##
+
+The [Web Content Accessibility Guidelines (WCAG)](https://www.google.com/url?q=https://www.w3.org/WAI/standards-guidelines/wcag/&source=gmail-html&ust=1651415631246000&usg=AOvVaw1k31eGkIbazPSGLCqfN1Vr) defines requirements for designers and developers to improve accessibility for people with disabilities. It defines three levels of conformance: Level A, Level AA, and Level AAA. 
+
+The Critical Coding Cookbook website conforms with the WCAG 2.1 level AA standard in that it supports most of the WCAG success criterion. Exceptions include success criterion 1.4.10 Reflow and 2.4.7 Focus Visible.
+
+###Additional Accessibility Considerations###
+
+Light / Dark Mode and Effects Mode.
+
+##Compatibility with Browsers and Assistive Technology##
+
+The Critical Coding Cookbook website was designed in accordance to the WCAG AA guidelines. We were unable to test the website using specific assistive technologies. 
+
+##Technical Specifications##
+
+Accessibility of the Critical Coding Cookbook website relies on the following technologies to work with the particular combination of web browser and any assistive technologies or plugins installed on your computer:
+
+- HTML
+- JavaScript
+- PHP
+- YAML
+
+These technologies are relied upon for conformance with the accessibility standards used.
+
+##Assessment Approach##
+
+Our team assessed the accessibility of the Critical Coding Cookbook website by the following approaches:
+- Following the WCAG AA guidelines
+
+##Evaluation Report##
+
+- Learn more about the evaluation process by visiting the [Critical Coding Cookbook's Github Issues](https://github.com/Kcaden20/critical-code-cookbook/issues?q=is%3Aissue+label%3Aaccessibility+)
+
+##Feedback and Formal Complaints##
+
+We welcome your feedback on the accessibility of Critical Coding Cookbook. Please send an email to [Xin Xin](mailto:contact@xin-xin.info) if you encounter accessibility barriers on this website.
 
 ----
 
-Bodylayout: [{"attrs":[],"columns":[{"blocks":[],"id":"a46fe1c7-aaa4-45be-bb63-67e0cddac4f1","width":"1\/2"},{"blocks":[],"id":"a75271c4-74e2-4b3c-a260-e5c1848fc47d","width":"1\/2"}],"id":"72912007-5338-4484-9845-16468d7865bd"}]
+Bodylayout: [{"attrs":[],"columns":[{"blocks":[],"id":"a46fe1c7-aaa4-45be-bb63-67e0cddac4f1","width":"1\/2"},{"blocks":[],"id":"a75271c4-74e2-4b3c-a260-e5c1848fc47d","width":"1\/2"}],"id":"72912007-5338-4484-9845-16468d7865bd"},{"attrs":[],"columns":[{"blocks":[],"id":"a7e2f659-8685-4543-a30b-4ddc13659e6c","width":"1\/1"}],"id":"ca79be7f-2645-4480-8621-c4593270ee62"}]
 
 ----
 
-Layouttog: true
+Layouttog: false
 
 ----
 
