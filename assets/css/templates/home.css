@@ -24,6 +24,7 @@ main section {
     display: table;
 }
 
+
 .filter a {
     display: flex;
     flex-direction: column;
@@ -33,7 +34,7 @@ main section {
   
 
 .filter a p {
-    font-size: var(--fixThree);
+    font-size: var(--fixFour);
     margin: 0;
 }
 
@@ -93,6 +94,8 @@ main #splash p {
 font-size: calc(var(--fixFactor) * 4);
   font-family: var(--fHeading);
 }
+
+
 
 /* ANIMATION */
 .container {

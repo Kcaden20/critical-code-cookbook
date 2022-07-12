@@ -53,8 +53,8 @@
                         <article><h3><?= $page->filterText() ?></h3></article>
                     <?php endif ?>
                     <!-- Access Categories from Home Page -->
-                    <article class="filter">
-                            <?php foreach($filters as $filter):?>
+                    <article class="category filter">
+                            <?php foreach($catFilter as $filter):?>
                                 <?php if($filter == ''): ?>
                                 <?php else: ?>
                                 <?php 
@@ -62,11 +62,9 @@
                                     $key = strval($filter); 
                                     $cleanFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", str_replace(' ', '', $filter)); 
                                     $catOptions = $contributions->catOptions()->toStructure();
-                                    $langOptions = $contributions->langOptions()->toStructure();
                                     ?>
                                     <!-- TODO: Compare Filter Against Larger Structure: If Found, Display SVG -->
                                     <a <?php e((strpos($url, $key) !== false), 'aria-current') ?> href="<?= $contributions->url() ?>?filter=<?= $filter ?>">
-                                    <?php if(in_array($key, $catFilter) !== FALSE): ?>
                                         <?php foreach ($catOptions as $catOption): ?>
                                             <?php $catCompFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", strval($catOption->category())); 
                                                 if(strcasecmp($cleanFilter, $catCompFilter) === 0): ?>
@@ -74,7 +72,26 @@
                                                     <?php snippet('svg-select', ['svgSel' => $catString, 'cusSel' => $catOption->svgUpload() ]); ?>
                                                 <?php endif ?>
                                         <?php endforeach ?>
-                                    <?php else: ?>
+                                    <p><?= $cleanFilter ?></p>
+                                    </a>
+                                <?php endif ?>
+                            <?php endforeach ?>
+                    </article> 
+                    <?php if($page->filterTextTwo()):?>
+                        <article><h3><?= $page->filterTextTwo() ?></h3></article>
+                    <?php endif ?>
+                    <article class="category filter">
+                            <?php foreach($langFilter as $filter):?>
+                                <?php if($filter == ''): ?>
+                                <?php else: ?>
+                                <?php 
+                                    $url = $contributions->url();
+                                    $key = strval($filter); 
+                                    $cleanFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", str_replace(' ', '', $filter)); 
+                                    $langOptions = $contributions->langOptions()->toStructure();
+                                    ?>
+                                    <!-- TODO: Compare Filter Against Larger Structure: If Found, Display SVG -->
+                                    <a <?php e((strpos($url, $key) !== false), 'aria-current') ?> href="<?= $contributions->url() ?>?filter=<?= $filter ?>">
                                         <?php foreach($langOptions as $langOption): ?>
                                             <?php $langCompFilter = preg_replace("/[^a-zA-Z0-9]+/", " ", strval($langOption->category())); 
                                                 if(strcasecmp($cleanFilter, $langCompFilter) === 0): ?>
@@ -82,12 +99,11 @@
                                                     <?php snippet('svg-select', ['svgSel' => $langString, 'cusSel' => $langOption->svgUpload() ]); ?>
                                                 <?php endif ?>
                                         <?php endforeach ?>
-                                    <?php endif ?>
                                     <p><?= $cleanFilter ?></p>
                                     </a>
                                 <?php endif ?>
                             <?php endforeach ?>
-                    </article>  
+                    </article> 
             </section>
 
             <!-- RESOURCES -->

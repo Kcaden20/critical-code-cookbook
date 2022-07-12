@@ -26,6 +26,10 @@
     grid-template-columns: repeat(5, minmax(10rem, 1fr));
   }
 
+  .category {
+      grid-template-columns: repeat(3, minmax(10rem, 1fr));
+  }
+
   main{
     max-width: var(--deskSize);
   }
@@ -163,7 +167,7 @@
     margin-bottom: var(--scaOne);
   }
 
-  .filter {
+  .filter, .category {
     grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
   }
 
@@ -209,7 +213,7 @@
   }
 
 
-  .filter {
+  .filter, .category {
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
   }
 

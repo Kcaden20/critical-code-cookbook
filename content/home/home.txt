@@ -26,7 +26,11 @@ Contributionlink: See The Full Selection of Contributions!
 
 ----
 
-Filtertext: ..Or Filter Projects by Category
+Filtertext: Filter Projects by Meal!
+
+----
+
+Filtertexttwo: ... Or By Coding Language!
 
 ----
 

@@ -38,7 +38,10 @@ sections:
         type: text
         width: 1
       filterText: 
-        label: Filter Copy
+        label: Top Filter 
+        type: text
+      filterTextTwo: 
+        label: Middle Filter
         type: text
         width: 1
       resourcesHD: 

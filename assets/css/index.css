@@ -590,6 +590,12 @@ footer .gradient {
   text-align: center;
 }
 
+.category {
+  grid-template-columns: repeat(3, minmax(10px, 1fr));
+  text-align: center;
+}
+
+
 .filter a, .project-grid a {
   border: var(--borderStroke);
   font-family: var(--fHeading);
