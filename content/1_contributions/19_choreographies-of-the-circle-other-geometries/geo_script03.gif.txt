@@ -6,7 +6,7 @@ Caption: Screenshots from a *(link: https://www.geometries.xyz/performances.html
 
 ----
 
-Alt: 
+Alt: One of a sequence of transitioning images.  Against a white background a large transparent circle fills the screen with the edges going past the edges. There are graph bars in a very light gray behind the circle. A column of code runs along the left side of the screen. To the right of the image there is a page inspector showing console messages in code.
 
 ----
 

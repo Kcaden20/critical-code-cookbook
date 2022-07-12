@@ -6,7 +6,7 @@ Caption: Screenshot from a (link: https://www.geometries.xyz/performances.html t
 
 ----
 
-Alt: 
+Alt: One of a sequence of transitioning images. A page with three columns of scalloped patterns across a web browser. A skewed parallelogram sits in the middle of the screen, slightly transparent, with the word "breathing" overlaid in black text. To the right of the image there is a page inspector showing console messages in code.
 
 ----
 

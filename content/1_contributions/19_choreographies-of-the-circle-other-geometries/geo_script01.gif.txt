@@ -6,7 +6,7 @@ Caption: Screenshots from a *(link: https://www.geometries.xyz/performances.html
 
 ----
 
-Alt: 
+Alt: One of a sequence of transitioning images. Code is overlaid across a series of small thumbnail images consisting of symbols, peoples, architectural facades, birds and statues. To the right of the image there is a page inspector showing console messages in code.
 
 ----
 

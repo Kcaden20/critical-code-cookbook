@@ -6,7 +6,7 @@ Caption: Screenshot from a (link: https://www.geometries.xyz/performances.html t
 
 ----
 
-Alt: 
+Alt: A browser screen with a gradient background from blue to white, then white to red. A distorted image in a parallelogram and black and white textured areas extends from the upper left to the lower left the screen. To the right there is a browser inspector with code.
 
 ----
 
