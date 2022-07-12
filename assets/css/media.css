@@ -69,6 +69,10 @@
     padding: 0 var(--scaFive);
   }
 
+  .filter a .svg-container svg {
+    max-width: 150px !important;
+  }
+
 
   header details summary {
     margin: 3px 0;
@@ -100,11 +104,6 @@
     display: block;
   }
 
-  .filter a .svg-container svg {
-    --maxW: 150px;
-    min-width: 0;
-    width: 100%;
-  }
   header section article p {
     margin-top: calc(var(--pxFactor) / 2); 
     font-size: .75rem;
@@ -158,9 +157,6 @@
   .project-grid {
     display: block;
 
-  }
-  .svg-container svg  {
-    --maxW: 150px;
   }
   
   .project-grid a {

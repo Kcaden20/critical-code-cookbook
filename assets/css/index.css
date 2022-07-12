@@ -256,10 +256,8 @@ svg {display: block;}
 
 .svg-container svg {
   --maxW: 200px;
-  max-width: var(--maxW) !important;
-  min-width: calc(var(--maxW) / 2);
-  height: var(--svgSize);
-  width: var(--svgSize);
+  max-width: 200px !important;
+  width: 100%;
   stroke: var(--fontColor);
   margin: 0 auto;
 }
