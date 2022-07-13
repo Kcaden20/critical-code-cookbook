@@ -102,6 +102,14 @@
 }
 
 @media screen and (max-width: 600px) {
+  .svg-container svg {
+    max-width: 150px !important;
+  }
+
+  .filter a .svg-container svg {
+    max-width: 125px !important;
+  }
+
   header {
     padding: var(--pxFactor);
     width: calc(100% - calc(var(--pxFactor) * 2));
@@ -207,11 +215,6 @@
   blockquote {
     margin: 0 1em;
   }
-
-  .filter a .svg-container svg {
-    --maxW: 100px;
-  }
-
 
   .filter, .category {
     grid-template-columns: repeat(auto-fit, minmax(8rem, 1fr));
