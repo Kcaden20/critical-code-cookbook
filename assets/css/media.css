@@ -102,6 +102,11 @@
 }
 
 @media screen and (max-width: 600px) {
+  .filter a {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
   .svg-container svg {
     max-width: 150px !important;
   }
