@@ -47,7 +47,7 @@ header {
     width: 100%;
 }
 
-header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);}
+header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);padding-right: var(--pxFive);}
 header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
 
 /* 2.0 SUBNAV */

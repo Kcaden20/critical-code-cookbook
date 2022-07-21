@@ -1,9 +1,9 @@
 <article class="toggle effects" aria-label="Toggle Gradient">
         <label id="gradients" class="switch">
-            <input type="checkbox" checked>
+            <input type="checkbox">
             <span class="slider round"></span>
         </label>
-        <p>Effects On</p>
+        <p>Effects Off</p>
     </article>
     <article class="toggle themes" aria-label="Toggle Theme">
         <label id="theme" class="switch">

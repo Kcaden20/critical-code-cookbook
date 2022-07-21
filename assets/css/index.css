@@ -143,7 +143,7 @@ code {
 }
 
 details {
-  width: 100%; ;
+  width: 100%; 
 }
 
 nav details summary {
@@ -158,7 +158,10 @@ nav details summary {
 }
 
 details summary:hover {
-  color: var(--bgColor);
+  text-decoration: line-through;
+  background-color: var(--bgColor);
+  color: black;
+  box-shadow: 0 0 0 .1em black;
 }
 
 details summary:focus {
@@ -329,15 +332,22 @@ header nav a {
   color: black;
   margin-right: var(--fixFive);
   text-decoration: none;
+  padding: .1em
+
 }
 
 
 header nav a:hover {
   cursor: pointer;
   text-decoration: line-through;
-  color: var(--bgColor);
+  background-color: var(--bgColor);
+  color: black;
+  box-shadow: 0 0 0 .1em black;
+}
 
-
+.subnav a:hover {
+  color:var(--bgColor);
+  background-color: transparent
 }
 
 footer {

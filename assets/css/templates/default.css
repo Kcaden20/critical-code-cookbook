@@ -8,7 +8,7 @@ header {
 }
 
 header nav {padding-left: var(--pxFive); padding-bottom: var(--pxSix);}
-header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix);}
+header section {padding-right: var(--pxFive); padding-bottom: var(--pxSix); padding-right: var(--pxFive);}
 
 /* 2.0 SUBNAV */
 .subnav {

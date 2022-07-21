@@ -1,6 +1,6 @@
         </main>
         <footer>
-        <section id='bottom' class="gradient"></section>
+        <section id='bottom'></section>
             <?php if($site->socialMedia()->isNotEmpty()):?>
         <section class="links">
             <?php snippet('social') ?>
