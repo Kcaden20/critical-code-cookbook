@@ -12,6 +12,12 @@ toggleTheme = document.querySelectorAll('.themes');
 
 console.log(toggleEffects);
 console.log(toggleTheme);
+
+if (localStorage.getItem("gradient") === null && localStorage.getItem("theme") === null) {
+    localStorage.setItem("gradient", 'false');
+    localStorage.setItem('theme', 'false');
+  }
+
 // 1.0 LOCAL STORAGE CHECKS
 // 1.1 Gradient Check 
 if(localStorage.getItem('gradient') == 'false') {

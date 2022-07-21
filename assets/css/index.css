@@ -496,6 +496,7 @@ input:checked + .slider:before {
 
 .filter a .svg-container {
   padding: calc(var(--scaOne) * 2) 0;
+  max-width: 150px !important;
 }
 
 .filter a .svg-container svg {
@@ -687,7 +688,8 @@ body.dark-theme .button:hover p, body.dark-theme .filter a:hover p, body.dark-th
 
 /* Navigation */
 body.dark-theme header nav a:hover, body.dark-theme code {
-  color: var(--fontColor);
+  color: var(--bgColor);
+  background-color: var(--fontColor);
 }
 
 
