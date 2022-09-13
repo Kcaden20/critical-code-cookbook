@@ -24,7 +24,6 @@ if(localStorage.getItem('gradient') == 'false') {
     });
     toggleFunction(bottomGrad, 'gradient', 0, 'Effects Off', 0);
     document.querySelector('header').classList.remove('box-shadow'); 
-    document.getElementById('background').classList.add('display-none');
 } else {
     toggleEffects.forEach(item => {
         item.querySelector('input').checked = true; 
@@ -32,7 +31,6 @@ if(localStorage.getItem('gradient') == 'false') {
     });
     toggleFunction(bottomGrad, 'gradient', 0, 'Effects On', 1);
     document.querySelector('header').classList.add('box-shadow');
-    document.getElementById('background').classList.remove('display-none');
 }
 
 // 1.2 Theme Check 

@@ -435,8 +435,6 @@ header section article p {
   bottom: 2px;
   background-color: var(--bgColor);
   border: 1px solid black; 
-  -webkit-transition:  .2s;
-  transition: .2s;
 }
 
 input:checked + .slider {
